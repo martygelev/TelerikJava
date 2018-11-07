@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/StokiLegs/bin/Debug/netcoreapp2.0/StokiLegs.deps.json
+/Users/martingelev/Java Projects/randim/StokiLegs/bin/Debug/netcoreapp2.0/StokiLegs.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/StokiLegs/bin/Debug/netcoreapp2.0/StokiLegs.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/StokiLegs/bin/Debug/netcoreapp2.0/StokiLegs.dll
+/Users/martingelev/Java Projects/randim/StokiLegs/bin/Debug/netcoreapp2.0/StokiLegs.pdb
+/Users/martingelev/Java Projects/randim/StokiLegs/obj/Debug/netcoreapp2.0/StokiLegs.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/StokiLegs/obj/Debug/netcoreapp2.0/StokiLegs.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/StokiLegs/obj/Debug/netcoreapp2.0/StokiLegs.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/StokiLegs/obj/Debug/netcoreapp2.0/StokiLegs.dll
+/Users/martingelev/Java Projects/randim/StokiLegs/obj/Debug/netcoreapp2.0/StokiLegs.pdb

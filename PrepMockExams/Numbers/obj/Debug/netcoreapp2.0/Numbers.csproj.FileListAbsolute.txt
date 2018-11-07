@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/Numbers/bin/Debug/netcoreapp2.0/Numbers.deps.json
+/Users/martingelev/Java Projects/randim/Numbers/bin/Debug/netcoreapp2.0/Numbers.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/Numbers/bin/Debug/netcoreapp2.0/Numbers.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/Numbers/bin/Debug/netcoreapp2.0/Numbers.dll
+/Users/martingelev/Java Projects/randim/Numbers/bin/Debug/netcoreapp2.0/Numbers.pdb
+/Users/martingelev/Java Projects/randim/Numbers/obj/Debug/netcoreapp2.0/Numbers.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/Numbers/obj/Debug/netcoreapp2.0/Numbers.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/Numbers/obj/Debug/netcoreapp2.0/Numbers.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/Numbers/obj/Debug/netcoreapp2.0/Numbers.dll
+/Users/martingelev/Java Projects/randim/Numbers/obj/Debug/netcoreapp2.0/Numbers.pdb

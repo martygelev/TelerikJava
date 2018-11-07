@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/mazeRunner/bin/Debug/netcoreapp2.0/mazeRunner.deps.json
+/Users/martingelev/Java Projects/randim/mazeRunner/bin/Debug/netcoreapp2.0/mazeRunner.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/mazeRunner/bin/Debug/netcoreapp2.0/mazeRunner.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/mazeRunner/bin/Debug/netcoreapp2.0/mazeRunner.dll
+/Users/martingelev/Java Projects/randim/mazeRunner/bin/Debug/netcoreapp2.0/mazeRunner.pdb
+/Users/martingelev/Java Projects/randim/mazeRunner/obj/Debug/netcoreapp2.0/mazeRunner.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/mazeRunner/obj/Debug/netcoreapp2.0/mazeRunner.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/mazeRunner/obj/Debug/netcoreapp2.0/mazeRunner.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/mazeRunner/obj/Debug/netcoreapp2.0/mazeRunner.dll
+/Users/martingelev/Java Projects/randim/mazeRunner/obj/Debug/netcoreapp2.0/mazeRunner.pdb

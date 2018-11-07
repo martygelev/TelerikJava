@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/bin/Debug/netcoreapp2.1/Crossword.deps.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/bin/Debug/netcoreapp2.1/Crossword.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/bin/Debug/netcoreapp2.1/Crossword.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/bin/Debug/netcoreapp2.1/Crossword.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/bin/Debug/netcoreapp2.1/Crossword.pdb
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/obj/Debug/netcoreapp2.1/Crossword.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/obj/Debug/netcoreapp2.1/Crossword.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/obj/Debug/netcoreapp2.1/Crossword.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/obj/Debug/netcoreapp2.1/Crossword.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/Crossword/obj/Debug/netcoreapp2.1/Crossword.pdb

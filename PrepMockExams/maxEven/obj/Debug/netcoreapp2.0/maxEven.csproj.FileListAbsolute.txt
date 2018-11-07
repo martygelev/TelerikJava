@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/maxEven/bin/Debug/netcoreapp2.0/maxEven.deps.json
+/Users/martingelev/Java Projects/randim/maxEven/bin/Debug/netcoreapp2.0/maxEven.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/maxEven/bin/Debug/netcoreapp2.0/maxEven.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/maxEven/bin/Debug/netcoreapp2.0/maxEven.dll
+/Users/martingelev/Java Projects/randim/maxEven/bin/Debug/netcoreapp2.0/maxEven.pdb
+/Users/martingelev/Java Projects/randim/maxEven/obj/Debug/netcoreapp2.0/maxEven.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/maxEven/obj/Debug/netcoreapp2.0/maxEven.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/maxEven/obj/Debug/netcoreapp2.0/maxEven.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/maxEven/obj/Debug/netcoreapp2.0/maxEven.dll
+/Users/martingelev/Java Projects/randim/maxEven/obj/Debug/netcoreapp2.0/maxEven.pdb

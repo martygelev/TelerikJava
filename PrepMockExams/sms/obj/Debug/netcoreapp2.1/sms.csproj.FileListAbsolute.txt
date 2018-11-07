@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/bin/Debug/netcoreapp2.1/sms.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/bin/Debug/netcoreapp2.1/sms.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/bin/Debug/netcoreapp2.1/sms.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/bin/Debug/netcoreapp2.1/sms.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/bin/Debug/netcoreapp2.1/sms.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/obj/Debug/netcoreapp2.1/sms.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/obj/Debug/netcoreapp2.1/sms.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/obj/Debug/netcoreapp2.1/sms.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/obj/Debug/netcoreapp2.1/sms.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/sms/obj/Debug/netcoreapp2.1/sms.pdb

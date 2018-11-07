@@ -1,0 +1,11 @@
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/bin/Debug/netcoreapp2.1/MergingSquashing.deps.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/bin/Debug/netcoreapp2.1/MergingSquashing.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/bin/Debug/netcoreapp2.1/MergingSquashing.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/bin/Debug/netcoreapp2.1/MergingSquashing.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/bin/Debug/netcoreapp2.1/MergingSquashing.pdb
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/obj/Debug/netcoreapp2.1/MergingSquashing.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/obj/Debug/netcoreapp2.1/MergingSquashing.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/obj/Debug/netcoreapp2.1/MergingSquashing.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/obj/Debug/netcoreapp2.1/MergingSquashing.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/obj/Debug/netcoreapp2.1/MergingSquashing.pdb
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MergingSquashing/obj/Debug/netcoreapp2.1/MergingSquashing.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/Beach/bin/Debug/netcoreapp2.0/Beach.deps.json
+/Users/martingelev/Java Projects/randim/Beach/bin/Debug/netcoreapp2.0/Beach.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/Beach/bin/Debug/netcoreapp2.0/Beach.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/Beach/bin/Debug/netcoreapp2.0/Beach.dll
+/Users/martingelev/Java Projects/randim/Beach/bin/Debug/netcoreapp2.0/Beach.pdb
+/Users/martingelev/Java Projects/randim/Beach/obj/Debug/netcoreapp2.0/Beach.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/Beach/obj/Debug/netcoreapp2.0/Beach.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/Beach/obj/Debug/netcoreapp2.0/Beach.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/Beach/obj/Debug/netcoreapp2.0/Beach.dll
+/Users/martingelev/Java Projects/randim/Beach/obj/Debug/netcoreapp2.0/Beach.pdb

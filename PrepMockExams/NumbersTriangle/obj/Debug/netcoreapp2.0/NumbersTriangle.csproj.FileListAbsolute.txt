@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/NumbersTriangle/bin/Debug/netcoreapp2.0/NumbersTriangle.deps.json
+/Users/martingelev/Java Projects/randim/NumbersTriangle/bin/Debug/netcoreapp2.0/NumbersTriangle.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/NumbersTriangle/bin/Debug/netcoreapp2.0/NumbersTriangle.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/NumbersTriangle/bin/Debug/netcoreapp2.0/NumbersTriangle.dll
+/Users/martingelev/Java Projects/randim/NumbersTriangle/bin/Debug/netcoreapp2.0/NumbersTriangle.pdb
+/Users/martingelev/Java Projects/randim/NumbersTriangle/obj/Debug/netcoreapp2.0/NumbersTriangle.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/NumbersTriangle/obj/Debug/netcoreapp2.0/NumbersTriangle.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/NumbersTriangle/obj/Debug/netcoreapp2.0/NumbersTriangle.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/NumbersTriangle/obj/Debug/netcoreapp2.0/NumbersTriangle.dll
+/Users/martingelev/Java Projects/randim/NumbersTriangle/obj/Debug/netcoreapp2.0/NumbersTriangle.pdb

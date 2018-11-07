@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/bin/Debug/netcoreapp2.1/DecimalToHex.deps.json
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/bin/Debug/netcoreapp2.1/DecimalToHex.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/bin/Debug/netcoreapp2.1/DecimalToHex.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/bin/Debug/netcoreapp2.1/DecimalToHex.dll
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/bin/Debug/netcoreapp2.1/DecimalToHex.pdb
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/obj/Debug/netcoreapp2.1/DecimalToHex.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/obj/Debug/netcoreapp2.1/DecimalToHex.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/obj/Debug/netcoreapp2.1/DecimalToHex.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/obj/Debug/netcoreapp2.1/DecimalToHex.dll
+/Users/martingelev/TelerikAcademy/tasks/DecimalToHex/obj/Debug/netcoreapp2.1/DecimalToHex.pdb

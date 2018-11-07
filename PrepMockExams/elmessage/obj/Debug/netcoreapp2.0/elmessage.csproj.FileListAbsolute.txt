@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/elmessage/bin/Debug/netcoreapp2.0/elmessage.deps.json
+/Users/martingelev/Java Projects/randim/elmessage/bin/Debug/netcoreapp2.0/elmessage.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/elmessage/bin/Debug/netcoreapp2.0/elmessage.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/elmessage/bin/Debug/netcoreapp2.0/elmessage.dll
+/Users/martingelev/Java Projects/randim/elmessage/bin/Debug/netcoreapp2.0/elmessage.pdb
+/Users/martingelev/Java Projects/randim/elmessage/obj/Debug/netcoreapp2.0/elmessage.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/elmessage/obj/Debug/netcoreapp2.0/elmessage.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/elmessage/obj/Debug/netcoreapp2.0/elmessage.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/elmessage/obj/Debug/netcoreapp2.0/elmessage.dll
+/Users/martingelev/Java Projects/randim/elmessage/obj/Debug/netcoreapp2.0/elmessage.pdb

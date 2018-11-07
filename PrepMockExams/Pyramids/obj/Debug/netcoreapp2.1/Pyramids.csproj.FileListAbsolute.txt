@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/bin/Debug/netcoreapp2.1/Pyramids.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/bin/Debug/netcoreapp2.1/Pyramids.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/bin/Debug/netcoreapp2.1/Pyramids.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/bin/Debug/netcoreapp2.1/Pyramids.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/bin/Debug/netcoreapp2.1/Pyramids.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/obj/Debug/netcoreapp2.1/Pyramids.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/obj/Debug/netcoreapp2.1/Pyramids.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/obj/Debug/netcoreapp2.1/Pyramids.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/obj/Debug/netcoreapp2.1/Pyramids.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pyramids/obj/Debug/netcoreapp2.1/Pyramids.pdb

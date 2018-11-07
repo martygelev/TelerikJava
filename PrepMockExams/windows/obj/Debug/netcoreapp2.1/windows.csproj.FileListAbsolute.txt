@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/bin/Debug/netcoreapp2.1/windows.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/bin/Debug/netcoreapp2.1/windows.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/bin/Debug/netcoreapp2.1/windows.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/bin/Debug/netcoreapp2.1/windows.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/bin/Debug/netcoreapp2.1/windows.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/obj/Debug/netcoreapp2.1/windows.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/obj/Debug/netcoreapp2.1/windows.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/obj/Debug/netcoreapp2.1/windows.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/obj/Debug/netcoreapp2.1/windows.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/windows/obj/Debug/netcoreapp2.1/windows.pdb

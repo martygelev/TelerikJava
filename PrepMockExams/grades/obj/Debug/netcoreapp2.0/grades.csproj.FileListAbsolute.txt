@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/grades/bin/Debug/netcoreapp2.0/grades.deps.json
+/Users/martingelev/Java Projects/randim/grades/bin/Debug/netcoreapp2.0/grades.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/grades/bin/Debug/netcoreapp2.0/grades.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/grades/bin/Debug/netcoreapp2.0/grades.dll
+/Users/martingelev/Java Projects/randim/grades/bin/Debug/netcoreapp2.0/grades.pdb
+/Users/martingelev/Java Projects/randim/grades/obj/Debug/netcoreapp2.0/grades.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/grades/obj/Debug/netcoreapp2.0/grades.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/grades/obj/Debug/netcoreapp2.0/grades.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/grades/obj/Debug/netcoreapp2.0/grades.dll
+/Users/martingelev/Java Projects/randim/grades/obj/Debug/netcoreapp2.0/grades.pdb

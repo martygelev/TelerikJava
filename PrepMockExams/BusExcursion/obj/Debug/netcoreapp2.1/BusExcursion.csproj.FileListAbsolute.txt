@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/bin/Debug/netcoreapp2.1/BusExcursion.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/bin/Debug/netcoreapp2.1/BusExcursion.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/bin/Debug/netcoreapp2.1/BusExcursion.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/bin/Debug/netcoreapp2.1/BusExcursion.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/bin/Debug/netcoreapp2.1/BusExcursion.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/obj/Debug/netcoreapp2.1/BusExcursion.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/obj/Debug/netcoreapp2.1/BusExcursion.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/obj/Debug/netcoreapp2.1/BusExcursion.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/obj/Debug/netcoreapp2.1/BusExcursion.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/BusExcursion/obj/Debug/netcoreapp2.1/BusExcursion.pdb

@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/Counting/bin/Debug/netcoreapp2.0/Counting.deps.json
+/Users/martingelev/Java Projects/randim/Counting/bin/Debug/netcoreapp2.0/Counting.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/Counting/bin/Debug/netcoreapp2.0/Counting.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/Counting/bin/Debug/netcoreapp2.0/Counting.dll
+/Users/martingelev/Java Projects/randim/Counting/bin/Debug/netcoreapp2.0/Counting.pdb
+/Users/martingelev/Java Projects/randim/Counting/obj/Debug/netcoreapp2.0/Counting.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/Counting/obj/Debug/netcoreapp2.0/Counting.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/Counting/obj/Debug/netcoreapp2.0/Counting.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/Counting/obj/Debug/netcoreapp2.0/Counting.dll
+/Users/martingelev/Java Projects/randim/Counting/obj/Debug/netcoreapp2.0/Counting.pdb

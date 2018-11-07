@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/bin/Debug/netcoreapp2.1/Parking.deps.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/bin/Debug/netcoreapp2.1/Parking.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/bin/Debug/netcoreapp2.1/Parking.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/bin/Debug/netcoreapp2.1/Parking.dll
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/bin/Debug/netcoreapp2.1/Parking.pdb
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/obj/Debug/netcoreapp2.1/Parking.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/obj/Debug/netcoreapp2.1/Parking.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/obj/Debug/netcoreapp2.1/Parking.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/obj/Debug/netcoreapp2.1/Parking.dll
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Parking/obj/Debug/netcoreapp2.1/Parking.pdb

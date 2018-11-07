@@ -1,0 +1,11 @@
+/Users/martingelev/Java Projects/randim/icecream/bin/Debug/netcoreapp2.0/icecream.deps.json
+/Users/martingelev/Java Projects/randim/icecream/bin/Debug/netcoreapp2.0/icecream.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/icecream/bin/Debug/netcoreapp2.0/icecream.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/icecream/bin/Debug/netcoreapp2.0/icecream.dll
+/Users/martingelev/Java Projects/randim/icecream/bin/Debug/netcoreapp2.0/icecream.pdb
+/Users/martingelev/Java Projects/randim/icecream/obj/Debug/netcoreapp2.0/icecream.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/icecream/obj/Debug/netcoreapp2.0/icecream.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/icecream/obj/Debug/netcoreapp2.0/icecream.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/icecream/obj/Debug/netcoreapp2.0/icecream.dll
+/Users/martingelev/Java Projects/randim/icecream/obj/Debug/netcoreapp2.0/icecream.pdb
+/Users/martingelev/Java Projects/randim/icecream/obj/Debug/netcoreapp2.0/icecream.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/ArraySearch/bin/Debug/netcoreapp2.0/ArraySearch.deps.json
+/Users/martingelev/Java Projects/randim/ArraySearch/bin/Debug/netcoreapp2.0/ArraySearch.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/ArraySearch/bin/Debug/netcoreapp2.0/ArraySearch.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/ArraySearch/bin/Debug/netcoreapp2.0/ArraySearch.dll
+/Users/martingelev/Java Projects/randim/ArraySearch/bin/Debug/netcoreapp2.0/ArraySearch.pdb
+/Users/martingelev/Java Projects/randim/ArraySearch/obj/Debug/netcoreapp2.0/ArraySearch.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/ArraySearch/obj/Debug/netcoreapp2.0/ArraySearch.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/ArraySearch/obj/Debug/netcoreapp2.0/ArraySearch.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/ArraySearch/obj/Debug/netcoreapp2.0/ArraySearch.dll
+/Users/martingelev/Java Projects/randim/ArraySearch/obj/Debug/netcoreapp2.0/ArraySearch.pdb

@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/bin/Debug/netcoreapp2.1/digitsInText.deps.json
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/bin/Debug/netcoreapp2.1/digitsInText.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/bin/Debug/netcoreapp2.1/digitsInText.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/bin/Debug/netcoreapp2.1/digitsInText.dll
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/bin/Debug/netcoreapp2.1/digitsInText.pdb
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/obj/Debug/netcoreapp2.1/digitsInText.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/obj/Debug/netcoreapp2.1/digitsInText.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/obj/Debug/netcoreapp2.1/digitsInText.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/obj/Debug/netcoreapp2.1/digitsInText.dll
+/Users/martingelev/TelerikAcademy/tasks/digitsInText/obj/Debug/netcoreapp2.1/digitsInText.pdb

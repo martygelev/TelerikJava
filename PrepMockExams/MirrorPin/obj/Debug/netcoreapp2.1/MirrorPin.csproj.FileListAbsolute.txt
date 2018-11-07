@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/bin/Debug/netcoreapp2.1/MirrorPin.deps.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/bin/Debug/netcoreapp2.1/MirrorPin.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/bin/Debug/netcoreapp2.1/MirrorPin.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/bin/Debug/netcoreapp2.1/MirrorPin.dll
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/bin/Debug/netcoreapp2.1/MirrorPin.pdb
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/obj/Debug/netcoreapp2.1/MirrorPin.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/obj/Debug/netcoreapp2.1/MirrorPin.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/obj/Debug/netcoreapp2.1/MirrorPin.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/obj/Debug/netcoreapp2.1/MirrorPin.dll
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MirrorPin/obj/Debug/netcoreapp2.1/MirrorPin.pdb

@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/bin/Debug/netcoreapp2.1/SpiralMatrix.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/bin/Debug/netcoreapp2.1/SpiralMatrix.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/bin/Debug/netcoreapp2.1/SpiralMatrix.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/bin/Debug/netcoreapp2.1/SpiralMatrix.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/bin/Debug/netcoreapp2.1/SpiralMatrix.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/obj/Debug/netcoreapp2.1/SpiralMatrix.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/obj/Debug/netcoreapp2.1/SpiralMatrix.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/obj/Debug/netcoreapp2.1/SpiralMatrix.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/obj/Debug/netcoreapp2.1/SpiralMatrix.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpiralMatrix/obj/Debug/netcoreapp2.1/SpiralMatrix.pdb

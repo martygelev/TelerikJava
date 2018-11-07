@@ -1,0 +1,11 @@
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/bin/Debug/netcoreapp2.1/mindigit.deps.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/bin/Debug/netcoreapp2.1/mindigit.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/bin/Debug/netcoreapp2.1/mindigit.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/bin/Debug/netcoreapp2.1/mindigit.dll
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/bin/Debug/netcoreapp2.1/mindigit.pdb
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/obj/Debug/netcoreapp2.1/mindigit.csprojAssemblyReference.cache
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/obj/Debug/netcoreapp2.1/mindigit.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/obj/Debug/netcoreapp2.1/mindigit.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/obj/Debug/netcoreapp2.1/mindigit.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/obj/Debug/netcoreapp2.1/mindigit.dll
+/Users/martingelev/TelerikAcademy/JavaProjects/c#tasks/TelerikAcademyAlpha/MergingandSquashing/mindigit/obj/Debug/netcoreapp2.1/mindigit.pdb

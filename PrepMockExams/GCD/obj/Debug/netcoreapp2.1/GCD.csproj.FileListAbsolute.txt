@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/tasks/GCD/bin/Debug/netcoreapp2.1/GCD.deps.json
+/Users/martingelev/TelerikAcademy/tasks/GCD/bin/Debug/netcoreapp2.1/GCD.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/tasks/GCD/bin/Debug/netcoreapp2.1/GCD.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/tasks/GCD/bin/Debug/netcoreapp2.1/GCD.dll
+/Users/martingelev/TelerikAcademy/tasks/GCD/bin/Debug/netcoreapp2.1/GCD.pdb
+/Users/martingelev/TelerikAcademy/tasks/GCD/obj/Debug/netcoreapp2.1/GCD.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/GCD/obj/Debug/netcoreapp2.1/GCD.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/GCD/obj/Debug/netcoreapp2.1/GCD.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/tasks/GCD/obj/Debug/netcoreapp2.1/GCD.dll
+/Users/martingelev/TelerikAcademy/tasks/GCD/obj/Debug/netcoreapp2.1/GCD.pdb

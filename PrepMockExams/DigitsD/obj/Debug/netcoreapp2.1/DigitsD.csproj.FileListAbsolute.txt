@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/bin/Debug/netcoreapp2.1/DigitsD.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/bin/Debug/netcoreapp2.1/DigitsD.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/bin/Debug/netcoreapp2.1/DigitsD.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/bin/Debug/netcoreapp2.1/DigitsD.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/bin/Debug/netcoreapp2.1/DigitsD.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/obj/Debug/netcoreapp2.1/DigitsD.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/obj/Debug/netcoreapp2.1/DigitsD.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/obj/Debug/netcoreapp2.1/DigitsD.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/obj/Debug/netcoreapp2.1/DigitsD.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/DigitsD/obj/Debug/netcoreapp2.1/DigitsD.pdb

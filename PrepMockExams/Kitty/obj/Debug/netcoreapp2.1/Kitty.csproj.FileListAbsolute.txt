@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/tasks/Kitty/obj/Debug/netcoreapp2.1/Kitty.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/Kitty/obj/Debug/netcoreapp2.1/Kitty.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/Kitty/obj/Debug/netcoreapp2.1/Kitty.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/tasks/Kitty/bin/Debug/netcoreapp2.1/Kitty.deps.json
+/Users/martingelev/TelerikAcademy/tasks/Kitty/bin/Debug/netcoreapp2.1/Kitty.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/tasks/Kitty/bin/Debug/netcoreapp2.1/Kitty.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/tasks/Kitty/bin/Debug/netcoreapp2.1/Kitty.dll
+/Users/martingelev/TelerikAcademy/tasks/Kitty/bin/Debug/netcoreapp2.1/Kitty.pdb
+/Users/martingelev/TelerikAcademy/tasks/Kitty/obj/Debug/netcoreapp2.1/Kitty.dll
+/Users/martingelev/TelerikAcademy/tasks/Kitty/obj/Debug/netcoreapp2.1/Kitty.pdb

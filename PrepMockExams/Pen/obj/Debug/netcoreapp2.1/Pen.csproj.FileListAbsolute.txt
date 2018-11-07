@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/bin/Debug/netcoreapp2.1/Pen.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/bin/Debug/netcoreapp2.1/Pen.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/bin/Debug/netcoreapp2.1/Pen.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/bin/Debug/netcoreapp2.1/Pen.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/bin/Debug/netcoreapp2.1/Pen.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/obj/Debug/netcoreapp2.1/Pen.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/obj/Debug/netcoreapp2.1/Pen.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/obj/Debug/netcoreapp2.1/Pen.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/obj/Debug/netcoreapp2.1/Pen.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Pen/obj/Debug/netcoreapp2.1/Pen.pdb

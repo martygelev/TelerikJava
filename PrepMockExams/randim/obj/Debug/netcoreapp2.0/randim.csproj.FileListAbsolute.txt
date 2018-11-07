@@ -1,0 +1,11 @@
+/Users/martingelev/Java Projects/randim/randim/bin/Debug/netcoreapp2.0/randim.deps.json
+/Users/martingelev/Java Projects/randim/randim/bin/Debug/netcoreapp2.0/randim.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/randim/bin/Debug/netcoreapp2.0/randim.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/randim/bin/Debug/netcoreapp2.0/randim.dll
+/Users/martingelev/Java Projects/randim/randim/bin/Debug/netcoreapp2.0/randim.pdb
+/Users/martingelev/Java Projects/randim/randim/obj/Debug/netcoreapp2.0/randim.csprojResolveAssemblyReference.cache
+/Users/martingelev/Java Projects/randim/randim/obj/Debug/netcoreapp2.0/randim.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/randim/obj/Debug/netcoreapp2.0/randim.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/randim/obj/Debug/netcoreapp2.0/randim.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/randim/obj/Debug/netcoreapp2.0/randim.dll
+/Users/martingelev/Java Projects/randim/randim/obj/Debug/netcoreapp2.0/randim.pdb

@@ -1,0 +1,78 @@
+﻿<Properties StartupConfiguration="{C62F57CB-C36A-46B5-8D9C-B3DC59886798}|Default">
+  <MonoDevelop.Ide.ItemProperties.AbovetheMainDiagonal PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Crossword PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MergingSquashing PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.JoroTheRabit PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.cycling FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MilesToMeters/MilesToMeters.cs">
+    <Files>
+      <File FileName="ArraysLoopsConditionalsLastTasks/AbovetheMainDiagonal2.cs" Line="53" Column="36" />
+      <File FileName="MergingSquashing/MergingandSquashing.cs" Line="26" Column="46" />
+      <File FileName="AbovetheMainDiagonal/AbovetheMainDiagonal.cs" Line="11" Column="55" />
+      <File FileName="LargestAreaInMatrixRECURSIVE/LargestAreaInMatrixRECURSIVE.cs" Line="10" Column="21" />
+      <File FileName="MaxSum3x3/MaxSum3x3.cs" Line="23" Column="25" />
+      <File FileName="SequenceInMatrix/SequenceInMatrix.cs" Line="17" Column="9" />
+      <File FileName="Crossword/crosswords.cs" Line="111" Column="22" />
+      <File FileName="Frac/frac.cs" Line="9" Column="13" />
+      <File FileName="cycling/cycling.cs" Line="41" Column="1" />
+      <File FileName="CrookedStairs/CrookedStairs.cs" Line="14" Column="13" />
+      <File FileName="pier/pier.cs" Line="19" Column="10" />
+      <File FileName="BigNumbers/BigNumbers.cs" Line="34" Column="3" />
+      <File FileName="Hops/hops.cs" Line="11" Column="1" />
+      <File FileName="prizeee/prize.cs" Line="11" Column="123" />
+      <File FileName="NextPermutation/NextPermutation.cs" Line="23" Column="43" />
+      <File FileName="delitel/delitel.cs" Line="10" Column="12" />
+      <File FileName="JoroTheRabit/joroZaeka.cs" Line="12" Column="33" />
+      <File FileName="MilesToMeters/MilesToMeters.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ArraysLoopsConditionalsLastTasks" expanded="True">
+            <Node name="AbovetheMainDiagonal" expanded="True" />
+            <Node name="BigNumbers" expanded="True" />
+            <Node name="CrookedStairs" expanded="True" />
+            <Node name="Crossword" expanded="True" />
+            <Node name="cycling" expanded="True" />
+            <Node name="delitel" expanded="True" />
+            <Node name="Frac" expanded="True" />
+            <Node name="Hops" expanded="True" />
+            <Node name="JoroTheRabit" expanded="True" />
+            <Node name="LargestAreaInMatrixRECURSIVE" expanded="True" />
+            <Node name="MaxSum3x3" expanded="True" />
+            <Node name="MergingSquashing" expanded="True" />
+            <Node name="MilesToMeters" expanded="True">
+              <Node name="MilesToMeters.cs" selected="True" />
+            </Node>
+            <Node name="NextPermutation" expanded="True" />
+            <Node name="pier" expanded="True" />
+            <Node name="prizeee" expanded="True" />
+            <Node name="SequenceInMatrix" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CrookedStairs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Hops FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MaxSum3x3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.pier FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AbovetheMainDiagonal2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LargestAreaInMatrixRECURSIVE PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SequenceInMatrix PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.delitel PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Frac FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NextPermutation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.prizeee FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BigNumbers PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MilesToMeters PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

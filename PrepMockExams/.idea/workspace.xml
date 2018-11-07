@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d94aa64d-4b22-44ee-9189-0d4215980b4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks" beforeDir="false" afterPath="$PROJECT_DIR$/c#tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/ArraySearch/ArraySearch.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/ArraySearch/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Balanced_Numbers/Balanced_Numbers.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Balanced_Numbers/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Beach/Beach.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Beach/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/BiggestPrimeNumber/BiggestPrimeNumber.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/BiggestPrimeNumber/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Counting/Counting.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Counting/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Game/Game.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Game/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/MergingandSquashing/MergingandSquashing.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/MergingandSquashing/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Numbers/Numbers.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Numbers/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/NumbersTriangle/NumbersTriangle.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/NumbersTriangle/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Prime_Triangle/Prime_Triangle.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Prime_Triangle/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Speed/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/Speed/Speed.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/StokiLegs/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/StokiLegs/StokiLegs.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/TelerikAcademy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/check/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/check/check.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/elmessage/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/elmessage/elmessage.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/grades/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/grades/grades.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/icecream/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/icecream/icecream.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/maxEven/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/maxEven/maxEven.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/mazeRunner/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/mazeRunner/mazeRunner.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/randim/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/randim/randim.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/reverseArray/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#tasks/TelerikAcademyAlpha/reverseArray/reverseArray.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-486633987">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="535" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="535" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="826" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PrepMockExams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrepMockExams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PrepMockExams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrepMockExams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PrepMockExams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrepMockExams" type="462c0819:PsiDirectoryNode" />
+              <item name="StokiLegs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539184867315" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="PrepMockExams" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d94aa64d-4b22-44ee-9189-0d4215980b4a" name="Default Changelist" comment="" />
+      <created>1539182204122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539182204122</updated>
+      <workItem from="1539182211308" duration="1885000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1885000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="826" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32970026" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32833788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/bin/Debug/netcoreapp2.1/JoroTheRabit.deps.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/bin/Debug/netcoreapp2.1/JoroTheRabit.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/bin/Debug/netcoreapp2.1/JoroTheRabit.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/bin/Debug/netcoreapp2.1/JoroTheRabit.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/bin/Debug/netcoreapp2.1/JoroTheRabit.pdb
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/obj/Debug/netcoreapp2.1/JoroTheRabit.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/obj/Debug/netcoreapp2.1/JoroTheRabit.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/obj/Debug/netcoreapp2.1/JoroTheRabit.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/obj/Debug/netcoreapp2.1/JoroTheRabit.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/JoroTheRabit/obj/Debug/netcoreapp2.1/JoroTheRabit.pdb

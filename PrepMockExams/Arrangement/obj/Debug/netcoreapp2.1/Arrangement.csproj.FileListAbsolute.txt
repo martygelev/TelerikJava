@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/bin/Debug/netcoreapp2.1/Arrangement.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/bin/Debug/netcoreapp2.1/Arrangement.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/bin/Debug/netcoreapp2.1/Arrangement.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/bin/Debug/netcoreapp2.1/Arrangement.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/bin/Debug/netcoreapp2.1/Arrangement.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/obj/Debug/netcoreapp2.1/Arrangement.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/obj/Debug/netcoreapp2.1/Arrangement.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/obj/Debug/netcoreapp2.1/Arrangement.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/obj/Debug/netcoreapp2.1/Arrangement.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/Arrangement/obj/Debug/netcoreapp2.1/Arrangement.pdb

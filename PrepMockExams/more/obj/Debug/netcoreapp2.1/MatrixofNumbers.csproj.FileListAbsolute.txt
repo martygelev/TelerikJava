@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/bin/Debug/netcoreapp2.1/MatrixofNumbers.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/bin/Debug/netcoreapp2.1/MatrixofNumbers.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/bin/Debug/netcoreapp2.1/MatrixofNumbers.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/bin/Debug/netcoreapp2.1/MatrixofNumbers.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/bin/Debug/netcoreapp2.1/MatrixofNumbers.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/obj/Debug/netcoreapp2.1/MatrixofNumbers.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/obj/Debug/netcoreapp2.1/MatrixofNumbers.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/obj/Debug/netcoreapp2.1/MatrixofNumbers.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/obj/Debug/netcoreapp2.1/MatrixofNumbers.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/more/obj/Debug/netcoreapp2.1/MatrixofNumbers.pdb

@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/check/bin/Debug/netcoreapp2.0/check.deps.json
+/Users/martingelev/Java Projects/randim/check/bin/Debug/netcoreapp2.0/check.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/check/bin/Debug/netcoreapp2.0/check.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/check/bin/Debug/netcoreapp2.0/check.dll
+/Users/martingelev/Java Projects/randim/check/bin/Debug/netcoreapp2.0/check.pdb
+/Users/martingelev/Java Projects/randim/check/obj/Debug/netcoreapp2.0/check.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/check/obj/Debug/netcoreapp2.0/check.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/check/obj/Debug/netcoreapp2.0/check.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/check/obj/Debug/netcoreapp2.0/check.dll
+/Users/martingelev/Java Projects/randim/check/obj/Debug/netcoreapp2.0/check.pdb

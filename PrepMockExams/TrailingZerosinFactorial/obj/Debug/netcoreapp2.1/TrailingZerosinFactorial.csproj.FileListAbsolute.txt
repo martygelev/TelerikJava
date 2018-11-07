@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/bin/Debug/netcoreapp2.1/TrailingZerosinFactorial.deps.json
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/bin/Debug/netcoreapp2.1/TrailingZerosinFactorial.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/bin/Debug/netcoreapp2.1/TrailingZerosinFactorial.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/bin/Debug/netcoreapp2.1/TrailingZerosinFactorial.dll
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/bin/Debug/netcoreapp2.1/TrailingZerosinFactorial.pdb
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/obj/Debug/netcoreapp2.1/TrailingZerosinFactorial.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/obj/Debug/netcoreapp2.1/TrailingZerosinFactorial.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/obj/Debug/netcoreapp2.1/TrailingZerosinFactorial.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/obj/Debug/netcoreapp2.1/TrailingZerosinFactorial.dll
+/Users/martingelev/TelerikAcademy/tasks/TrailingZerosinFactorial/obj/Debug/netcoreapp2.1/TrailingZerosinFactorial.pdb

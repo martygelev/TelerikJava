@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/bin/Debug/netcoreapp2.1/SignalFromSpace.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/bin/Debug/netcoreapp2.1/SignalFromSpace.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/bin/Debug/netcoreapp2.1/SignalFromSpace.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/bin/Debug/netcoreapp2.1/SignalFromSpace.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/bin/Debug/netcoreapp2.1/SignalFromSpace.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/obj/Debug/netcoreapp2.1/SignalFromSpace.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/obj/Debug/netcoreapp2.1/SignalFromSpace.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/obj/Debug/netcoreapp2.1/SignalFromSpace.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/obj/Debug/netcoreapp2.1/SignalFromSpace.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SignalFromSpace/obj/Debug/netcoreapp2.1/SignalFromSpace.pdb

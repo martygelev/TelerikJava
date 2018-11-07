@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/bin/Debug/netcoreapp2.1/NextPermutation.deps.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/bin/Debug/netcoreapp2.1/NextPermutation.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/bin/Debug/netcoreapp2.1/NextPermutation.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/bin/Debug/netcoreapp2.1/NextPermutation.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/bin/Debug/netcoreapp2.1/NextPermutation.pdb
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/obj/Debug/netcoreapp2.1/NextPermutation.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/obj/Debug/netcoreapp2.1/NextPermutation.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/obj/Debug/netcoreapp2.1/NextPermutation.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/obj/Debug/netcoreapp2.1/NextPermutation.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/NextPermutation/obj/Debug/netcoreapp2.1/NextPermutation.pdb

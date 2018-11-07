@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/bin/Debug/netcoreapp2.1/LongSequence.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/bin/Debug/netcoreapp2.1/LongSequence.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/bin/Debug/netcoreapp2.1/LongSequence.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/bin/Debug/netcoreapp2.1/LongSequence.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/bin/Debug/netcoreapp2.1/LongSequence.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/obj/Debug/netcoreapp2.1/LongSequence.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/obj/Debug/netcoreapp2.1/LongSequence.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/obj/Debug/netcoreapp2.1/LongSequence.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/obj/Debug/netcoreapp2.1/LongSequence.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/LongSequence/obj/Debug/netcoreapp2.1/LongSequence.pdb

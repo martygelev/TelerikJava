@@ -1,0 +1,10 @@
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/bin/Debug/netcoreapp2.1/MilesToMeters.deps.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/bin/Debug/netcoreapp2.1/MilesToMeters.runtimeconfig.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/bin/Debug/netcoreapp2.1/MilesToMeters.runtimeconfig.dev.json
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/bin/Debug/netcoreapp2.1/MilesToMeters.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/bin/Debug/netcoreapp2.1/MilesToMeters.pdb
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/obj/Debug/netcoreapp2.1/MilesToMeters.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/obj/Debug/netcoreapp2.1/MilesToMeters.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/obj/Debug/netcoreapp2.1/MilesToMeters.AssemblyInfo.cs
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/obj/Debug/netcoreapp2.1/MilesToMeters.dll
+/Users/martingelev/TelerikAcademy/PrepMockExams/ArraysLoopsConditionalsLastTasks/MilesToMeters/obj/Debug/netcoreapp2.1/MilesToMeters.pdb

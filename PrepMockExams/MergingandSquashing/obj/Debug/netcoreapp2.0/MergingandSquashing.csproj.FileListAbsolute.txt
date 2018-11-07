@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/MergingandSquashing/bin/Debug/netcoreapp2.0/MergingandSquashing.deps.json
+/Users/martingelev/Java Projects/randim/MergingandSquashing/bin/Debug/netcoreapp2.0/MergingandSquashing.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/MergingandSquashing/bin/Debug/netcoreapp2.0/MergingandSquashing.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/MergingandSquashing/bin/Debug/netcoreapp2.0/MergingandSquashing.dll
+/Users/martingelev/Java Projects/randim/MergingandSquashing/bin/Debug/netcoreapp2.0/MergingandSquashing.pdb
+/Users/martingelev/Java Projects/randim/MergingandSquashing/obj/Debug/netcoreapp2.0/MergingandSquashing.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/MergingandSquashing/obj/Debug/netcoreapp2.0/MergingandSquashing.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/MergingandSquashing/obj/Debug/netcoreapp2.0/MergingandSquashing.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/MergingandSquashing/obj/Debug/netcoreapp2.0/MergingandSquashing.dll
+/Users/martingelev/Java Projects/randim/MergingandSquashing/obj/Debug/netcoreapp2.0/MergingandSquashing.pdb

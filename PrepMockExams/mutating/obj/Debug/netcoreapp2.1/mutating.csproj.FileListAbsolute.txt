@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/bin/Debug/netcoreapp2.1/mutating.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/bin/Debug/netcoreapp2.1/mutating.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/bin/Debug/netcoreapp2.1/mutating.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/bin/Debug/netcoreapp2.1/mutating.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/bin/Debug/netcoreapp2.1/mutating.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/obj/Debug/netcoreapp2.1/mutating.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/obj/Debug/netcoreapp2.1/mutating.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/obj/Debug/netcoreapp2.1/mutating.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/obj/Debug/netcoreapp2.1/mutating.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/mutating/obj/Debug/netcoreapp2.1/mutating.pdb

@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/reverseArray/bin/Debug/netcoreapp2.0/reverseArray.deps.json
+/Users/martingelev/Java Projects/randim/reverseArray/bin/Debug/netcoreapp2.0/reverseArray.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/reverseArray/bin/Debug/netcoreapp2.0/reverseArray.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/reverseArray/bin/Debug/netcoreapp2.0/reverseArray.dll
+/Users/martingelev/Java Projects/randim/reverseArray/bin/Debug/netcoreapp2.0/reverseArray.pdb
+/Users/martingelev/Java Projects/randim/reverseArray/obj/Debug/netcoreapp2.0/reverseArray.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/reverseArray/obj/Debug/netcoreapp2.0/reverseArray.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/reverseArray/obj/Debug/netcoreapp2.0/reverseArray.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/reverseArray/obj/Debug/netcoreapp2.0/reverseArray.dll
+/Users/martingelev/Java Projects/randim/reverseArray/obj/Debug/netcoreapp2.0/reverseArray.pdb

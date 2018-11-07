@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/bin/Debug/netcoreapp2.1/SpellCaster.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/bin/Debug/netcoreapp2.1/SpellCaster.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/bin/Debug/netcoreapp2.1/SpellCaster.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/bin/Debug/netcoreapp2.1/SpellCaster.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/bin/Debug/netcoreapp2.1/SpellCaster.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/obj/Debug/netcoreapp2.1/SpellCaster.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/obj/Debug/netcoreapp2.1/SpellCaster.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/obj/Debug/netcoreapp2.1/SpellCaster.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/obj/Debug/netcoreapp2.1/SpellCaster.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/SpellCaster/obj/Debug/netcoreapp2.1/SpellCaster.pdb

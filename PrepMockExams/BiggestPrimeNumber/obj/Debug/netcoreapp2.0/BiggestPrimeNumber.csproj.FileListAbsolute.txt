@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/bin/Debug/netcoreapp2.0/BiggestPrimeNumber.deps.json
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/bin/Debug/netcoreapp2.0/BiggestPrimeNumber.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/bin/Debug/netcoreapp2.0/BiggestPrimeNumber.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/bin/Debug/netcoreapp2.0/BiggestPrimeNumber.dll
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/bin/Debug/netcoreapp2.0/BiggestPrimeNumber.pdb
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/obj/Debug/netcoreapp2.0/BiggestPrimeNumber.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/obj/Debug/netcoreapp2.0/BiggestPrimeNumber.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/obj/Debug/netcoreapp2.0/BiggestPrimeNumber.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/obj/Debug/netcoreapp2.0/BiggestPrimeNumber.dll
+/Users/martingelev/Java Projects/randim/BiggestPrimeNumber/obj/Debug/netcoreapp2.0/BiggestPrimeNumber.pdb

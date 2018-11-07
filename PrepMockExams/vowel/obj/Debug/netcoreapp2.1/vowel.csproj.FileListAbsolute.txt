@@ -1,0 +1,10 @@
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/bin/Debug/netcoreapp2.1/vowel.deps.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/bin/Debug/netcoreapp2.1/vowel.runtimeconfig.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/bin/Debug/netcoreapp2.1/vowel.runtimeconfig.dev.json
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/bin/Debug/netcoreapp2.1/vowel.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/bin/Debug/netcoreapp2.1/vowel.pdb
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/obj/Debug/netcoreapp2.1/vowel.csproj.CoreCompileInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/obj/Debug/netcoreapp2.1/vowel.AssemblyInfoInputs.cache
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/obj/Debug/netcoreapp2.1/vowel.AssemblyInfo.cs
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/obj/Debug/netcoreapp2.1/vowel.dll
+/Users/martingelev/Desktop/SoftUni/Programming Fundamentals/more/vowel/obj/Debug/netcoreapp2.1/vowel.pdb

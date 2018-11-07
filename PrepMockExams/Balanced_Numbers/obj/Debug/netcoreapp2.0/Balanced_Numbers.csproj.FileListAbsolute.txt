@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/bin/Debug/netcoreapp2.0/Balanced_Numbers.deps.json
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/bin/Debug/netcoreapp2.0/Balanced_Numbers.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/bin/Debug/netcoreapp2.0/Balanced_Numbers.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/bin/Debug/netcoreapp2.0/Balanced_Numbers.dll
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/bin/Debug/netcoreapp2.0/Balanced_Numbers.pdb
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/obj/Debug/netcoreapp2.0/Balanced_Numbers.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/obj/Debug/netcoreapp2.0/Balanced_Numbers.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/obj/Debug/netcoreapp2.0/Balanced_Numbers.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/obj/Debug/netcoreapp2.0/Balanced_Numbers.dll
+/Users/martingelev/Java Projects/randim/Balanced_Numbers/obj/Debug/netcoreapp2.0/Balanced_Numbers.pdb

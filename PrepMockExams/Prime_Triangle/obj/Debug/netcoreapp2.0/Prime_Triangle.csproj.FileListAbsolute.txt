@@ -1,0 +1,10 @@
+/Users/martingelev/Java Projects/randim/Prime_Triangle/bin/Debug/netcoreapp2.0/Prime_Triangle.deps.json
+/Users/martingelev/Java Projects/randim/Prime_Triangle/bin/Debug/netcoreapp2.0/Prime_Triangle.runtimeconfig.json
+/Users/martingelev/Java Projects/randim/Prime_Triangle/bin/Debug/netcoreapp2.0/Prime_Triangle.runtimeconfig.dev.json
+/Users/martingelev/Java Projects/randim/Prime_Triangle/bin/Debug/netcoreapp2.0/Prime_Triangle.dll
+/Users/martingelev/Java Projects/randim/Prime_Triangle/bin/Debug/netcoreapp2.0/Prime_Triangle.pdb
+/Users/martingelev/Java Projects/randim/Prime_Triangle/obj/Debug/netcoreapp2.0/Prime_Triangle.csproj.CoreCompileInputs.cache
+/Users/martingelev/Java Projects/randim/Prime_Triangle/obj/Debug/netcoreapp2.0/Prime_Triangle.AssemblyInfoInputs.cache
+/Users/martingelev/Java Projects/randim/Prime_Triangle/obj/Debug/netcoreapp2.0/Prime_Triangle.AssemblyInfo.cs
+/Users/martingelev/Java Projects/randim/Prime_Triangle/obj/Debug/netcoreapp2.0/Prime_Triangle.dll
+/Users/martingelev/Java Projects/randim/Prime_Triangle/obj/Debug/netcoreapp2.0/Prime_Triangle.pdb
