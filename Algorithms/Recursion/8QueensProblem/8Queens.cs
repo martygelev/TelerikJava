@@ -9,6 +9,7 @@ namespace _8QueensProblem
         static int[,] board = new int[Size, Size];
         static HashSet<int> attackedRows = new HashSet<int>();
         static HashSet<int> attackedCols= new HashSet<int>();
+        static int counter;
 
         static void Main(string[] args)
         {
@@ -26,6 +27,7 @@ namespace _8QueensProblem
             {
                 if (CanPutQueenThere(row,col))
                 {
+                    counter++;
                     MarkAttacked(row,col);
                     Solve(row + 1);
                     UnmarkAttacked(row,col);
@@ -154,6 +156,7 @@ namespace _8QueensProblem
                 Console.WriteLine();
             }
             Console.WriteLine("**********************");
+            Console.WriteLine(counter);
         }
     }
 }
