@@ -4,17 +4,11 @@
     <list default="true" id="e203618d-8db1-4faf-be22-3cb5fdfd33e8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/bitShift/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bitShift/bitShift.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitShift/bitShift/EmptyClass.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bitShift/bitShift/Program.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bitShift/bitShift/bitShift.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bitShift/bshm2/Program.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bitShift/bshm2/bshm2.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Naive-Bayes-Mail-spam-detector-Classification-Python" beforeDir="false" afterPath="$PROJECT_DIR$/../Naive-Bayes-Mail-spam-detector-Classification-Python" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exe 22.11/bitShift/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exe 22.11/bounce/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exe 22.11/bounce2/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +29,7 @@
     <session id="705852722">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="2" />
@@ -189,7 +183,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543222331968" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543235638788" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
