@@ -1,7 +1,8 @@
 ### Java ###
 # Compiled class file
 *.class
-
+*.iml
+*.out 
 # Log file
 *.log
 
