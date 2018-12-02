@@ -5,7 +5,8 @@
 *.out 
 # Log file
 *.log
-
+*.mf
+*.properties
 # BlueJ files
 *.ctxt
 
