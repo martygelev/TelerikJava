@@ -26,8 +26,7 @@ public class Main
         System.out.println(tree.isBinarySearchTree());
         //tree.delete(6);
        // System.out.println(tree.search(6).value);
-        TreeMap<Integer,String> treeMap;
-
+     //treeMap.sea
         System.out.println("\nPost-order DFS - recursive: ");
         tree.dfsPostOrder();
 

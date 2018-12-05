@@ -1,14 +1,13 @@
-package firstExam;
+package ex2;
 
+        import java.util.ArrayList;
+        import java.util.List;
+        import java.util.Scanner;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+public class main {
+    // working 100/100;
+    public static void main(String[] args) {
 
-public class Main
-{
-    public static void main(String[] args)
-    {
         Scanner in = new Scanner(System.in);
         String[] inputData = in.nextLine().split(" ");
         int rows = Integer.parseInt(inputData[0]);
@@ -27,12 +26,13 @@ public class Main
             }
         }
 
-       String[] startingPositionInput =in.nextLine().split("//s+");
+        String[] startingPositionInput =in.nextLine().split(" ");
         int currentRow = Integer.parseInt(startingPositionInput[0]);
         int currentCol = Integer.parseInt(startingPositionInput[1]);
 
         long sum =0;
         sum+=matrix[currentRow][currentCol];
+
 
         boolean[][] visitedCells = new boolean[rows][cols];
         visitedCells[currentRow][currentCol]=true;
@@ -49,21 +49,22 @@ public class Main
             currentRow+=Integer.parseInt(nextPosition[0]);
             currentCol+=Integer.parseInt(nextPosition[1]);
 
-            if (visitedCells[currentRow][currentCol]==true)
-            {
-                System.out.println("caught " + sum);
-                break;
-            }
             if ( currentRow<0 || currentRow>rows-1 ||currentCol<0 || currentCol>cols-1)
             {
                 System.out.println("escape " + sum);
-                break;
+                return;
             }
+            if (visitedCells[currentRow][currentCol]==true)
+            {
+                System.out.println("caught " + sum);
+                return;
+            }
+
             visitedCells[currentRow][currentCol]=true;
             sum += matrix[currentRow][currentCol];
 
         }
-        long index =0;
+        int index =0;
         int length = inputs.size();
 
         while(true)
@@ -73,7 +74,7 @@ public class Main
                 index=0;
             }
 
-          String[] curInp=  inputs.get(index).split(" ");
+            String[] curInp=  inputs.get(index).split(" ");
 
             currentRow+=Integer.parseInt(curInp[0]);
             currentCol+=Integer.parseInt(curInp[1]);
@@ -81,13 +82,13 @@ public class Main
             if ( currentRow<0 || currentRow>rows-1 ||currentCol<0 || currentCol>cols-1)
             {
                 System.out.println("escaped " + sum);
-                break;
+                return;
             }
 
             if (visitedCells[currentRow][currentCol]==true)
             {
                 System.out.println("caught "+ sum);
-                break;
+                return;
             }
 
             visitedCells[currentRow][currentCol]=true;
