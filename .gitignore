@@ -1,5 +1,8 @@
 ### Java ###
 # Compiled class file
+.idea
+.impl
+.xml
 .class
 *.iml
 *.out 
