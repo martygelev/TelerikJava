@@ -1,5 +1,6 @@
 ### Java ###
 # Compiled class file
+.out
 .idea
 .impl
 .xml
