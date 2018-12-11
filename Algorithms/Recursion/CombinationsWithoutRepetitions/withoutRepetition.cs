@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CombinationsWithoutRepetitions
 {
@@ -6,6 +6,7 @@ namespace CombinationsWithoutRepetitions
     {
         static void Main(string[] args)
         {
+	string input= Console.ReadLine().split(" ").select(int.P
             int end = int.Parse(Console.ReadLine());
             int setItems = int.Parse(Console.ReadLine());
 
