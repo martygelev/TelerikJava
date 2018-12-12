@@ -5,7 +5,9 @@ public class Patient extends User{
     private HealthInsurancePlan insurancePlan;
 
     public HealthInsurancePlan getInsurancePlan() {
-        return insurancePlan;
+
+            return insurancePlan;
+
     }
 
     public void setInsurancePlan(HealthInsurancePlan insurancePlan) {
