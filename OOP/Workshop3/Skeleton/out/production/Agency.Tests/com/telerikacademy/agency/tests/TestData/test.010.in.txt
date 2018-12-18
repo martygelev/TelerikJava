@@ -1,0 +1,3 @@
+createairplane 250 0.08 true
+createairplane 250 2.7 true
+exit

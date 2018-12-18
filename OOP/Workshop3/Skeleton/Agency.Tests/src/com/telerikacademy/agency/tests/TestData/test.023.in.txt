@@ -1,0 +1,7 @@
+createbus 10 0.7
+listvehicles
+createjourney Sofia vTurnovo 300 0
+listjourneys
+createticket 0 30
+listtickets
+exit

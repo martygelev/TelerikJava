@@ -1,0 +1,2 @@
+A vehicle with a price per kilometer lower than $0.10 or higher than $2.50 cannot exist!
+A vehicle with a price per kilometer lower than $0.10 or higher than $2.50 cannot exist!

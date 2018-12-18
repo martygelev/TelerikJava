@@ -1,0 +1,3 @@
+Vehicle with ID 0 was created.
+The Distance cannot be less than 5 or more than 5000 kilometers.
+The Distance cannot be less than 5 or more than 5000 kilometers.

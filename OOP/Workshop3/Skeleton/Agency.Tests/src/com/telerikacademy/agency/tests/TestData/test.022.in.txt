@@ -1,0 +1,7 @@
+createbus 10 0.7
+createairplane 250 1 true
+createtrain 80 0.40 3
+listvehicles
+createjourney Sofia Turnovo 400 1
+listjourneys
+exit
