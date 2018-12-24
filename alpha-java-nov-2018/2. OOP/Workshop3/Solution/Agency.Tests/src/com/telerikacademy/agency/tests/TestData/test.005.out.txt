@@ -1,0 +1,2 @@
+A train cannot have less than 30 passengers or more than 150 passengers.
+A train cannot have less than 30 passengers or more than 150 passengers.

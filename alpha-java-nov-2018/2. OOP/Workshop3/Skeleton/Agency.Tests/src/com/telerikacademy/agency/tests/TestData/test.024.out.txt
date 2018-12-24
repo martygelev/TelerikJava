@@ -1,0 +1,43 @@
+Vehicle with ID 0 was created.
+Vehicle with ID 1 was created.
+Vehicle with ID 2 was created.
+Bus ----
+Passenger capacity: 10
+Price per kilometer: 0.70
+Vehicle type: Land
+####################
+Airplane ----
+Passenger capacity: 230
+Price per kilometer: 1.00
+Vehicle type: Air
+Has free food: true
+####################
+Train ----
+Passenger capacity: 80
+Price per kilometer: 0.44
+Vehicle type: Land
+Carts amount: 3
+Journey with ID 0 was created.
+Journey with ID 1 was created.
+Journey ----
+Start location: Sofia
+Destination: Turnovo
+Distance: 300
+Vehicle type: Land
+Travel costs: 210.00
+####################
+Journey ----
+Start location: Sofia
+Destination: Turnovo
+Distance: 33
+Vehicle type: Air
+Travel costs: 33.00
+Ticket with ID 0 was created.
+Ticket with ID 1 was created.
+Ticket ----
+Destination: Turnovo
+Price: 6342.00
+####################
+Ticket ----
+Destination: Turnovo
+Price: 3300.00

@@ -1,0 +1,35 @@
+Vehicle with ID 0 was created.
+A train cannot have less than 30 passengers or more than 150 passengers.
+Vehicle with ID 1 was created.
+A vehicle with a price per kilometer lower than $0.10 or higher than $2.50 cannot exist!
+Vehicle with ID 2 was created.
+Bus ----
+Passenger capacity: 10
+Price per kilometer: 0.70
+Vehicle type: Land
+####################
+Airplane ----
+Passenger capacity: 250
+Price per kilometer: 1.00
+Vehicle type: Air
+Has free food: true
+####################
+Train ----
+Passenger capacity: 80
+Price per kilometer: 0.40
+Vehicle type: Land
+Carts amount: 3
+Journey with ID 0 was created.
+The Distance cannot be less than 5 or more than 5000 kilometers.
+Failed to parse CreateJourney command parameters.
+Journey ----
+Start location: Sofia
+Destination: vTurnovo
+Distance: 300
+Vehicle type: Land
+Travel costs: 210.00
+Ticket with ID 0 was created.
+Failed to parse CreateTicket command parameters.
+Ticket ----
+Destination: vTurnovo
+Price: 6300.00

@@ -1,0 +1,4 @@
+createtrain 80 0.4 3
+createjourney S Turnovo 3000 0
+createjourney SsdddddddddsdsssssssssSsdddddddddsdsssssssss Turnovo 3000 0
+exit

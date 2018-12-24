@@ -1,0 +1,19 @@
+Vehicle with ID 0 was created.
+Vehicle with ID 1 was created.
+Vehicle with ID 2 was created.
+Bus ----
+Passenger capacity: 10
+Price per kilometer: 0.70
+Vehicle type: Land
+####################
+Airplane ----
+Passenger capacity: 250
+Price per kilometer: 1.00
+Vehicle type: Air
+Has free food: true
+####################
+Train ----
+Passenger capacity: 80
+Price per kilometer: 0.40
+Vehicle type: Land
+Carts amount: 3

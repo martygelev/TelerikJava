@@ -1,0 +1,2 @@
+A vehicle with less than 1 passengers or more than 800 passengers cannot exist!
+A vehicle with less than 1 passengers or more than 800 passengers cannot exist!

@@ -1,0 +1,4 @@
+createairplane 250 1 true
+createairplane 250 1 false
+createairplane 250 1 pesho
+exit

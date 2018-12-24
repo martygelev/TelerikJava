@@ -1,0 +1,4 @@
+createtrain 80 0.4 3
+createjourney Sofia Turnovo 3 0
+createjourney Sofia Turnovo 5003 0
+exit
