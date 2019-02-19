@@ -1,0 +1,79 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board1 successfully added to a team Team6
+Board Board2 successfully added to a team Team6
+A new story was created in Board1 board
+A new story was created in Board1 board
+A new bug was created in Board1 board
+A new story was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+++++++++++++++++++++++++++++
+Sorting by priority:
+Story ----
+Item Id: 65
+Title: Title of story 2 in b1
+Description: Story description 2
+Priority: High
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------
+
+Bug ----
+Item Id: 68
+Title: Another Bug Found
+Description: Bug description
+Priority: High
+Member Assignee: Martin
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Bug ----
+Item Id: 69
+Title: Second Bug Found
+Description: Bug description 2
+Priority: Medium
+Member Assignee: Rosen
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Story ----
+Item Id: 64
+Title: Title of story in b1
+Description: Story description
+Priority: Low
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------
+
+Bug ----
+Item Id: 66
+Title: Another Bug Found
+Description: Bug description 2
+Priority: Low
+Member Assignee: Rosen
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Story ----
+Item Id: 67
+Title: Title of story in b1
+Description: Story description
+Priority: Low
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------
+
+++++++++++++++++++++++++++++

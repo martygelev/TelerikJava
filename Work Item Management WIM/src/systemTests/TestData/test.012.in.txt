@@ -1,0 +1,11 @@
+createanewteam @ Team1
+createanewperson @ Petar
+createanewboardinateam @ Board1 @ Team1
+createanewbuginaboard @ Board1 @ title of bug77 @ First, Second, Third, Forth, Fifth @ Bug description 1 @ HigH @ Petar @ Minor @ Active
+changepriorityofabug @ title of bug23 @ Medium
+changepriorityofabug @ title of bug77 @ Medium
+changeseverityofabug @ title of bug77 @ Major
+changeseverityofabug @ title of bug77 @ Critical
+changestatusofabug @ title of bug77 @ Fixed
+changestatusofabug @ title of bug77 @ NotFixed
+exit

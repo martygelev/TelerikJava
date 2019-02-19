@@ -1,0 +1,2 @@
+Team with name "Team6" was created.
+[ERROR]: Failed to parse team parameters

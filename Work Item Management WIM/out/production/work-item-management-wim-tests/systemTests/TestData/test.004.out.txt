@@ -1,0 +1,8 @@
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Team with name "Team6" was created.
+Team Team5 not found
+Team Team5 not found
+Martin added to Team6 team
+Rosen added to Team6 team
+All team (Team6) members: Rosen, Martin

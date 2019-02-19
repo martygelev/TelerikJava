@@ -1,0 +1,121 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board1 successfully added to a team Team6
+Board Board2 successfully added to a team Team6
+A new story was created in Board1 board
+A new story was created in Board1 board
+A new story was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board1 board
+A new feedback was created in Board1
+A new feedback was created in Board2
+A new feedback was created in Board1
+A new feedback was created in Board2
+A new feedback was created in Board2
+A new feedback was created in Board2
+&&&&&&&&&&&&&&&&&&&&
+Sorting by title:
+Feedback ----
+Item Id: 98
+Title: 123 Feedback board1
+Description: Feedback Description5
+Feedback rating: 4
+Feedback status: Done
+***********************
+
+Feedback ----
+Item Id: 99
+Title: 123 Feedback board2
+Description: Feedback Description5
+Feedback rating: 4
+Feedback status: Done
+***********************
+
+Bug ----
+Item Id: 92
+Title: A Bug Found in b2
+Description: Bug description 1
+Priority: High
+Member Assignee: Martin
+Bug severity: Critical
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Story ----
+Item Id: 89
+Title: A title of story 1 in b1
+Description: Story description
+Priority: Low
+Member Assignee: Martin
+Story size: Small
+Story status: InProgress
+---------------------
+
+Feedback ----
+Item Id: 94
+Title: ABC Feedback in b1
+Description: Feedback Description4
+Feedback rating: 3
+Feedback status: New
+***********************
+
+Feedback ----
+Item Id: 95
+Title: ABC Feedback in b2
+Description: Feedback Description4
+Feedback rating: 3
+Feedback status: New
+***********************
+
+Bug ----
+Item Id: 93
+Title: B Bug Found in b1
+Description: Bug description 2
+Priority: Medium
+Member Assignee: Rosen
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Story ----
+Item Id: 90
+Title: B title of story 2 in b1
+Description: Story description
+Priority: Low
+Member Assignee: Rosen
+Story size: Large
+Story status: Done
+---------------------
+
+Feedback ----
+Item Id: 96
+Title: XYZ Feedback board1
+Description: Feedback Description5
+Feedback rating: 4
+Feedback status: Done
+***********************
+
+Feedback ----
+Item Id: 97
+Title: XYZ Feedback board2
+Description: Feedback Description5
+Feedback rating: 4
+Feedback status: Done
+***********************
+
+Story ----
+Item Id: 91
+Title: Z story title in b1
+Description: Story description
+Priority: Low
+Member Assignee: Rosen
+Story size: Large
+Story status: Done
+---------------------
+
+&&&&&&&&&&&&&&&&&&&&

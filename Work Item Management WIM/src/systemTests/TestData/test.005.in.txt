@@ -1,0 +1,4 @@
+createanewperson @ VeryLongName123456789
+createanewperson @ Abc
+createanewhuman @ John Smith
+exit

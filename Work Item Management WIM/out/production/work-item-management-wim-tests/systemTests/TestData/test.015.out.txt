@@ -1,0 +1,38 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Board Board2 successfully added to a team Team6
+No bugs in this board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+Filter bugs:
+Bug ----
+Item Id: 11
+Title: Bug in version 1.0
+Description: Bug description 1
+Priority: Low
+Member Assignee: Martin
+Bug severity: Minor
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+, Bug ----
+Item Id: 12
+Title: Another Bug Found
+Description: Bug description 2
+Priority: Medium
+Member Assignee: Martin
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+, Bug ----
+Item Id: 13
+Title: Third Bug Found
+Description: Bug description 3
+Priority: High
+Member Assignee: Martin
+Bug severity: Critical
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~

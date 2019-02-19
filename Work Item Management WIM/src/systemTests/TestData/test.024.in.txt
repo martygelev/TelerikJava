@@ -1,0 +1,13 @@
+createanewperson @ Rossen
+createanewteam @ Team6
+addpersontoateam @ Rossen @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewboardinateam @ Board2 @ Team6
+createanewstoryinaboard @ Board2 @ Title of story in b1 @ Story description @ Low @ Rossen @ Large @ NotDone
+createanewbuginaboard @ Board2 @ Second Bug Title @ Bug description 2 @ First, Second, Third, Forth, Fifth @ Medium @ Rossen @ Minor @ Active
+createanewfeedbackinaboard @ Board2 @ Feedback2 in board3 @ Feedback Description6 @ 1 @ Scheduled
+createanewfeedbackinaboard @ Board2 @ Feedback3 in board3 @ Feedback Description7 @ 8 @ New
+showboard'sactivity @ Board2
+showboard'sactivity @ Board1
+showboard'sactivity @ Board30
+exit

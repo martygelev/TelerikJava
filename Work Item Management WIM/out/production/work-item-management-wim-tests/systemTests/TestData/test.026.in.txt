@@ -1,0 +1,15 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewperson @ Rosen
+addpersontoateam @ Martin @ Team6
+addpersontoateam @ Rosen @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewboardinateam @ Board2 @ Team6
+createanewstoryinaboard @ Board1 @ Title of story in b1 @ Story description @ Low @ Martin @ Large @ NotDone
+createanewstoryinaboard @ Board1 @ Title of story 2 in b1 @ Story description 2 @ High @ Martin @ Large @ NotDone
+createanewbuginaboard @ Board1 @ Another Bug Found @ Bug description 2 @ First, Second, Third, Forth, Fifth @ Low @ Rosen @ Major @ Active
+createanewstoryinaboard @ Board2 @ Title of story in b1 @ Story description @ Low @ Martin @ Large @ NotDone
+createanewbuginaboard @ Board2 @ Another Bug Found @ Bug description @ First, Second, Third, Forth, Fifth @ High @ Martin @ Major @ Active
+createanewbuginaboard @ Board2 @ Second Bug Found @ Bug description 2 @ First, Second, Third, Forth, Fifth @ Medium @ Rosen @ Major @ Active
+sortbypriority
+exit

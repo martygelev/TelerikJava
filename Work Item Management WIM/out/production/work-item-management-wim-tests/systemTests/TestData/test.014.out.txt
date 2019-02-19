@@ -1,0 +1,9 @@
+The name of the member must be between 5 and 15 symbols!
+Team with name "Team6" was created.
+Board Board1 successfully added to a team Team6
+Title length must be between 10 and 50 symbols!
+A new feedback was created in Board1
+Rating must be greater than zero!
+Rating of Feedback was changed to 5
+Status of Feedback was changed to Scheduled
+[ERROR]: Failed to parse feedback status parameter!

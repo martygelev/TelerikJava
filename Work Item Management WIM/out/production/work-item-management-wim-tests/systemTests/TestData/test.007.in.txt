@@ -1,0 +1,6 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewboardinateam @ Board1 @ Team6
+createanewbuginaboard @ Board1 @ Bug description 1 @ title of bug 123 @ First, Second, Third, Forth, Fifth @ HigH @ Martin @ Critical @ Active
+createanewbuginaboard @ Board2 @ title of bug 123 @ First, Second, Third, Forth, Fifth @ Bug description 1 @ HigH @ Martin @ Critical @ Active
+exit

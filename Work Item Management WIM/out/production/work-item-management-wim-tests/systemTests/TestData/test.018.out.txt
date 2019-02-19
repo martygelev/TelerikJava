@@ -1,0 +1,49 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board2 successfully added to a team Team6
+A new story was created in Board2 board
+A new story was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+A new feedback was created in Board2
+A new feedback was created in Board2
+Filter by status:
+Story ----
+Item Id: 21
+Title: Title of story in b2
+Description: Story description
+Priority: Medium
+Member Assignee: Rosen
+Story size: Large
+Story status: InProgress
+---------------------
+
+#########################
+
+Filter by status:
+Bug ----
+Item Id: 22
+Title: Another Bug Found
+Description: Bug description 2
+Priority: Medium
+Member Assignee: Martin
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+#########################
+
+Filter by status:
+Feedback ----
+Item Id: 25
+Title: FeedbackTitle2
+Description: Feedback Description2
+Feedback rating: 7
+Feedback status: Done
+***********************
+
+#########################

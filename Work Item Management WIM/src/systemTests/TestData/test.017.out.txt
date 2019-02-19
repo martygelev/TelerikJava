@@ -1,0 +1,36 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board2 successfully added to a team Team6
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+Filter by status and assignee:
+Bug ----
+Item Id: 17
+Title: Bug in version 1.0
+Description: Bug description 1
+Priority: Low
+Member Assignee: Rosen
+Bug severity: Minor
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+#########################
+
+Filter by status and assignee:
+Bug ----
+Item Id: 19
+Title: Third Bug Found
+Description: Bug description 3
+Priority: High
+Member Assignee: Martin
+Bug severity: Critical
+Bug status: Fixed
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+#########################

@@ -1,0 +1,3 @@
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+All people: Rosen, Martin

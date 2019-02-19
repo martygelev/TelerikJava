@@ -1,0 +1,17 @@
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+All people: Rosen, Martin
+Team with name "Team1" was created.
+Team with name "Team2" was created.
+Team with name "Team6" was created.
+All teams: Team6, Team2, Team1
+Martin added to Team6 team
+Rosen added to Team6 team
+No members in this team
+No members in this team
+All team (Team6) members: Rosen, Martin
+Board Board1 successfully added to a team Team6
+Board Board2 successfully added to a team Team6
+No boards found in Team1 team
+Team Team3 not found
+All team (Team6) boards: Board1, Board2

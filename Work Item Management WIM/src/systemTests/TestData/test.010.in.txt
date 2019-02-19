@@ -1,0 +1,10 @@
+createanewperson @ Martin
+createanewteam @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewfeedbackinaboard @ Board1 @ FeedbackTitle @ Feedback Description @ 4 @ New
+createanewstoryinaboard @ Board1 @ titleOfStory1 @ ndjaks,dhu @ High @ Martin @ Medium @ InProgress
+assignworkitemtoaperson @ titleOfStory1 @ Martin
+assignworkitemtoaperson @ FeedbackTitle @ Martin
+unassignworkitemtoaperson @ titleOfStory1 @ Martin
+unassignworkitemtoaperson @ titleofbug3 @ Martin
+exit

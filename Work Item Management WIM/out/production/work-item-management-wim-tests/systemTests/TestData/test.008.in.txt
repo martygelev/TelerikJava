@@ -1,0 +1,6 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewboardinateam @ Board1 @ Team6
+createanewstoryinaboard @ Board1 @ titleOfStory1 @ ndjaks,dhu @ High @ Martin @ Medium @ InProgress
+createanewstoryinaboard @ Board2 @ titleOfStory1 @ ndjaks,dhu @ High @ Martin @ Medium @ InProgress
+exit

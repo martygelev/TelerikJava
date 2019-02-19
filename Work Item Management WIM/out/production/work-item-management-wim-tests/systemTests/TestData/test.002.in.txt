@@ -1,0 +1,4 @@
+createanewperson @ Martin
+createanewperson @ Rosen
+showallpeople
+exit
