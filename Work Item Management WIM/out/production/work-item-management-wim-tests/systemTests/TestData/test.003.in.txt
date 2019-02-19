@@ -1,0 +1,6 @@
+createanewteam @ Team1
+createanewteam @ Team2
+createanewteam @ Team2
+createanewteam @ Team3
+showallteams
+exit

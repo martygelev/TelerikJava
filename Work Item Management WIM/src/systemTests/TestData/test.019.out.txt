@@ -1,0 +1,49 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board1 successfully added to a team Team6
+Board Board2 successfully added to a team Team6
+A new feedback was created in Board1
+A new feedback was created in Board1
+A new story was created in Board1 board
+A new story was created in Board1 board
+A new bug was created in Board1 board
+A new feedback was created in Board2
+A new feedback was created in Board2
+A new story was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+Board with name Board0 does not exist
+Filter feedback:
+Feedback ----
+Item Id: 26
+Title: Feedback1 in board1
+Description: Feedback Description1
+Feedback rating: 6
+Feedback status: Unscheduled
+***********************
+, Feedback ----
+Item Id: 27
+Title: Feedback2 in board1
+Description: Feedback Description2
+Feedback rating: 5
+Feedback status: Done
+***********************
+
+Filter feedback:
+Feedback ----
+Item Id: 31
+Title: Feedback1 in board2
+Description: Feedback Description3
+Feedback rating: 9
+Feedback status: Scheduled
+***********************
+, Feedback ----
+Item Id: 32
+Title: Feedback2 in board2
+Description: Feedback Description4
+Feedback rating: 3
+Feedback status: New
+***********************

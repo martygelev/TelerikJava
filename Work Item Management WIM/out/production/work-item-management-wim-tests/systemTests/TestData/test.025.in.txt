@@ -1,0 +1,13 @@
+createanewteam @ Team6
+createanewteam @ TeamEmpty
+createanewperson @ Martin
+createanewperson @ Rosen
+addpersontoateam @ Martin @ Team6
+addpersontoateam @ Rosen @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewboardinateam @ Board2 @ Team6
+createanewboardinateam @ Board3 @ Team6
+showteam'sactivity @ Team6
+showteam'sactivity @ TeamEmpty
+showteam'sactivity @ TeamNonExistent
+exit

@@ -1,0 +1,3 @@
+createanewteam @ Team6
+createanewteam
+exit

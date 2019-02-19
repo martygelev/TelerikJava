@@ -1,0 +1,5 @@
+Team with name "Team1" was created.
+Team with name "Team2" was created.
+Team with name Team2 already exist
+Team with name "Team3" was created.
+All teams: Team3, Team2, Team1

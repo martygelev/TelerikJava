@@ -1,0 +1,15 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewperson @ Rosen
+addpersontoateam @ Martin @ Team6
+addpersontoateam @ Rosen @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewstoryinaboard @ Board1 @ Title of story in b1 @ Story description @ Low @ Martin @ Small @ InProgress
+createanewstoryinaboard @ Board1 @ Title of story 2 in b1 @ Story description @ Low @ Martin @ Large @ Done
+createanewstoryinaboard @ Board1 @ Title of story 3 in b1 @ Story description 2 @ High @ Martin @ Medium @ NotDone
+createanewstoryinaboard @ Board1 @ Title of story 4 in b1 @ Story description 2 @ Low @ Rosen @ Small @ InProgress
+createanewstoryinaboard @ Board1 @ Title of story 5 in b1 @ Story description 2 @ High @ Rosen @ Medium @ Done
+createanewstoryinaboard @ Board1 @ Title of story 6 in b1 @ Story description 2 @ Low @ Martin @ Large @ Done
+createanewstoryinaboard @ Board1 @ Title of story 7 in b1 @ Story description 2 @ Medium @ Rosen @ Large @ Done
+sortbysize
+exit

@@ -1,0 +1,9 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewboardinateam @ Board2 @ Team6
+filterbugsonly @ Board2
+createanewbuginaboard @ Board2 @ Bug in version 1.0 @ Bug description 1 @ First, Second, Third, Forth, Fifth @ Low @ Martin @ Minor @ Active
+createanewbuginaboard @ Board2 @ Another Bug Found @ Bug description 2 @ First, Second, Third, Forth, Fifth @ Medium @ Martin @ Major @ Active
+createanewbuginaboard @ Board2 @ Third Bug Found @ Bug description 3 @ First, Second, Third, Forth, Fifth @ HigH @ Martin @ Critical @ Active
+filterbugsonly @ Board2
+exit

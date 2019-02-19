@@ -1,0 +1,20 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewperson @ Rosen
+addpersontoateam @ Martin @ Team6
+addpersontoateam @ Rosen @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewboardinateam @ Board2 @ Team6
+createanewstoryinaboard @ Board1 @ A title of story 1 in b1 @ Story description @ Low @ Martin @ Small @ InProgress
+createanewstoryinaboard @ Board1 @ B title of story 2 in b1 @ Story description @ Low @ Rosen @ Large @ Done
+createanewstoryinaboard @ Board2 @ Z story title in b1 @ Story description @ Low @ Rosen @ Large @ Done
+createanewbuginaboard @ Board2 @ A Bug Found in b2 @ Bug description 1 @ First, Second, Third, Forth, Fifth @ High @ Martin @ Critical @ Active
+createanewbuginaboard @ Board1 @ B Bug Found in b1 @ Bug description 2 @ First, Second, Third, Forth, Fifth @ Medium @ Rosen @ Major @ Active
+createanewfeedbackinaboard @ Board1 @ ABC Feedback in b1 @ Feedback Description4 @ 3 @ New
+createanewfeedbackinaboard @ Board2 @ ABC Feedback in b2 @ Feedback Description4 @ 3 @ New
+createanewfeedbackinaboard @ Board1 @ XYZ Feedback board1 @ Feedback Description5 @ 4 @ Done
+createanewfeedbackinaboard @ Board2 @ XYZ Feedback board2 @ Feedback Description5 @ 4 @ Done
+createanewfeedbackinaboard @ Board2 @ 123 Feedback board1 @ Feedback Description5 @ 4 @ Done
+createanewfeedbackinaboard @ Board2 @ 123 Feedback board2 @ Feedback Description5 @ 4 @ Done
+sortbytitle
+exit

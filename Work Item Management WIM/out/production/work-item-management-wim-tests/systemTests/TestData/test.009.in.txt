@@ -1,0 +1,7 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewboardinateam @ Board1 @ Team6
+createanewfeedbackinaboard @ Board1 @ Shorter @ Feedback Description @ 4 @ New
+createanewfeedbackinaboard @ Board2 @ FeedbackTitle @ Feedback Description @ 4 @ New
+createanewfeedbackinaboard @ Board1 @ FeedbackTitle @ Feedback Description @ 4 @ New
+exit

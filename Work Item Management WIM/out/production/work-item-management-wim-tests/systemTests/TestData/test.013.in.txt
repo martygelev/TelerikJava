@@ -1,0 +1,11 @@
+createanewperson @ Martin
+createanewteam @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewstoryinaboard @ Board2 @ Title of story in b1 @ Story description @ Low @ Martin @ Large @ InProgress
+createanewstoryinaboard @ Board1 @ Title of story in b2 @ Story description @ Low @ Rosen @ Large @ InProgress
+createanewstoryinaboard @ Board1 @ Title of story in b1 @ Story description @ Low @ Martin @ Large @ InProgress
+createanewstoryinaboard @ Board1 @ Title of story in b1 @ Story description @ High @ Martin @ Medium @ NotDone
+changepriorityofastory @ Title of story in b1 @ Medium
+changesizeofastory @ Title of story in b1 @ Small
+changestatusofastory @ Title of story in b1 @ Done
+exit

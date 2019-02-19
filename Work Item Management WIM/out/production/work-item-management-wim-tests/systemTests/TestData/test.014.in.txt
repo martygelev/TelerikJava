@@ -1,0 +1,10 @@
+createanewperson @ Ivan
+createanewteam @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewfeedbackinaboard @ Board1 @ feedback1 @ Feedback description @ 4 @ New
+createanewfeedbackinaboard @ Board1 @ feedback123 @ Feedback description @ 4 @ New
+changeratingofafeedback @ feedback123 @ -1
+changeratingofafeedback @ feedback123 @ 5
+changestatusofafeedback @ feedback123 @ Scheduled
+changestatusofafeedback @ feedback123 @ NotScheduled
+exit

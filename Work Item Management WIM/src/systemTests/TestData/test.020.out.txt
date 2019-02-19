@@ -1,0 +1,48 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board1 successfully added to a team Team6
+Board Board2 successfully added to a team Team6
+A new feedback was created in Board1
+A new feedback was created in Board1
+A new story was created in Board1 board
+A new story was created in Board1 board
+A new bug was created in Board1 board
+A new feedback was created in Board2
+A new feedback was created in Board2
+A new story was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+Board with name Board0 does not exist
+Filter stories:
+Story ----
+Item Id: 38
+Title: Title of story in b1
+Description: Story description
+Priority: Low
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------
+, Story ----
+Item Id: 39
+Title: Title of story 2 in b1
+Description: Story description 2
+Priority: Low
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------
+
+Filter stories:
+Story ----
+Item Id: 43
+Title: Title of story in b1
+Description: Story description
+Priority: Low
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------

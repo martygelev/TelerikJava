@@ -1,0 +1,17 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewperson @ Rosen
+addpersontoateam @ Martin @ Team6
+addpersontoateam @ Rosen @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewboardinateam @ Board2 @ Team6
+createanewboardinateam @ Board3 @ Team6
+createanewfeedbackinaboard @ Board1 @ Feedback1 in board1 @ Feedback Description1 @ 6 @ Unscheduled
+createanewfeedbackinaboard @ Board1 @ Feedback2 in board1 @ Feedback Description2 @ 5 @ Done
+createanewfeedbackinaboard @ Board2 @ Feedback1 in board2 @ Feedback Description3 @ 9 @ Scheduled
+createanewfeedbackinaboard @ Board2 @ Feedback2 in board2 @ Feedback Description4 @ 3 @ New
+createanewfeedbackinaboard @ Board3 @ Feedback1 in board3 @ Feedback Description5 @ 4 @ Done
+createanewfeedbackinaboard @ Board3 @ Feedback2 in board3 @ Feedback Description6 @ 1 @ Scheduled
+createanewfeedbackinaboard @ Board3 @ Feedback3 in board3 @ Feedback Description7 @ 8 @ New
+sortbyrating
+exit

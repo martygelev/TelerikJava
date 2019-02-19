@@ -1,0 +1,12 @@
+Team with name "Team6" was created.
+Team with name "TeamEmpty" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board1 successfully added to a team Team6
+Board Board2 successfully added to a team Team6
+Board Board3 successfully added to a team Team6
+Team Activity: Team with name "Team6" was created. |;| Martin added to Team6 team |;| Rosen added to Team6 team |;| Board Board1 successfully added to a team Team6 |;| Board Board2 successfully added to a team Team6 |;| Board Board3 successfully added to a team Team6
+Team Activity: Team with name "TeamEmpty" was created.
+Team TeamNonExistent not found

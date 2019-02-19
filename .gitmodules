@@ -1,0 +1,3 @@
+[submodule "Work Item Management WIM/Work"]
+	path = Work Item Management WIM/Work
+	url = https://github.com/martygelev/Work-Item-management-system.git

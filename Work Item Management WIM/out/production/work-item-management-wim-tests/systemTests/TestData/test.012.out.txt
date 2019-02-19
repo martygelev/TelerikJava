@@ -1,0 +1,10 @@
+Team with name "Team1" was created.
+Person with name "Petar" was created.
+Board Board1 successfully added to a team Team1
+A new bug was created in Board1 board
+Bug not found
+Priority type of Bug changed to : Medium
+Severity type of Bug changed to : Major
+Severity type of Bug changed to : Critical
+Status of bug was changed to Fixed
+[ERROR]: Failed to parse bug status parameters!

@@ -1,0 +1,9 @@
+Person with name "Martin" was created.
+Team with name "Team6" was created.
+Board Board1 successfully added to a team Team6
+A new feedback was created in Board1
+A new story was created in Board1 board
+Work item : titleOfStory1 added to person Martin
+Work item : FeedbackTitle added to person Martin
+Work item : titleOfStory1 unassigned from person Martin
+Work item not found

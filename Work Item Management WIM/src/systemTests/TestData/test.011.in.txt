@@ -1,0 +1,6 @@
+createanewperson @ Rossen
+createanewteam @ Team6
+createanewboardinateam @ Board1 @ Team6
+createanewfeedbackinaboard @ Board1 @ Feedback123 @ Feedback Description @ 4 @ New
+addcommenttoaworkitem @ Feedback123 @ Martin @ This is a comment related to Feedback123.
+exit

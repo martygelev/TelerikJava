@@ -1,0 +1,6 @@
+createanewteam @ Team6
+createanewperson @ Rosen
+addpersontoateam @ Rosen @ Team5
+addpersontoateam @ Rosen @ Team6
+createanewboardinateam @ Board1 @ Team6
+exit

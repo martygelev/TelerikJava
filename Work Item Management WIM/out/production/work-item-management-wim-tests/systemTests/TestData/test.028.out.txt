@@ -1,0 +1,69 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board2 successfully added to a team Team6
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+*********************
+Sorting by severity:
+Bug ----
+Item Id: 80
+Title: Forth Bug Found
+Description: Bug description 4
+Priority: High
+Member Assignee: Rosen
+Bug severity: Critical
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Bug ----
+Item Id: 77
+Title: First Bug Found
+Description: Bug description 1
+Priority: High
+Member Assignee: Martin
+Bug severity: Critical
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Bug ----
+Item Id: 78
+Title: Second Bug Found
+Description: Bug description 2
+Priority: Medium
+Member Assignee: Martin
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Bug ----
+Item Id: 81
+Title: Fifth Bug Found
+Description: Bug description 4
+Priority: Low
+Member Assignee: Rosen
+Bug severity: Minor
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+Bug ----
+Item Id: 79
+Title: Another Bug Found
+Description: Bug description 3
+Priority: Low
+Member Assignee: Martin
+Bug severity: Minor
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+
+*********************

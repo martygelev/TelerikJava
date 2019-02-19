@@ -1,0 +1,11 @@
+createanewperson @ Martin
+createanewperson @ Rosen
+createanewteam @ Team6
+addpersontoateam @ Martin @ Team6
+createanewboardinateam @ Board2 @ Team6
+createanewstoryinaboard @ Board2 @ Title of story in b1 @ Story description @ Low @ Martin @ Large @ NotDone
+createanewbuginaboard @ Board2 @ Second Bug Title @ Bug description 2 @ First, Second, Third, Forth, Fifth @ Medium @ Martin @ Major @ Active
+showperson'sactivity @ Martin
+showperson'sactivity @ Rosen
+showperson'sactivity @ John
+exit

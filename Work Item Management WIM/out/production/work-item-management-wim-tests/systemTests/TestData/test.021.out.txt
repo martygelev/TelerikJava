@@ -1,0 +1,100 @@
+Team with name "Team6" was created.
+Person with name "Martin" was created.
+Person with name "Rosen" was created.
+Martin added to Team6 team
+Rosen added to Team6 team
+Board Board1 successfully added to a team Team6
+Board Board2 successfully added to a team Team6
+Board Board3 successfully added to a team Team6
+A new feedback was created in Board1
+A new feedback was created in Board1
+A new story was created in Board1 board
+A new story was created in Board1 board
+A new bug was created in Board1 board
+A new feedback was created in Board2
+A new feedback was created in Board2
+A new story was created in Board2 board
+A new bug was created in Board2 board
+A new bug was created in Board2 board
+A new feedback was created in Board3
+A new feedback was created in Board3
+Feedback ----
+Item Id: 57
+Title: Feedback3 in board3
+Description: Feedback Description7
+Feedback rating: 8
+Feedback status: New
+***********************
+Feedback ----
+Item Id: 47
+Title: Feedback2 in board1
+Description: Feedback Description2
+Feedback rating: 5
+Feedback status: Done
+***********************
+Story ----
+Item Id: 53
+Title: Title of story in b1
+Description: Story description
+Priority: Low
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------
+Feedback ----
+Item Id: 52
+Title: Feedback2 in board2
+Description: Feedback Description4
+Feedback rating: 3
+Feedback status: New
+***********************
+Feedback ----
+Item Id: 56
+Title: Feedback2 in board3
+Description: Feedback Description6
+Feedback rating: 1
+Feedback status: Scheduled
+***********************
+Story ----
+Item Id: 49
+Title: Title of story 2 in b1
+Description: Story description 2
+Priority: Low
+Member Assignee: Martin
+Story size: Large
+Story status: NotDone
+---------------------
+Bug ----
+Item Id: 54
+Title: Another Bug Found
+Description: Bug description
+Priority: Medium
+Member Assignee: Martin
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~
+Feedback ----
+Item Id: 51
+Title: Feedback1 in board2
+Description: Feedback Description3
+Feedback rating: 9
+Feedback status: Scheduled
+***********************
+Feedback ----
+Item Id: 46
+Title: Feedback1 in board1
+Description: Feedback Description1
+Feedback rating: 6
+Feedback status: Unscheduled
+***********************
+Bug ----
+Item Id: 55
+Title: Second Bug Found
+Description: Bug description 2
+Priority: Medium
+Member Assignee: Martin
+Bug severity: Major
+Bug status: Active
+Steps to reproduce: First -> Second -> Third -> Forth -> Fifth
+~~~~~~~~~~~~~~~~~~~~~~

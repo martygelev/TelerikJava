@@ -1,0 +1,10 @@
+Person with name "Martin" was created.
+Team with name "Team6" was created.
+Board Board1 successfully added to a team Team6
+Board not found
+Member not found
+A new story was created in Board1 board
+Story Title of story in b1 already exist in Board1 board
+The priority of story was changed to Medium
+The size of story was changed to Small
+Status of story was changed to Done

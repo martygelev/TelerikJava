@@ -1,0 +1,12 @@
+createanewteam @ Team6
+createanewperson @ Martin
+createanewperson @ Rosen
+addpersontoateam @ Martin @ Team6
+addpersontoateam @ Rosen @ Team6
+createanewboardinateam @ Board2 @ Team6
+createanewbuginaboard @ Board2 @ Bug in version 1.0 @ Bug description 1 @ First, Second, Third, Forth, Fifth @ Low @ Rosen @ Minor @ Active
+createanewbuginaboard @ Board2 @ Another Bug Found @ Bug description 2 @ First, Second, Third, Forth, Fifth @ Medium @ Martin @ Major @ Active
+createanewbuginaboard @ Board2 @ Third Bug Found @ Bug description 3 @ First, Second, Third, Forth, Fifth @ HigH @ Martin @ Critical @ Active
+filterbyassignee @ Martin
+filterbyassignee @ Rosen
+exit
