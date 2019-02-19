@@ -1,0 +1,11 @@
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/bin/Debug/netcoreapp2.1/8QueensProblem.deps.json
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/bin/Debug/netcoreapp2.1/8QueensProblem.runtimeconfig.json
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/bin/Debug/netcoreapp2.1/8QueensProblem.runtimeconfig.dev.json
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/bin/Debug/netcoreapp2.1/8QueensProblem.dll
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/bin/Debug/netcoreapp2.1/8QueensProblem.pdb
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/obj/Debug/netcoreapp2.1/8QueensProblem.csprojAssemblyReference.cache
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/obj/Debug/netcoreapp2.1/8QueensProblem.csproj.CoreCompileInputs.cache
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/obj/Debug/netcoreapp2.1/8QueensProblem.AssemblyInfoInputs.cache
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/obj/Debug/netcoreapp2.1/8QueensProblem.AssemblyInfo.cs
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/obj/Debug/netcoreapp2.1/8QueensProblem.dll
+/Users/martingelev/TelerikJava/Algorithms/Recursion/8QueensProblem/obj/Debug/netcoreapp2.1/8QueensProblem.pdb
