@@ -14,13 +14,12 @@ public class dir {
 
     public static void traverseDir(File dir, String space) {
 
-        if (dir.isDirectory())
-        {
-            System.out.println(space+ dir.getAbsolutePath());
+        if (dir.isDirectory()) {
+            System.out.println(space + dir.getAbsolutePath());
             String[] child = dir.list();
 
             for (String s : child) {
-                traverseDir(new File(dir,s),space+"    ");
+                traverseDir(new File(dir, s), space + "    ");
             }
         }
     }

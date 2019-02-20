@@ -10,24 +10,20 @@ public class CardGameGO {
 
         int[][] dp = new int[n][n];
 
-        for (int length = 3; length <= n; length++)
-        {
-            for (int i = 0; i <= n - length; i++)
-            {
-                for (int j = i + 1; j < i + length - 1; j++)
-                {
-                    int current = dp[i][ j] + dp[j][ i + length - 1]
-                    + numbers[j] * (numbers[i] + numbers[i + length - 1]);
+        for (int length = 3; length <= n; length++) {
+            for (int i = 0; i <= n - length; i++) {
+                for (int j = i + 1; j < i + length - 1; j++) {
+                    int current = dp[i][j] + dp[j][i + length - 1]
+                            + numbers[j] * (numbers[i] + numbers[i + length - 1]);
 
-                    if (dp[i][ i + length - 1] < current)
-                    {
-                        dp[i][ i + length - 1] = current;
+                    if (dp[i][i + length - 1] < current) {
+                        dp[i][i + length - 1] = current;
                     }
                 }
             }
         }
 
-        System.out.println(dp[0][ n - 1]);
+        System.out.println(dp[0][n - 1]);
     }
 
 }

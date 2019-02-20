@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ABoxFullOfBalls {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] turns = Arrays.stream(in.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         int[] aAndB = Arrays.stream(in.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
@@ -24,7 +23,6 @@ public class ABoxFullOfBalls {
         }
 
 
-
-       return 0;
+        return 0;
     }
 }

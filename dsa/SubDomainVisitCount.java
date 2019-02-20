@@ -4,14 +4,11 @@ import java.util.List;
 import java.util.Map;
 
 
- class SubdomainVisitCount
-{
-    public static List<String> subdomainVisits(String[] cpdomains)
-    {
+class SubdomainVisitCount {
+    public static List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> occurrences = new HashMap<>();
 
-        for (String domain : cpdomains)
-        {
+        for (String domain : cpdomains) {
             String[] splitted = domain.split("\\s");
 
             List<String> domains = new ArrayList<>();
@@ -22,8 +19,7 @@ import java.util.Map;
                 domains.add(domains.get(1).substring(domains.get(1).indexOf('.') + 1));
 
             int visits = Integer.parseInt(splitted[0]);
-            for (String dom : domains)
-            {
+            for (String dom : domains) {
                 if (!occurrences.containsKey(dom))
                     occurrences.put(dom, visits);
                 else
@@ -39,8 +35,7 @@ import java.util.Map;
         return result;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         String[] cpdomains = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
 
         List<String> subdomainVisitCount = subdomainVisits(cpdomains);

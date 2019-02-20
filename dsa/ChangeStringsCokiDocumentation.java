@@ -14,25 +14,21 @@ public class ChangeStringsCokiDocumentation {
 
         int left = 0;
         int right = text.length() - 1;
-        while (left < right)
-        {
+        while (left < right) {
             int leftChar = text.toCharArray()[left];
             int rightChar = text.toCharArray()[right];
 
-            while ((leftChar < minCharValue || leftChar > maxCharValue) && left < right)
-            {
+            while ((leftChar < minCharValue || leftChar > maxCharValue) && left < right) {
                 left++;
                 leftChar = text.toCharArray()[left];
             }
 
-            while ((rightChar < minCharValue || rightChar > maxCharValue) && left < right)
-            {
+            while ((rightChar < minCharValue || rightChar > maxCharValue) && left < right) {
                 right--;
                 rightChar = text.toCharArray()[right];
             }
 
-            if (left >= right)
-            {
+            if (left >= right) {
                 break;
             }
 

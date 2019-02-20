@@ -17,7 +17,7 @@ public class OrderSystem {
         List<Order> orders = new ArrayList<>(); //remove and from this list !
         TreeMap<String, List<Order>> consumerOrders = new TreeMap<>();
 
-        for(int i = 0; i<num;i++){
+        for (int i = 0; i < num; i++) {
             String input = in.readLine();
 
             if (input.contains("AddOrder")) {
@@ -26,15 +26,15 @@ public class OrderSystem {
                 Double price = Double.parseDouble(com[1]);
                 String consumer = com[2];
 
-                    Order order = new Order(name, price, consumer);
-                    orders.add(order);
-                    builder.append("Order added");
-                            builder.append(System.lineSeparator());
+                Order order = new Order(name, price, consumer);
+                orders.add(order);
+                builder.append("Order added");
+                builder.append(System.lineSeparator());
 
-                    if (!consumerOrders.containsKey(consumer)) {
-                        consumerOrders.put(consumer, new ArrayList<>());
-                    }
-                    consumerOrders.get(consumer).add(order);
+                if (!consumerOrders.containsKey(consumer)) {
+                    consumerOrders.put(consumer, new ArrayList<>());
+                }
+                consumerOrders.get(consumer).add(order);
 
             } else if (input.contains("FindOrdersByConsumer")) {
                 String consumer = input.replace("FindOrdersByConsumer ", "");
@@ -55,16 +55,16 @@ public class OrderSystem {
                 String consumer = input.replace("DeleteOrders ", "");
                 if (consumerOrders.containsKey(consumer)) {
 
-                        int size = consumerOrders.get(consumer).size();
+                    int size = consumerOrders.get(consumer).size();
 
-                        List<Order> ordersToRemove = orders.stream().
-                                filter(o -> o.getConsumer().equals(consumer)).
-                                collect(Collectors.toList());
-                        orders.removeAll(ordersToRemove);
+                    List<Order> ordersToRemove = orders.stream().
+                            filter(o -> o.getConsumer().equals(consumer)).
+                            collect(Collectors.toList());
+                    orders.removeAll(ordersToRemove);
 
-                        consumerOrders.remove(consumer);
-                        builder.append(String.format("%d orders deleted", size));
-                        builder.append(System.lineSeparator());
+                    consumerOrders.remove(consumer);
+                    builder.append(String.format("%d orders deleted", size));
+                    builder.append(System.lineSeparator());
 
                 } else {
                     builder.append("No orders found");
@@ -79,7 +79,7 @@ public class OrderSystem {
 
                 Stream stream = orders.stream()
                         .filter(x -> x.getPrice() >= startingPrice && x.getPrice() <= endingPrice);
-                if (stream.count()==0){
+                if (stream.count() == 0) {
                     builder.append("No orders found");
                     builder.append(System.lineSeparator());
                     continue;
@@ -96,7 +96,7 @@ public class OrderSystem {
         System.out.print(builder);
     }
 
-    static class Order implements Comparable<Order>{
+    static class Order implements Comparable<Order> {
         private String name;
         private Double price;
         private String consumer;
@@ -123,6 +123,7 @@ public class OrderSystem {
         public String toString() {
             return String.format("{%s;%s;%.2f}", getName(), getConsumer(), getPrice());
         }
+
         @Override
         public int compareTo(Order o) {
             return name.compareTo(o.name);

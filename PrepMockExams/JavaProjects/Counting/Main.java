@@ -10,7 +10,7 @@ public class Counting {
         StringBuilder num = new StringBuilder();
         StringBuilder sb = new StringBuilder(in.nextLine());
         for (int i = 0; i < sb.length(); i++) {
-            if (Character.isDigit(sb.charAt(i))){
+            if (Character.isDigit(sb.charAt(i))) {
                 num.append(sb.charAt(i));
             }
         }

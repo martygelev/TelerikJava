@@ -9,8 +9,8 @@ public class NumberOfPages {
         int n = Integer.parseInt(in.nextLine());
 
         int page;
-        for ( page = 1; page!=0; page++){
-            n-=String.valueOf(page).length();
+        for (page = 1; page != 0; page++) {
+            n -= String.valueOf(page).length();
         }
         System.out.println(--page);
     }

@@ -1,11 +1,9 @@
 
 
- class WordSearch
-{
+class WordSearch {
     static boolean[][] visited;
 
-    static boolean exist(char[][] board, String word)
-    {
+    static boolean exist(char[][] board, String word) {
         visited = new boolean[board.length][board[0].length];
 
         for (int i = 0; i < board.length; i++)
@@ -16,8 +14,7 @@
         return false;
     }
 
-    static boolean search(char[][] board, String word, int row, int col, int index)
-    {
+    static boolean search(char[][] board, String word, int row, int col, int index) {
         if (index == word.length())
             return true;
 
@@ -38,8 +35,7 @@
         return false;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         char[][] board =
                 {
                         {'A', 'B', 'C', 'E'},

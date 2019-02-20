@@ -10,15 +10,16 @@ public class RemoveDuplicateLetters {
         System.out.println(res);
 
     }
+
     public static String removeDuplicateLetters(String s) {
 
-       String s1=  Stream.of(s)
+        String s1 = Stream.of(s)
                 .map(String::chars)
                 .flatMap(intStream -> intStream.mapToObj(charCode -> new String(new char[]{(char) charCode})))
                 .distinct().
-                       sorted().
-        collect(Collectors.joining( ""));
+                        sorted().
+                        collect(Collectors.joining(""));
 
-       return s1;
+        return s1;
     }
 }

@@ -7,13 +7,10 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-       // BinaryTreeImp bt = createBinaryTree();
-       // System.out.println(bt.containsNode(8));
+        // BinaryTreeImp bt = createBinaryTree();
+        // System.out.println(bt.containsNode(8));
 
-      List<int[]> graph = new ArrayList<>();
-
-
-
+        List<int[]> graph = new ArrayList<>();
 
 
 //       private static BinaryTreeImp createBinaryTree()
@@ -31,4 +28,5 @@ public class Main {
 //   }
 //
 
-    }}
+    }
+}

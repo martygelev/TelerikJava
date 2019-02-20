@@ -46,9 +46,9 @@ public class BitwiseOperators {
             
         */
         int a = 10; //32 bits 111111111111111111111111111111111111111111111111111111111110101
-        
+
         System.out.println(~10);
-        
+
     }
-    
+
 }

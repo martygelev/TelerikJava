@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
- class HorsePath {
+class HorsePath {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int size = Integer.parseInt(reader.readLine());
@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
 
         int[][] matrix = new int[size][size];
         matrix[0][0] = jump;
-        jump ++;
+        jump++;
 
         for (int i = 1; i < size * size; i++) {
 
@@ -26,7 +26,7 @@ import java.io.InputStreamReader;
                     matrix[row - 2][col - 1] = jump;
                     row += -2;
                     col += -1;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -40,7 +40,7 @@ import java.io.InputStreamReader;
                     matrix[row - 2][col + 1] = jump;
                     row += -2;
                     col += +1;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -54,7 +54,7 @@ import java.io.InputStreamReader;
                     matrix[row - 1][col - 2] = jump;
                     row += -1;
                     col += -2;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -68,7 +68,7 @@ import java.io.InputStreamReader;
                     matrix[row - 1][col + 2] = jump;
                     row += -1;
                     col += +2;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -82,7 +82,7 @@ import java.io.InputStreamReader;
                     matrix[row + 1][col - 2] = jump;
                     row += +1;
                     col += -2;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -96,7 +96,7 @@ import java.io.InputStreamReader;
                     matrix[row + 1][col + 2] = jump;
                     row += +1;
                     col += +2;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -110,7 +110,7 @@ import java.io.InputStreamReader;
                     matrix[row + 2][col - 1] = jump;
                     row += +2;
                     col += -1;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -124,7 +124,7 @@ import java.io.InputStreamReader;
                     matrix[row + 2][col + 1] = jump;
                     row += +2;
                     col += +1;
-                    jump ++ ;
+                    jump++;
                     if (move(row, col, topM, leftM, size)) {
                         topM = row;
                         leftM = col;
@@ -140,7 +140,7 @@ import java.io.InputStreamReader;
                         matrix[j][k] = jump;
                         row = j;
                         col = k;
-                        jump ++;
+                        jump++;
                         topM = row;
                         leftM = col;
 
@@ -164,11 +164,11 @@ import java.io.InputStreamReader;
 
     public static boolean move(int row, int col, int rowM, int colM, int matrsizeSize) {
         if (row == rowM && col == colM + 1) {
-            return  true;
+            return true;
         } else if (row == rowM - 1 && col == 0 && colM == matrsizeSize - 1) {
             return true;
         }
-        return  false;
+        return false;
     }
 
 

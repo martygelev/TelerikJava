@@ -40,7 +40,7 @@ public class CommandParser implements Parser {
     private Command findCommand(String commandName) {
         switch (commandName.toLowerCase()) {
             case "createairplane":
-              return new CreateAirplaneCommand(factory, engine);
+                return new CreateAirplaneCommand(factory, engine);
 
             case "createbus":
                 return new CreateBusCommand(factory, engine);

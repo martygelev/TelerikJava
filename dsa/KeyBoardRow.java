@@ -13,6 +13,7 @@ public class KeyBoardRow {
             System.out.println(s);
         }
     }
+
     public static String[] findWords(String[] words) {
         List<String> validWords = new ArrayList<>();
         String firstRow = "QWERTYUIOP";
@@ -20,34 +21,34 @@ public class KeyBoardRow {
         String thirdRow = "ZXCVBNM";
 
         for (String word : words) {
-            int counter =0;
+            int counter = 0;
             for (char ch : word.toUpperCase().toCharArray()) {
-                if (firstRow.indexOf(ch)<0){
+                if (firstRow.indexOf(ch) < 0) {
                     break;
                 }
                 counter++;
             }
-            if (counter==word.length()){
+            if (counter == word.length()) {
                 validWords.add(word);
             }
-             counter =0;
+            counter = 0;
             for (char ch : word.toUpperCase().toCharArray()) {
-                if (secondRow.indexOf(ch)<0){
+                if (secondRow.indexOf(ch) < 0) {
                     break;
                 }
                 counter++;
             }
-            if (counter==word.length()){
+            if (counter == word.length()) {
                 validWords.add(word);
             }
-            counter=0;
+            counter = 0;
             for (char ch : word.toUpperCase().toCharArray()) {
-                if (thirdRow.indexOf(ch)<0){
+                if (thirdRow.indexOf(ch) < 0) {
                     break;
                 }
                 counter++;
             }
-            if (counter==word.length()){
+            if (counter == word.length()) {
                 validWords.add(word);
             }
 

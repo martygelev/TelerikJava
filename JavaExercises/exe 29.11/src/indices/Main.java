@@ -1,4 +1,5 @@
 package indices;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +15,7 @@ public class Main {
         boolean[] visitedCells = new boolean[n];
 
         boolean c = false;
-        int[] array = Arrays.stream(in.readLine().split(" ")).mapToInt(x->Integer.parseInt(x)).toArray();
+        int[] array = Arrays.stream(in.readLine().split(" ")).mapToInt(x -> Integer.parseInt(x)).toArray();
 
         StringBuilder result = new StringBuilder();
         int currentCell = 0;
@@ -24,7 +25,7 @@ public class Main {
 
             if (visitedCells[currentCell]) {
                 loopStartIndex = currentCell;
-                c=true;
+                c = true;
                 break;
             }
 
@@ -34,7 +35,7 @@ public class Main {
             currentCell = array[currentCell];
         }
 
-        if (c==true) {
+        if (c == true) {
 
             int index = result.toString().indexOf((" " + loopStartIndex + " "));
             String print = "";
@@ -53,8 +54,7 @@ public class Main {
             print = print.replace(" )", ")");
             System.out.println(print);
 
-        }
-        else {
+        } else {
             System.out.println(result.toString());
         }
 

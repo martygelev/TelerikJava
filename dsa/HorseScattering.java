@@ -22,7 +22,7 @@ public class HorseScattering {
         visited = new boolean[n][m];
         visited[r][c] = true;
         bfs(matrix, r, c);
-        int colToBePrinted = m/2;
+        int colToBePrinted = m / 2;
         for (int[] row : matrix) {
             System.out.println(row[colToBePrinted]);
         }

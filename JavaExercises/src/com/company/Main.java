@@ -15,15 +15,13 @@ public class Main {
         Set<String> guestList = new TreeSet<>();
 
 
-        while(!"PARTY".equals(line))
-        {
+        while (!"PARTY".equals(line)) {
             guestList.add(line);
             line = in.nextLine();
         }
         line = in.nextLine();
 
-        while(!"END".equals(line))
-        {
+        while (!"END".equals(line)) {
             guestList.remove(line);
             line = in.nextLine();
         }

@@ -1,4 +1,5 @@
 package dsa;
+
 import java.util.*;
 
 public class Swapping {
@@ -8,24 +9,21 @@ public class Swapping {
         public ListNode rightNode;
 
 
-        public  ListNode(ListNode end,int r){
-            this.value=r;
+        public ListNode(ListNode end, int r) {
+            this.value = r;
             this.setLeftNode(end);
             this.setRightNode(null);
 
-            if(end != null)
-            {
+            if (end != null) {
                 end.setRightNode(this);
             }
         }
 
-        public static void Detach(ListNode x){
-            if(x.getLeftNode() != null)
-            {
+        public static void Detach(ListNode x) {
+            if (x.getLeftNode() != null) {
                 x.getLeftNode().setRightNode(null);
             }
-            if(x.getRightNode() != null)
-            {
+            if (x.getRightNode() != null) {
                 x.getRightNode().setLeftNode(null);
             }
 
@@ -33,10 +31,8 @@ public class Swapping {
             x.setRightNode(null);
         }
 
-        public static void Attach(ListNode l, ListNode r)
-        {
-            if(l == r)
-            {
+        public static void Attach(ListNode l, ListNode r) {
+            if (l == r) {
                 return;
             }
 
@@ -72,12 +68,11 @@ public class Swapping {
         int[] swaps = Arrays.stream(in.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 
         ListNode[] nodes = new ListNode[n + 1];
-        for(int i = 1; i < n+1; ++i)
-        {
+        for (int i = 1; i < n + 1; ++i) {
             nodes[i] = new ListNode(nodes[i - 1], i);
         }
-         ListNode first = nodes[1];
-         ListNode last = nodes[n];
+        ListNode first = nodes[1];
+        ListNode last = nodes[n];
 
         for (int swap : swaps) {
             ListNode middle = nodes[swap];
@@ -94,8 +89,7 @@ public class Swapping {
 
         int[] numbers = new int[n];
 
-        for(int i = 0; i < n; ++i)
-        {
+        for (int i = 0; i < n; ++i) {
             numbers[i] = first.getValue();
             first = first.getRightNode();
         }

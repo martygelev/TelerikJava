@@ -5,10 +5,8 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Set;
 
- class CrosswordPuzzle
-{
-    static void fakeInput()
-    {
+class CrosswordPuzzle {
+    static void fakeInput() {
         String input = "+-++++++++\n" +
                 "+-++++++++\n" +
                 "+-++++++++\n" +
@@ -23,8 +21,7 @@ import java.util.Set;
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
-    static void crosswordPuzzle(String[] crossword, Set<String> hashSet)
-    {
+    static void crosswordPuzzle(String[] crossword, Set<String> hashSet) {
         if (hashSet.isEmpty())
             printResult(crossword);
 
@@ -33,11 +30,9 @@ import java.util.Set;
         String pattern = getPattern(crossword, IJVL);
 
         Iterator<String> it = hashSet.iterator();
-        while (it.hasNext())
-        {
+        while (it.hasNext()) {
             String word = it.next();
-            if (canWrite(word, pattern))
-            {
+            if (canWrite(word, pattern)) {
                 String[] nextCrossword = writeWord(crossword, IJVL, word);
 
                 Set<String> nextHashSet = new HashSet<>(hashSet);
@@ -48,8 +43,7 @@ import java.util.Set;
         }
     }
 
-    static String[] writeWord(String[] crossword, int[] IJVL, String word)
-    {
+    static String[] writeWord(String[] crossword, int[] IJVL, String word) {
         if (IJVL[2] == 0) // if horizontal
         {
             crossword[IJVL[0]] = crossword[IJVL[0]].substring(0, IJVL[1]) + word +
@@ -67,13 +61,11 @@ import java.util.Set;
         return crossword;
     }
 
-    static boolean canWrite(String word, String pattern)
-    {
+    static boolean canWrite(String word, String pattern) {
         if (word.length() != pattern.length())
             return false;
 
-        for (int i = 0; i < word.length(); i++)
-        {
+        for (int i = 0; i < word.length(); i++) {
             char patternIndex = pattern.charAt(i);
             char wordIndex = word.charAt(i);
 
@@ -84,8 +76,7 @@ import java.util.Set;
         return true;
     }
 
-    static String getPattern(String[] crossword, int[] IJVL)
-    {
+    static String getPattern(String[] crossword, int[] IJVL) {
         if (IJVL[2] == 0)  // if horizontal
             return crossword[IJVL[0]].substring(IJVL[1], IJVL[3] + 1);
         else // if vertical
@@ -99,8 +90,7 @@ import java.util.Set;
         }
     }
 
-    static int[] findNextPattern(String[] crossword)
-    {
+    static int[] findNextPattern(String[] crossword) {
         /* These are the parameters of the next empty place (the next word pattern) to write
            the word to. IJVL - I, J, Vertical(0/1), Last element'simplechess number */
         int[] IJVL = new int[]{-1, -1, -1, -1};
@@ -108,12 +98,9 @@ import java.util.Set;
         int J = 0;
 
         outterLoop:
-        for (int i = 0; i < crossword.length; i++)
-        {
-            for (int j = 0; j < crossword.length; j++)
-            {
-                if (crossword[i].charAt(j) == '-')
-                {
+        for (int i = 0; i < crossword.length; i++) {
+            for (int j = 0; j < crossword.length; j++) {
+                if (crossword[i].charAt(j) == '-') {
                     I = i;
                     J = j;
 
@@ -124,8 +111,7 @@ import java.util.Set;
 
         if ((I > 0 && crossword[I - 1].charAt(J) != '+') ||
                 (I < crossword.length - 1 &&
-                        crossword[I + 1].charAt(J) != '+'))
-        {
+                        crossword[I + 1].charAt(J) != '+')) {
             IJVL[2] = 1; // vertical
 
             while (I > 0 && crossword[I - 1].charAt(J) != '+')
@@ -139,8 +125,7 @@ import java.util.Set;
                 I++;
 
             IJVL[3] = I;
-        } else
-        {
+        } else {
             IJVL[2] = 0; // horizontal
             IJVL[0] = I;
 
@@ -159,14 +144,12 @@ import java.util.Set;
         return IJVL;
     }
 
-    static void printResult(String[] result)
-    {
+    static void printResult(String[] result) {
         for (int i = 0; i < result.length; i++)
             System.out.println(result[i]);
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         fakeInput();
         Scanner input = new Scanner(System.in);
 

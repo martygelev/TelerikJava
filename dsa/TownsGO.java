@@ -6,9 +6,8 @@ public class TownsGO {
 
         int numberOfTowns = Integer.parseInt(in.nextLine());
         int[] citizens = new int[numberOfTowns];
-        for (int currentTown = 0; currentTown < numberOfTowns; currentTown++)
-        {
-            String line =in.nextLine();
+        for (int currentTown = 0; currentTown < numberOfTowns; currentTown++) {
+            String line = in.nextLine();
             String[] lineParts = line.split(" ");
             citizens[currentTown] = Integer.parseInt(lineParts[0]);
         }
@@ -17,39 +16,31 @@ public class TownsGO {
         System.out.println(bestPath);
     }
 
-    public static int FindLongestPath(int[] citizens)
-    {
+    public static int FindLongestPath(int[] citizens) {
         int numberOfTowns = citizens.length;
 
         int[] longestPathAscending = new int[numberOfTowns];
-        for (int currentTown = 0; currentTown < numberOfTowns; currentTown++)
-        {
+        for (int currentTown = 0; currentTown < numberOfTowns; currentTown++) {
             longestPathAscending[currentTown] = 1;
-            for (int previousTown = 0; previousTown < currentTown; previousTown++)
-            {
-                if (citizens[previousTown] < citizens[currentTown])
-                {
+            for (int previousTown = 0; previousTown < currentTown; previousTown++) {
+                if (citizens[previousTown] < citizens[currentTown]) {
                     longestPathAscending[currentTown] = Math.max(longestPathAscending[currentTown], longestPathAscending[previousTown] + 1);
                 }
             }
         }
 
         int[] longestPathDescending = new int[numberOfTowns];
-        for (int currentTown = numberOfTowns - 1; currentTown >= 0; currentTown--)
-        {
+        for (int currentTown = numberOfTowns - 1; currentTown >= 0; currentTown--) {
             longestPathDescending[currentTown] = 1;
-            for (int previousTown = numberOfTowns - 1; previousTown > currentTown; previousTown--)
-            {
-                if (citizens[previousTown] < citizens[currentTown])
-                {
+            for (int previousTown = numberOfTowns - 1; previousTown > currentTown; previousTown--) {
+                if (citizens[previousTown] < citizens[currentTown]) {
                     longestPathDescending[currentTown] = Math.max(longestPathDescending[currentTown], longestPathDescending[previousTown] + 1);
                 }
             }
         }
 
         int bestPath = 0;
-        for (int currentTown = 0; currentTown < numberOfTowns; currentTown++)
-        {
+        for (int currentTown = 0; currentTown < numberOfTowns; currentTown++) {
             int currentPath = longestPathAscending[currentTown] + longestPathDescending[currentTown] - 1;
             bestPath = Math.max(bestPath, currentPath);
         }

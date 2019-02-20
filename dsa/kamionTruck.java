@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 
- class Kamion {
+class Kamion {
 
     public static void main(String[] args) throws IOException {
 

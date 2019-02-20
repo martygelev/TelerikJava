@@ -10,10 +10,9 @@ public class Main {
 
         int numberOfStudents = Integer.parseInt(in.nextLine());
 
-        Map<String,double[]> grades = new TreeMap<>();
+        Map<String, double[]> grades = new TreeMap<>();
 
-      while(numberOfStudents-->0)
-      {
+        while (numberOfStudents-- > 0) {
             String name = in.nextLine();
 
             double[] inputGrades = Arrays.stream(in
@@ -22,19 +21,19 @@ public class Main {
                     .mapToDouble(Double::parseDouble)
                     .toArray();
 
-            grades.put(name,inputGrades);
+            grades.put(name, inputGrades);
         }
 
-        for (Map.Entry<String,double[]> stringEntry : grades.entrySet()) {
+        for (Map.Entry<String, double[]> stringEntry : grades.entrySet()) {
 
             double avg = 0;
-            for (double v :stringEntry.getValue()) {
-                avg+=v;
+            for (double v : stringEntry.getValue()) {
+                avg += v;
             }
-            avg/=stringEntry.getValue().length;
+            avg /= stringEntry.getValue().length;
             System.out.println(stringEntry.getKey() + " is graduated with " +
 
-                   avg);
+                    avg);
         }
     }
 }

@@ -15,10 +15,10 @@ public class GreaterMonkey {
         StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < bag2Str.length; i++) {
-            if (i<bag1Str.length){
+            if (i < bag1Str.length) {
                 bag1[i] = Integer.parseInt(bag1Str[i]);
                 bag2[i] = Integer.parseInt(bag2Str[i]);
-            }else {
+            } else {
                 bag2[i] = Integer.parseInt(bag2Str[i]);
             }
         }
@@ -26,10 +26,10 @@ public class GreaterMonkey {
         int counter = 0;
         for (int i = 0; i < bag1.length; i++) {
             for (int j = i; j < bag2.length; j++) {
-                if (used.contains(bag2[j])){
+                if (used.contains(bag2[j])) {
                     continue;
                 }
-                if (bag1[i]<bag2[j]){
+                if (bag1[i] < bag2[j]) {
                     sb.append(bag2[j]);
                     // sb.append(",");
                     used.add(bag1[i]);
@@ -38,7 +38,7 @@ public class GreaterMonkey {
                     break;
                 }
             }
-            if (counter==i){
+            if (counter == i) {
                 sb.append("-1");
                 used.add(bag1[i]);
                 counter++;
@@ -46,7 +46,7 @@ public class GreaterMonkey {
             sb.append(",");
 
         }
-        sb.setLength(sb.length()-1);
+        sb.setLength(sb.length() - 1);
         System.out.println(sb);
     }
 }

@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.Stack;
 
- class Deistviq {
+class Deistviq {
 
     public static void main(String[] args) {
 
@@ -20,7 +20,6 @@ import java.util.Stack;
         }
         graph.topologicalSort();
     }
-
 
 
     static class Graph {

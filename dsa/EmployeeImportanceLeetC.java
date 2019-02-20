@@ -1,6 +1,6 @@
 import java.util.*;
 
- class EmployeeImportance {
+class EmployeeImportance {
     public static void main(String[] args) {
         List<Employee> input = new ArrayList<>();
         input.add(new Employee(1, 5, new int[]{2, 3}));

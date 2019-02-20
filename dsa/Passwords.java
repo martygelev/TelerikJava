@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
- class PasswordsV23 {
+class PasswordsV23 {
     private static int convert(String s) {
         int value = 0;
         int flag = 1;
@@ -48,7 +48,7 @@ import java.util.ArrayList;
             return passwordCount;
         }
 
-        if (passwordCount > k){
+        if (passwordCount > k) {
             return 1;
         }
 

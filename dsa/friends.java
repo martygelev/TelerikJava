@@ -6,20 +6,16 @@ import java.util.*;
 import java.util.stream.Stream;
 
 
- class Friends
-{
-    private static class Vertex
-    {
+class Friends {
+    private static class Vertex {
         private int name;
         private int weight;
 
-        public int getWeight()
-        {
+        public int getWeight() {
             return weight;
         }
 
-        Vertex(int name, int weight)
-        {
+        Vertex(int name, int weight) {
             this.name = name;
             this.weight = weight;
         }
@@ -33,22 +29,19 @@ import java.util.stream.Stream;
     private static int mid2;
     private static Deque<Vertex>[] vertices;
 
-    private static void addEdge(int from, int to, int weight)
-    {
+    private static void addEdge(int from, int to, int weight) {
         addDirectedEdge(from, to, weight);
         addDirectedEdge(to, from, weight);
     }
 
-    private static void addDirectedEdge(int from, int to, int weight)
-    {
+    private static void addDirectedEdge(int from, int to, int weight) {
         if (vertices[from] == null)
             vertices[from] = new ArrayDeque<>();
 
         vertices[from].add(new Vertex(to, weight));
     }
 
-    private static int getBestDistance()
-    {
+    private static int getBestDistance() {
         int[] fromDistances = dijkstra(start, end, mid1, mid2);
         int[] endDistances = dijkstra(end, start, mid1, mid2);
         int[] m1Distances = dijkstra(mid1, start, end, mid2);
@@ -59,8 +52,7 @@ import java.util.stream.Stream;
                 fromDistances[mid2] + endDistances[mid1] + m2Distances[mid1]);
     }
 
-    private static int[] dijkstra(int from, int to, int... exclude)
-    {
+    private static int[] dijkstra(int from, int to, int... exclude) {
         Set<Vertex> used = new HashSet<>();
 
         Arrays.stream(exclude)
@@ -76,8 +68,7 @@ import java.util.stream.Stream;
         distances[from] = 0;
         queue.offer(new Vertex(from, 0));
 
-        while (!queue.isEmpty())
-        {
+        while (!queue.isEmpty()) {
             Vertex current = queue.poll();
 
             if (used.contains(current))
@@ -85,11 +76,9 @@ import java.util.stream.Stream;
 
             used.add(current);
 
-            for (Vertex next : vertices[current.name])
-            {
+            for (Vertex next : vertices[current.name]) {
                 int newDistance = distances[current.name] + next.weight;
-                if (distances[next.name] > newDistance)
-                {
+                if (distances[next.name] > newDistance) {
                     distances[next.name] = newDistance;
                     queue.offer(new Vertex(next.name, newDistance));
                 }
@@ -99,8 +88,7 @@ import java.util.stream.Stream;
         return distances;
     }
 
-    private static void readInput(BufferedReader reader) throws IOException
-    {
+    private static void readInput(BufferedReader reader) throws IOException {
         int[] nm = Arrays.stream(reader.readLine().split("\\s"))
                 .mapToInt(Integer::parseInt)
                 .toArray();
@@ -124,8 +112,7 @@ import java.util.stream.Stream;
 
         vertices = new ArrayDeque[n];
 
-        for (int i = 0; i < m; i++)
-        {
+        for (int i = 0; i < m; i++) {
             int[] edge = Arrays.stream(reader.readLine().split("\\s"))
                     .mapToInt(Integer::parseInt)
                     .toArray();
@@ -138,8 +125,7 @@ import java.util.stream.Stream;
         }
     }
 
-    private static void fakeInput()
-    {
+    private static void fakeInput() {
         String input = "18 30\n" +
                 "1 17\n" +
                 "11 4\n" +
@@ -176,8 +162,7 @@ import java.util.stream.Stream;
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
-    public static void main(String[] args) throws IOException
-    {
+    public static void main(String[] args) throws IOException {
         fakeInput();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 

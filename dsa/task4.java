@@ -12,76 +12,77 @@ public class task4 {
     private static TreeSet<Unit> orderedByAttack = new TreeSet<>();
 
     public static void main(String[] args) {
-            while (true) {
-                String[] command = reader.readLine().split(" ");
-                switch (command[0]) {
-                    case "add":
-                        addUnit(command);
-                        break;
-                    case "remove":
-                        removeUnit(command);
-                        break;
-                    case "find":
-                        findUnit(command);
-                        break;
-                    case "power":
-                        unitsPower(command);
-                        break;
-                    case "end":
-                        writer.close();
-                        return;
-                }
+        while (true) {
+            String[] command = reader.readLine().split(" ");
+            switch (command[0]) {
+                case "add":
+                    addUnit(command);
+                    break;
+                case "remove":
+                    removeUnit(command);
+                    break;
+                case "find":
+                    findUnit(command);
+                    break;
+                case "power":
+                    unitsPower(command);
+                    break;
+                case "end":
+                    writer.close();
+                    return;
             }
+        }
     }
 
-        private static void addUnit(String[] command) {
-            if (allUnits.containsKey(command[1])) {
-                writer.printLine("FAIL: "+command[1]+" already exists!");
-            } else {
-                Unit newUnit = new Unit(command[1], command[2], Integer.parseInt(command[3]));
+    private static void addUnit(String[] command) {
+        if (allUnits.containsKey(command[1])) {
+            writer.printLine("FAIL: " + command[1] + " already exists!");
+        } else {
+            Unit newUnit = new Unit(command[1], command[2], Integer.parseInt(command[3]));
 
-                allUnits.put(command[1], newUnit);
+            allUnits.put(command[1], newUnit);
 
-                if (!orderedByType.containsKey(command[2])) {
-                    orderedByType.put(command[2], new TreeSet<>());
-                }
-                orderedByType.get(command[2]).add(newUnit);
-
-                orderedByAttack.add(newUnit);
-                writer.printLine("SUCCESS: "+command[1]+" added!");
+            if (!orderedByType.containsKey(command[2])) {
+                orderedByType.put(command[2], new TreeSet<>());
             }
-        }
+            orderedByType.get(command[2]).add(newUnit);
 
-        private static void removeUnit(String[] command) {
-            if (allUnits.containsKey(command[1])) {
-                Unit tempUnit = allUnits.get(command[1]);
-                allUnits.remove(command[1]);
-                orderedByType.get(tempUnit.type).remove(tempUnit);
-                orderedByAttack.remove(tempUnit);
-                writer.printLine("SUCCESS: "+command[1]+" removed!");
-            } else {
-                writer.printLine("FAIL: "+command[1]+" could not be found!");
-            }
+            orderedByAttack.add(newUnit);
+            writer.printLine("SUCCESS: " + command[1] + " added!");
         }
+    }
 
-        private static void findUnit(String[] command){
-            writer.print("RESULT: ");
-            if (orderedByType.containsKey(command[1])){
-                writer.print(orderedByType.get(command[1]).stream()
-                        .limit(10)
-                        .map(Unit::toString)
-                        .collect(Collectors.joining(", ")));
-            }
-            writer.printLine();
+    private static void removeUnit(String[] command) {
+        if (allUnits.containsKey(command[1])) {
+            Unit tempUnit = allUnits.get(command[1]);
+            allUnits.remove(command[1]);
+            orderedByType.get(tempUnit.type).remove(tempUnit);
+            orderedByAttack.remove(tempUnit);
+            writer.printLine("SUCCESS: " + command[1] + " removed!");
+        } else {
+            writer.printLine("FAIL: " + command[1] + " could not be found!");
         }
-        private static void unitsPower(String[] command){
-            writer.print("RESULT: ");
-            writer.print(orderedByAttack.stream()
-                    .limit(Integer.parseInt(command[1]))
+    }
+
+    private static void findUnit(String[] command) {
+        writer.print("RESULT: ");
+        if (orderedByType.containsKey(command[1])) {
+            writer.print(orderedByType.get(command[1]).stream()
+                    .limit(10)
                     .map(Unit::toString)
                     .collect(Collectors.joining(", ")));
-            writer.printLine();
         }
+        writer.printLine();
+    }
+
+    private static void unitsPower(String[] command) {
+        writer.print("RESULT: ");
+        writer.print(orderedByAttack.stream()
+                .limit(Integer.parseInt(command[1]))
+                .map(Unit::toString)
+                .collect(Collectors.joining(", ")));
+        writer.printLine();
+    }
 
 
     public static class Unit implements Comparable {
@@ -110,7 +111,7 @@ public class task4 {
         }
     }
 
-   public static class InputReader {
+    public static class InputReader {
         private InputStream stream;
         private byte[] buf = new byte[1024];
         private int curChar;

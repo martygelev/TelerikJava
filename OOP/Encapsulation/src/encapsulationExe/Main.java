@@ -10,14 +10,12 @@ public class Main {
         {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String name = reader.readLine();
-            int age  = Integer.parseInt(reader.readLine());
+            int age = Integer.parseInt(reader.readLine());
 
             try {
-             Chicken   chicken = new Chicken(name, age);
+                Chicken chicken = new Chicken(name, age);
                 System.out.println(chicken.calculateProductPerDay());
-            }
-            catch (IllegalArgumentException ex)
-            {
+            } catch (IllegalArgumentException ex) {
                 System.out.println(ex.getMessage());
             }
         }

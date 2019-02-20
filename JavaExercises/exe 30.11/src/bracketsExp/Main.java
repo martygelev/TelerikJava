@@ -8,22 +8,19 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        String input = in .nextLine();
+        String input = in.nextLine();
 
-       char[] inputArr = input.toCharArray();
+        char[] inputArr = input.toCharArray();
         Stack<Integer> stack = new Stack<>();
 
-        for (int i =0; i<input.length(); i++)
-        {
-            if (inputArr[i] == '(')
-            {
+        for (int i = 0; i < input.length(); i++) {
+            if (inputArr[i] == '(') {
                 stack.push(i);
 
             }
-            if (inputArr[i]==')')
-            {
+            if (inputArr[i] == ')') {
                 int indexOut = i;
-                String output = input.substring(stack.pop(),indexOut+1);
+                String output = input.substring(stack.pop(), indexOut + 1);
                 System.out.println(output);
             }
         }

@@ -23,12 +23,10 @@ public class Mansard implements House {
 
     @Override
     public void extras(String[]... extras) {
-    if (extras.length>0)
-    {
-        for (String[] extra : extras) {
-            System.out.print(extra+ " ");
-        }
-    }
-    else System.out.println("No ");
+        if (extras.length > 0) {
+            for (String[] extra : extras) {
+                System.out.print(extra + " ");
+            }
+        } else System.out.println("No ");
     }
 }

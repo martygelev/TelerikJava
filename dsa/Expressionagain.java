@@ -5,27 +5,26 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Expressionagain {
-    public static Map<Integer,Integer> map = new HashMap<>();
+    public static Map<Integer, Integer> map = new HashMap<>();
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Integer num = Integer.parseInt(in.nextLine());
         int sumToSearch = Integer.parseInt(in.nextLine());
 
-        int lastDigit = (num)%10;
-        num/=10;
-        int second = num%10;
-        num/=10;
-        int first = num%10;
+        int lastDigit = (num) % 10;
+        num /= 10;
+        int second = num % 10;
+        num /= 10;
+        int first = num % 10;
 
-        int val = first*second*lastDigit;
-        if (!map.containsKey(val)){
-            map.put(val,1);
-        }
-        else{
-            int value= map.get(val);
+        int val = first * second * lastDigit;
+        if (!map.containsKey(val)) {
+            map.put(val, 1);
+        } else {
+            int value = map.get(val);
             map.remove(val);
-            map.put(val,value);
+            map.put(val, value);
         }
 
     }

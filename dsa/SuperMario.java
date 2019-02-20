@@ -8,8 +8,7 @@ public class SuperMario {
         int n = Integer.parseInt(strs[0]);
         int k = Integer.parseInt(strs[1]);
 
-        if (n < k)
-        {
+        if (n < k) {
             System.out.println(0);
             return;
         }
@@ -26,9 +25,8 @@ public class SuperMario {
         memo[1] = -1;
         field[0] = 0;
         field[1] = f;
-        for (int i = 2; i <= n; ++i)
-        {
-            field[i] = (int)(((long)field[i - 1] * a + b) % m);
+        for (int i = 2; i <= n; ++i) {
+            field[i] = (int) (((long) field[i - 1] * a + b) % m);
             memo[i] = -1;
         }
 
@@ -36,24 +34,19 @@ public class SuperMario {
         System.out.println(result);
     }
 
-    static long MinJump(int[] field, long[] memo, int k, int index, long sum)
-    {
-        if (index >= field.length)
-        {
+    static long MinJump(int[] field, long[] memo, int k, int index, long sum) {
+        if (index >= field.length) {
             return sum;
         }
 
-        if (memo[index] > -1)
-        {
+        if (memo[index] > -1) {
             return memo[index];
         }
 
         Long best = Long.MAX_VALUE;
-        for (int j = 1; j <= k; ++j)
-        {
+        for (int j = 1; j <= k; ++j) {
             long current = MinJump(field, memo, k, index + j, sum + field[index]);
-            if (best > current)
-            {
+            if (best > current) {
                 best = current;
             }
         }

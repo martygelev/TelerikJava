@@ -43,6 +43,6 @@ public class Edge implements Comparable<Edge> {
 
     @Override
     public String toString() {
-        return String.format("(%s %s) -> %s", getStart(),getEnd(), getWeight());
+        return String.format("(%s %s) -> %s", getStart(), getEnd(), getWeight());
     }
 }

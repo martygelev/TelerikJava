@@ -2,10 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
- class CombinationsWithRepetition {
+class CombinationsWithRepetition {
     private static int convert(String s) {
         int value = 0;
-        int flag = 0+1;
+        int flag = 0 + 1;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '-') {
                 flag = -1;
@@ -30,7 +30,7 @@ import java.io.InputStreamReader;
 
         for (int value = start; value < n + 1; value++) {
             combination[index] = value;
-            combine(n, k, value , index + 1, combination);
+            combine(n, k, value, index + 1, combination);
         }
 
     }

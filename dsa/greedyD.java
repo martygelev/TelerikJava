@@ -56,7 +56,7 @@ class GreedyDwarf {
     static InputReader in = new InputReader();
     static OutputWriter out = new OutputWriter();
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
 
         String row = in.readLine();
 

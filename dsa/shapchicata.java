@@ -25,10 +25,10 @@ public class shapchicata {
         for (int i = 0; i < n; i++) {
             graph.add(new ArrayList<>());
         }
-        for (int i = 0; i < n-1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             String[] str = reader.readLine().split(" ");
-            int a = Integer.parseInt(str[0])-1;
-            int b = Integer.parseInt(str[1])-1;
+            int a = Integer.parseInt(str[0]) - 1;
+            int b = Integer.parseInt(str[1]) - 1;
 
             graph.get(a).add(b);
             graph.get(b).add(a);

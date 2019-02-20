@@ -14,17 +14,15 @@ public class Main {
         int n = in.nextInt();
 
         System.out.println(first);
-        System.out.println(second+" " +third);
+        System.out.println(second + " " + third);
 
 
-        for (int i = 3;i<=n;i++)
-        {
-            for (int j =1; j<=i; j++)
-            {
-                long sum = first+second+third;
-                first=second;
-                second=third;
-                third=sum;
+        for (int i = 3; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                long sum = first + second + third;
+                first = second;
+                second = third;
+                third = sum;
                 System.out.print(sum + " ");
             }
             System.out.println();

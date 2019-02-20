@@ -1,11 +1,11 @@
 package point;
+
 public class Point {
-    private double x ;
+    private double x;
     private double y;
 
-    public void print()
-    {
-        System.out.println(x+ " " + y);
+    public void print() {
+        System.out.println(x + " " + y);
     }
 
     public double getX() {
@@ -24,16 +24,14 @@ public class Point {
         this.y = y;
     }
 
-    public Point (double x, double y)
-    {
-        this.x=x;
-        this.y=y;
+    public Point(double x, double y) {
+        this.x = x;
+        this.y = y;
     }
 
-    public void trans(int x, int y)
-    {
-        this.x+=x;
-        this.y+=y;
+    public void trans(int x, int y) {
+        this.x += x;
+        this.y += y;
 
     }
 }

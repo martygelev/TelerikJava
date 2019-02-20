@@ -11,26 +11,21 @@ public class Main {
         Set<String> carsSet = new HashSet<>();
 
         String line = in.nextLine();
-        while(!"END".equals(line))
-        {
+        while (!"END".equals(line)) {
             String[] input = line.split(", ");
             String direction = input[0];
             String carNumber = input[1];
 
-            if ("IN".equals(direction))
-            {
+            if ("IN".equals(direction)) {
                 carsSet.add(carNumber);
-            }
-            else if ("OUT".equals(direction))
-            {
+            } else if ("OUT".equals(direction)) {
                 carsSet.remove(carNumber);
             }
 
             line = in.nextLine();
         }
 
-        if (carsSet.isEmpty())
-        {
+        if (carsSet.isEmpty()) {
             System.out.println("Parking Lot is Empty");
             return;
         }

@@ -16,16 +16,16 @@ public class PlusOneMultOne {
         int index = 0;
         queue.add(n);
 
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             index += 1;
             int current = queue.poll();
-            if (index==m){
+            if (index == m) {
                 System.out.println(current);
                 break;
-            }else {
-                queue.add(current+1);
-                queue.add(2*current +1);
-                queue.add(current+2);
+            } else {
+                queue.add(current + 1);
+                queue.add(2 * current + 1);
+                queue.add(current + 2);
             }
 
         }

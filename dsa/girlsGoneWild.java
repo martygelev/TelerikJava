@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.*;
 
- class GirlsGoneWildClass {
+class GirlsGoneWildClass {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ import java.util.*;
         ArrayList<ArrayList<Integer>> tshirtsCombinations = new ArrayList<>();
         List<Integer> combination = new ArrayList<>();
         for (int i = 0; i < girlsCount; i++) {
-            combination.add(i,0);
+            combination.add(i, 0);
         }
         getTshirtCombinations(tshirtsCount, girlsCount, 0, 0, combination,
                 tshirtsCombinations);
@@ -26,7 +26,7 @@ import java.util.*;
         ArrayList<List<Character>> skirtsCombinations = new ArrayList<>();
         List<Character> combinationSkirts = new ArrayList<>();
         for (int i = 0; i < girlsCount; i++) {
-            combinationSkirts.add(i,' ');
+            combinationSkirts.add(i, ' ');
         }
 
         getSkirtCombinations(skirts, girlsCount, 0, 0,

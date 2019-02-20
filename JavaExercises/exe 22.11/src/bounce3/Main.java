@@ -12,16 +12,14 @@ public class Main {
         Scanner in = new Scanner(System.in);
         rowsLength = in.nextInt();
         colsLength = in.nextInt();
-        if (rowsLength==1 &&( colsLength==1 || colsLength==2))
-        {
+        if (rowsLength == 1 && (colsLength == 1 || colsLength == 2)) {
             System.out.println(1);
             return;
         }
-       if (rowsLength==2 && colsLength==1)
-       {
-           System.out.println(1);
-           return;
-       }
+        if (rowsLength == 2 && colsLength == 1) {
+            System.out.println(1);
+            return;
+        }
         matrix = new long[rowsLength][colsLength];
         sum = 0;
         int currentRow = 0;
@@ -47,91 +45,78 @@ public class Main {
                 matrix[i][j] = matrix[i][j - 1] * 2;
             }
         }
-    //    for (int[] ints : matrix) {
-    //        for (int anInt : ints) {
-    //            System.out.print(anInt + " ");
-    //        }
-    //        System.out.println();
-    //    }
-        sum +=matrix[currentRow][currentPositionCol]; // FIRST CELL
-        currentRow+=1;
-        currentPositionCol+=1;
-       sum+= matrix[currentRow][currentPositionCol]; // [1;1] cell
+        //    for (int[] ints : matrix) {
+        //        for (int anInt : ints) {
+        //            System.out.print(anInt + " ");
+        //        }
+        //        System.out.println();
+        //    }
+        sum += matrix[currentRow][currentPositionCol]; // FIRST CELL
+        currentRow += 1;
+        currentPositionCol += 1;
+        sum += matrix[currentRow][currentPositionCol]; // [1;1] cell
 
 
         // check on If statement if you can add the next cell and compare it to border cells
 
-       //example
+        //example
         //if( currentRow -1 <0 || currentRow -1 >rowLength -1 ...)
 
-     //   System.out.println(sum);
+        //   System.out.println(sum);
 
-        while(!((currentRow==0 && currentPositionCol==0) || (currentRow==0 && currentPositionCol==colsLength-1)
-        ||(currentRow==rowsLength-1 && currentPositionCol==0 )||( currentRow==rowsLength-1 && currentPositionCol == colsLength-1)))
-        {
-            while(!((currentRow==0 && currentPositionCol==0) || (currentRow==0 && currentPositionCol==colsLength-1)
-                    ||(currentRow==rowsLength-1 && currentPositionCol==0 )||( currentRow==rowsLength-1 && currentPositionCol == colsLength-1)))
-            {
-                if (currentRow+1<=rowsLength-1 && currentRow+1 >=0 && currentPositionCol+1 <= colsLength-1 && currentPositionCol+1>=0)
-                {
+        while (!((currentRow == 0 && currentPositionCol == 0) || (currentRow == 0 && currentPositionCol == colsLength - 1)
+                || (currentRow == rowsLength - 1 && currentPositionCol == 0) || (currentRow == rowsLength - 1 && currentPositionCol == colsLength - 1))) {
+            while (!((currentRow == 0 && currentPositionCol == 0) || (currentRow == 0 && currentPositionCol == colsLength - 1)
+                    || (currentRow == rowsLength - 1 && currentPositionCol == 0) || (currentRow == rowsLength - 1 && currentPositionCol == colsLength - 1))) {
+                if (currentRow + 1 <= rowsLength - 1 && currentRow + 1 >= 0 && currentPositionCol + 1 <= colsLength - 1 && currentPositionCol + 1 >= 0) {
                     //down right
-                    currentRow+=1;
-                    currentPositionCol+=1;
-                    sum+=matrix[currentRow][currentPositionCol];
+                    currentRow += 1;
+                    currentPositionCol += 1;
+                    sum += matrix[currentRow][currentPositionCol];
                     //System.out.println(sum);
 
-                }
-                else{
+                } else {
                     break;
                 }
             }
-            while(!((currentRow==0 && currentPositionCol==0) || (currentRow==0 && currentPositionCol==colsLength-1)
-                    ||(currentRow==rowsLength-1 && currentPositionCol==0 )||( currentRow==rowsLength-1 && currentPositionCol == colsLength-1)))
-            {
-                if (currentRow-1<=rowsLength-1 && currentRow-1 >=0 && currentPositionCol+1 <= colsLength-1 && currentPositionCol+1>=0)
-                {
+            while (!((currentRow == 0 && currentPositionCol == 0) || (currentRow == 0 && currentPositionCol == colsLength - 1)
+                    || (currentRow == rowsLength - 1 && currentPositionCol == 0) || (currentRow == rowsLength - 1 && currentPositionCol == colsLength - 1))) {
+                if (currentRow - 1 <= rowsLength - 1 && currentRow - 1 >= 0 && currentPositionCol + 1 <= colsLength - 1 && currentPositionCol + 1 >= 0) {
                     //  UpRight
-                    currentRow-=1;
-                    currentPositionCol+=1;
-                    sum+=matrix[currentRow][currentPositionCol];
-                 //  System.out.println(sum);
+                    currentRow -= 1;
+                    currentPositionCol += 1;
+                    sum += matrix[currentRow][currentPositionCol];
+                    //  System.out.println(sum);
 
-                }
-                else {
+                } else {
                     break;
                 }
             }
 
 
-            while(!((currentRow==0 && currentPositionCol==0) || (currentRow==0 && currentPositionCol==colsLength-1)
-                    ||(currentRow==rowsLength-1 && currentPositionCol==0 )||( currentRow==rowsLength-1 && currentPositionCol == colsLength-1)))
-            {
-                if (currentRow-1<=rowsLength-1 && currentRow-1 >=0 && currentPositionCol-1 <= colsLength-1 && currentPositionCol-1>=0)
-                {
+            while (!((currentRow == 0 && currentPositionCol == 0) || (currentRow == 0 && currentPositionCol == colsLength - 1)
+                    || (currentRow == rowsLength - 1 && currentPositionCol == 0) || (currentRow == rowsLength - 1 && currentPositionCol == colsLength - 1))) {
+                if (currentRow - 1 <= rowsLength - 1 && currentRow - 1 >= 0 && currentPositionCol - 1 <= colsLength - 1 && currentPositionCol - 1 >= 0) {
                     //UpLeft
-                    currentRow-=1;
-                    currentPositionCol-=1;
-                    sum+=matrix[currentRow][currentPositionCol];
-                 //  System.out.println(sum);
+                    currentRow -= 1;
+                    currentPositionCol -= 1;
+                    sum += matrix[currentRow][currentPositionCol];
+                    //  System.out.println(sum);
 
-                }
-                else{
+                } else {
                     break;
                 }
             }
-            while(!((currentRow==0 && currentPositionCol==0) || (currentRow==0 && currentPositionCol==colsLength-1)
-                    ||(currentRow==rowsLength-1 && currentPositionCol==0 )||( currentRow==rowsLength-1 && currentPositionCol == colsLength-1)))
-            {
-                if (currentRow+1<=rowsLength-1 && currentRow+1 >=0 && currentPositionCol-1 <= colsLength-1 && currentPositionCol-1>=0)
-                {
+            while (!((currentRow == 0 && currentPositionCol == 0) || (currentRow == 0 && currentPositionCol == colsLength - 1)
+                    || (currentRow == rowsLength - 1 && currentPositionCol == 0) || (currentRow == rowsLength - 1 && currentPositionCol == colsLength - 1))) {
+                if (currentRow + 1 <= rowsLength - 1 && currentRow + 1 >= 0 && currentPositionCol - 1 <= colsLength - 1 && currentPositionCol - 1 >= 0) {
                     //downLeft
-                    currentRow+=1;
-                    currentPositionCol-=1;
-                    sum+=matrix[currentRow][currentPositionCol];
-                  //  System.out.println(sum);
+                    currentRow += 1;
+                    currentPositionCol -= 1;
+                    sum += matrix[currentRow][currentPositionCol];
+                    //  System.out.println(sum);
 
-                }
-                else {
+                } else {
                     break;
                 }
             }

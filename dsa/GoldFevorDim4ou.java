@@ -12,10 +12,8 @@ public class GoldFevorDim4ou {
         long sum = 0;
         int currentMax = 0;
 
-        for (int j = days.length - 1; j > -1; j--)
-        {
-            if (days[j] > currentMax)
-            {
+        for (int j = days.length - 1; j > -1; j--) {
+            if (days[j] > currentMax) {
                 currentMax = days[j];
                 continue;
             }

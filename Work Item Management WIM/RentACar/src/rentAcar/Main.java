@@ -1,4 +1,5 @@
 package rentAcar;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -13,26 +14,24 @@ public class Main {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.mm.yyyy");
 
-        Car firstCar = new Car(1,"Opel","Astra","Sofia",33.33,"10.01.2019/11.02.2019");
-        carId.put(1,firstCar);
+        Car firstCar = new Car(1, "Opel", "Astra", "Sofia", 33.33, "10.01.2019/11.02.2019");
+        carId.put(1, firstCar);
 
-        availableCars.put("Sofia",new ArrayList<>());
+        availableCars.put("Sofia", new ArrayList<>());
         availableCars.get("Sofia").add(firstCar);
 
         String inputData = in.nextLine();
         String[] commandSplit;
 
-        while(!inputData.equals("Exit")){
+        while (!inputData.equals("Exit")) {
             commandSplit = inputData.split(" ");
-          String firstElement = commandSplit[0];
-            switch (firstElement){
+            String firstElement = commandSplit[0];
+            switch (firstElement) {
                 case "1":
                     String city = commandSplit[1];
-                    if (!availableCars.containsKey(city))
-                    {
+                    if (!availableCars.containsKey(city)) {
                         System.out.println("No cars in this city");
-                    }
-                    else {
+                    } else {
                         availableCars.get(city).forEach(System.out::println);
                     }
                     break;
@@ -48,20 +47,17 @@ public class Main {
 
 
                     String strDateReal = carId.get(id).getDate();
-                    String[] realDate= strDateReal.split("/");
-                   String startReal = realDate[0];
-                   String endReal = realDate[1];
+                    String[] realDate = strDateReal.split("/");
+                    String startReal = realDate[0];
+                    String endReal = realDate[1];
 
                     LocalDate start = LocalDate.from(formatter.parse(startReal));
                     LocalDate end = LocalDate.from(formatter.parse(endReal));
 
 
-                    if (startingWant.compareTo(end)>0)
-                    {
+                    if (startingWant.compareTo(end) > 0) {
                         firstCar.setDate(strDateReal);
-                    }
-                    else if (startingWant.compareTo(end)<0)
-                    {
+                    } else if (startingWant.compareTo(end) < 0) {
                         System.out.println("Car is not available");
                     }
                     break;

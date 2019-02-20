@@ -8,37 +8,34 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-      int housesToVisit = in.nextInt();
-      int presents = in.nextInt();
-      int presentsAtFirstTime =presents;
-      int counterBack = 0;
-      int additionalPresentsTaken=0;
+        int housesToVisit = in.nextInt();
+        int presents = in.nextInt();
+        int presentsAtFirstTime = presents;
+        int counterBack = 0;
+        int additionalPresentsTaken = 0;
 
-      for (int i= 1; i<=housesToVisit;i++)
-      {
-        int presentsToLeave = in.nextInt();
+        for (int i = 1; i <= housesToVisit; i++) {
+            int presentsToLeave = in.nextInt();
 
-        presents-=presentsToLeave;
+            presents -= presentsToLeave;
 
-        if (presents<0)
-        {
-            int currentLeft = Math.abs(presents);
+            if (presents < 0) {
+                int currentLeft = Math.abs(presents);
 
-            presents=(presentsAtFirstTime / i) * (housesToVisit-i) +currentLeft;
-            additionalPresentsTaken+=presents;
-presents-=currentLeft;
-            counterBack++;
+                presents = (presentsAtFirstTime / i) * (housesToVisit - i) + currentLeft;
+                additionalPresentsTaken += presents;
+                presents -= currentLeft;
+                counterBack++;
 
+            }
         }
-      }
 
-      if (additionalPresentsTaken!=0){
-          System.out.println(counterBack);
-          System.out.println(additionalPresentsTaken);
-      }
-      else{
-          System.out.println(presents);
-      }
+        if (additionalPresentsTaken != 0) {
+            System.out.println(counterBack);
+            System.out.println(additionalPresentsTaken);
+        } else {
+            System.out.println(presents);
+        }
 
     }
 }

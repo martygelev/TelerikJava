@@ -7,7 +7,7 @@ import system.wim.models.contracts.Team;
 
 public class CreateTeam_Should {
     @Test
-    public void returnInstanceOfTypeTeam(){
+    public void returnInstanceOfTypeTeam() {
         WorkItemFactoryImpl workItemFactory = new WorkItemFactoryImpl();
         Team team = workItemFactory.createTeam("TeamName");
         Assert.assertTrue(team instanceof Team);

@@ -9,7 +9,7 @@ public class User {
 
     public User(long id, String firstName, String lastName, String gender, String email) {
         setId(id);
-       setFirstName(firstName);
+        setFirstName(firstName);
         setGender(gender);
         setLastName(lastName);
         setEmail(email);

@@ -29,7 +29,7 @@ public class Staff extends User {
         this.salary = salary;
     }
 
-    public Staff(long id, String firstName, String lastName, String gender, String email,int yearsOfExperience,double salary, String description) {
+    public Staff(long id, String firstName, String lastName, String gender, String email, int yearsOfExperience, double salary, String description) {
         super(id, firstName, lastName, gender, email);
         setYearsOfExperience(yearsOfExperience);
         setDescription(description);

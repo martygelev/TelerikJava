@@ -2,9 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
- class CombinationsV2{
+class CombinationsV2 {
     private static void getCombinations(int n, int k, int start, int comboIndex, int[] combo) {
-        if (comboIndex == k){
+        if (comboIndex == k) {
             for (int i = 0; i < k; i++) {
                 System.out.print(combo[i] + " ");
             }
@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 
         for (int value = start; value <= n; value++) {
             combo[comboIndex] = value;
-            getCombinations(n,k, value+1,comboIndex+1,combo);
+            getCombinations(n, k, value + 1, comboIndex + 1, combo);
         }
         return;
     }
@@ -25,14 +25,14 @@ import java.io.InputStreamReader;
         int n = convert(input[0]);
         int k = convert(input[1]);
 
-        getCombinations(n, k, 1,0,new int[k]);
+        getCombinations(n, k, 1, 0, new int[k]);
 
 
     }
 
     private static int convert(String s) {
         int value = 0;
-        int flag = 2-1;
+        int flag = 2 - 1;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '-') {
                 flag = -1;

@@ -33,7 +33,7 @@ public class EngineImpl implements Engine {
 
     @Override
     public List<Vehicle> getVehicles() {
-        return  vehicles;
+        return vehicles;
     }
 
     @Override

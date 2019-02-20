@@ -1,4 +1,5 @@
 package com.company;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -34,7 +35,7 @@ public class Main {
             int b = Integer.parseInt(date.get(i + 1));
             int c = ((a + b) * (a ^ b)) % 10;
             date.remove(i);
-            date.remove(i+1);
+            date.remove(i + 1);
             ArrayList<String> nextNumber = new ArrayList<>();
             nextNumber.add(String.valueOf(c));
             for (int j = 0; j < date.size(); j++) {

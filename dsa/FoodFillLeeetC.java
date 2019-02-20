@@ -1,4 +1,4 @@
- class FloodFill {
+class FloodFill {
     public static void main(String[] args) {
         int[][] image = {{1, 1, 1}, {1, 1, 0}, {1, 0, 1}};
 //        int[][] image = {{0,0,0}, {0, 1, 1}};
@@ -18,7 +18,7 @@
         public static int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
             int originalColor = image[sr][sc];
 
-            if (originalColor == newColor){
+            if (originalColor == newColor) {
                 return image;
             }
 
@@ -30,7 +30,7 @@
                 int nextRow = sr + dRows[i];
                 int nextCol = sc + dCows[i];
 
-                if(hasAvailableUnvisitedNeighbours(nextRow, nextCol, image) && image[nextRow][nextCol] == originalColor){
+                if (hasAvailableUnvisitedNeighbours(nextRow, nextCol, image) && image[nextRow][nextCol] == originalColor) {
                     floodFill(image, nextRow, nextCol, newColor);
                 }
             }

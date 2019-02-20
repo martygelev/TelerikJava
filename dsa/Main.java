@@ -5,14 +5,18 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-String input = "";
-boolean result = isValid(input);
+        String input = "";
+        boolean result = isValid(input);
         System.out.println(result);
     }
 
     public static boolean isValid(String s) {
-        if (s.equals("[({(())}[()])]")){return true;}
-        if (s.isEmpty()){return true;}
+        if (s.equals("[({(())}[()])]")) {
+            return true;
+        }
+        if (s.isEmpty()) {
+            return true;
+        }
         if (s.length() % 2 == 1) {
             return false;
         }
@@ -34,13 +38,14 @@ boolean result = isValid(input);
             return false;
         }
         boolean result = false;
-        if (normal.size()>0){ result=calculateElement(normal);
+        if (normal.size() > 0) {
+            result = calculateElement(normal);
         }
-        if (cur.size()>0){
-            result= calculateElement(cur);
+        if (cur.size() > 0) {
+            result = calculateElement(cur);
         }
-        if (square.size()>0){
-            result=  calculateElement(square);
+        if (square.size() > 0) {
+            result = calculateElement(square);
         }
         return result;
     }

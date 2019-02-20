@@ -67,14 +67,12 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Packages
-{
+public class Packages {
     private static List<Integer> visited;
     private static Map<Integer, List<Integer>> graph;
     private static SortedSet<Integer> sorted;
 
-    public static void main(String[] args) throws IOException
-    {
+    public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(reader.readLine());
@@ -83,8 +81,7 @@ public class Packages
         visited = new ArrayList<>();
         sorted = new TreeSet<>(Comparator.naturalOrder());
 
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i < n; i++) {
             int[] pd = Arrays.stream(reader.readLine().split("\\s"))
                     .mapToInt(Integer::parseInt)
                     .toArray();
@@ -96,8 +93,7 @@ public class Packages
         }
 
         int packages = Integer.parseInt(reader.readLine());
-        for (int i = 0; i < packages; i++)
-        {
+        for (int i = 0; i < packages; i++) {
             dfs(Integer.parseInt(reader.readLine()));
 
             System.out.println(
@@ -110,20 +106,17 @@ public class Packages
         }
     }
 
-    private static void dfs(int packageToInstall)
-    {
+    private static void dfs(int packageToInstall) {
         List<Integer> currentVertex = graph.get(packageToInstall);
 
         visited.add(packageToInstall);
 
-        if (currentVertex == null)
-        {
+        if (currentVertex == null) {
             sorted.add(packageToInstall);
             return;
         }
 
-        for (Integer vertex : currentVertex)
-        {
+        for (Integer vertex : currentVertex) {
             if (visited.contains(vertex))
                 continue;
 

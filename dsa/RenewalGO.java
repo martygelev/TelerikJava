@@ -80,9 +80,10 @@ public class RenewalGO {
     static int GetValue(char c) {
         if (((c >= 'A')
                 && (c <= 'Z'))) {
-            return (c - 'A');}
-            return (c-'a')+26;}
-
+            return (c - 'A');
+        }
+        return (c - 'a') + 26;
+    }
 
 
     public static class Edge implements Comparable<Edge> {

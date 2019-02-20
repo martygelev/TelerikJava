@@ -1,4 +1,5 @@
 package com.telerikacademy.agency.commands.listing;
+
 import com.telerikacademy.agency.commands.contracts.Command;
 import com.telerikacademy.agency.core.contracts.Engine;
 import com.telerikacademy.agency.core.factories.AgencyFactory;
@@ -8,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ListVehiclesCommand  implements Command {
+public class ListVehiclesCommand implements Command {
 
     private final AgencyFactory factory;
     private final Engine engine;

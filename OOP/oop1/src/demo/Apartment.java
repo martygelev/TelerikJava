@@ -1,7 +1,7 @@
 package demo;
 
 public class Apartment implements House {
-   private String[] extras ;
+    private String[] extras;
 
     public String[] getExtras() {
         return extras;
@@ -32,14 +32,13 @@ public class Apartment implements House {
     }
 
     @Override
-    public void extras(String[]...extras) {
-        if (extras.length>0) {
+    public void extras(String[]... extras) {
+        if (extras.length > 0) {
             System.out.println("In my apartment I have: ");
             for (String[] extra : extras) {
                 System.out.print(extra + " ");
             }
-        }
-        else System.out.println("No ");
+        } else System.out.println("No ");
 
     }
 }

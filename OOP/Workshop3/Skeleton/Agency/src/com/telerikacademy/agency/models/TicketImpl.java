@@ -7,8 +7,7 @@ public class TicketImpl implements Ticket {
     private Journey soldFor;
     private double administrativeCost;
 
-    public TicketImpl (Journey soldFor, double administrativeCost)
-    {
+    public TicketImpl(Journey soldFor, double administrativeCost) {
         setAdministrativeCost(administrativeCost);
         setSoldFor(soldFor);
     }
@@ -33,13 +32,13 @@ public class TicketImpl implements Ticket {
 
     @Override
     public double CalculatePrice() {
-        return soldFor.calculateTravelCosts()* this.getAdministrativeCosts();
+        return soldFor.calculateTravelCosts() * this.getAdministrativeCosts();
     }
 
     @Override
     public String toString() {
         return String.format("Ticket ----\n" +
                 "Destination: %s\n" +
-                "Price: %.2f",getJourney().getDestination(), this.CalculatePrice());
+                "Price: %.2f", getJourney().getDestination(), this.CalculatePrice());
     }
 }

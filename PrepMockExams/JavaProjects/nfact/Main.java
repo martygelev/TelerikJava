@@ -29,7 +29,7 @@ public class NFactorialMemorization {
 
 
         }
-        BigInteger factorial = calc(n - 1, arr).multiply(BigInteger.valueOf((long)n));
+        BigInteger factorial = calc(n - 1, arr).multiply(BigInteger.valueOf((long) n));
         arr.add(factorial);
         return factorial;
 

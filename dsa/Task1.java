@@ -15,7 +15,7 @@ public class Task1 {
 
         List<String> studentsList = new ArrayList<>(Arrays.asList(studentsArr));
 
-        while(numberOfSteps--!=0) {
+        while (numberOfSteps-- != 0) {
 
             String[] pairToChange = in.nextLine().split(" ");
             String firstStudent = pairToChange[0];
@@ -25,19 +25,18 @@ public class Task1 {
 
             int indexSecond = studentsList.indexOf(secondStudent);
 
-            if (indexSecond==0){
-                studentsList.add(0,firstStudent);
+            if (indexSecond == 0) {
+                studentsList.add(0, firstStudent);
 
-            }
-            else {
-                studentsList.add(indexSecond , firstStudent);
+            } else {
+                studentsList.add(indexSecond, firstStudent);
             }
         }
 
-        for (int i = 0; i < studentsList.size()-1; i++) {
-            System.out.print(studentsList.get(i)+" ");
+        for (int i = 0; i < studentsList.size() - 1; i++) {
+            System.out.print(studentsList.get(i) + " ");
         }
-        System.out.println(studentsList.get(studentsList.size()-1));
+        System.out.println(studentsList.get(studentsList.size() - 1));
 
     }
 }

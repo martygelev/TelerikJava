@@ -9,7 +9,7 @@ public interface AgencyFactory {
 
     Train createTrain(int passengerCapacity, double pricePerKilometer, int carts);
 
-    Airplane createAirplane(int passengerCapacity, double pricePerKm,boolean food);
+    Airplane createAirplane(int passengerCapacity, double pricePerKm, boolean food);
 
     Journey createJourney(String startingLocation, String destination, int distance, Vehicle vehicle);
 

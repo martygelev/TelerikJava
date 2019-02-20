@@ -12,7 +12,7 @@ public class MaxPath {
     public static void main(String[] args) throws IOException {
         tree = readTree();
         Iterator iter = tree.keySet().iterator();
-        long nodeStart = (long)iter.next();
+        long nodeStart = (long) iter.next();
 
         dfs(nodeStart, -1, 0);
         maxSum = 0;
@@ -45,7 +45,7 @@ public class MaxPath {
         for (long i = 0; i < n - 1; i++) {
             String input = in.readLine();
             String[] split = input
-                    .substring(1, input.length()-1)
+                    .substring(1, input.length() - 1)
                     .split(" <- ");
 
             long parent = Long.parseLong(split[0]);

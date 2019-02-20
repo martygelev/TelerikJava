@@ -14,7 +14,7 @@ public class AirplaneImpl extends VehicleImpl implements Airplane {
     }
 
     @Override
-    public  String getCurrentVehicleName() {
+    public String getCurrentVehicleName() {
         return CURRENT_VEHICLE_NAME;
     }
 
@@ -22,6 +22,7 @@ public class AirplaneImpl extends VehicleImpl implements Airplane {
         super(passengerCapacity, pricePerKm);
         setHasFreeFood(food);
     }
+
     private void setHasFreeFood(boolean hasFreeFood) {
         if (hasFreeFood)
             this.hasFreeFood = hasFreeFood;
@@ -41,6 +42,6 @@ public class AirplaneImpl extends VehicleImpl implements Airplane {
                 .append("Has free food: ").append(hasFreeFood ? "true" : "false");
 
         return String.format("%s\n" +
-                "Has free food: %s",super.toString(),(hasFreeFood ? "true" : "false"));
+                "Has free food: %s", super.toString(), (hasFreeFood ? "true" : "false"));
     }
 }

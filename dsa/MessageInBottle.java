@@ -18,9 +18,9 @@ public class MessageInBottle {
 
         char key = Character.MIN_VALUE;
         StringBuilder value = new StringBuilder();
-        for(int i = 0; i < chipher.length(); i++) {
-            if(chipher.charAt(i) >= 'A' && chipher.charAt(i) <= 'Z') {
-                if(key != Character.MIN_VALUE) {
+        for (int i = 0; i < chipher.length(); i++) {
+            if (chipher.charAt(i) >= 'A' && chipher.charAt(i) <= 'Z') {
+                if (key != Character.MIN_VALUE) {
                     chiphers.add(key);
                     chiphers2.add(value.toString());
                     value = new StringBuilder();
@@ -30,7 +30,7 @@ public class MessageInBottle {
                 value.append(chipher.charAt(i));
             }
         }
-        if(key != Character.MIN_VALUE) {
+        if (key != Character.MIN_VALUE) {
             chiphers.add(key);
             chiphers2.add(value.toString());
             value = new StringBuilder();
@@ -38,7 +38,7 @@ public class MessageInBottle {
         Solve(0, new StringBuilder());
         System.out.println(solutions.size());
         Collections.sort(solutions);
-        for(String item : solutions) {
+        for (String item : solutions) {
             System.out.println(item);
         }
     }
@@ -47,12 +47,12 @@ public class MessageInBottle {
 
 
     static void Solve(int secretMessageIndex, StringBuilder sb) {
-        if(secretMessageIndex == message.length()) {
+        if (secretMessageIndex == message.length()) {
             solutions.add(sb.toString());
             return;
         }
-        for(int i = 0; i < chiphers.size(); i++) {
-            if(message.substring(secretMessageIndex).startsWith(chiphers2.get(i))) {
+        for (int i = 0; i < chiphers.size(); i++) {
+            if (message.substring(secretMessageIndex).startsWith(chiphers2.get(i))) {
                 sb.append(chiphers.get(i));
                 Solve(secretMessageIndex + chiphers2.get(i).length(), sb);
                 sb.deleteCharAt(sb.length() - 1);

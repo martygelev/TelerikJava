@@ -23,12 +23,12 @@ public class Baseball {
 
     public static int calPoints(String[] ops) {
 
-        Stack<Integer> gosho =new Stack<>();
+        Stack<Integer> gosho = new Stack<>();
 
-        boolean flag ;
+        boolean flag;
 
         for (String str : ops) {
-            switch (str){
+            switch (str) {
 
                 case "C":
 
@@ -36,31 +36,31 @@ public class Baseball {
 
                 case "+":
 
-                    flag=false;
+                    flag = false;
                     break;
 
                 default:
-                    flag=true;
+                    flag = true;
             }
 
-            if(flag){
+            if (flag) {
 
                 gosho.push(Integer.parseInt(str));
 
-            }else{
+            } else {
 
-                if(str == "C")
+                if (str == "C")
                     gosho.pop();
 
-                if(str=="D")
-                    gosho.push((gosho.peek()*2));
+                if (str == "D")
+                    gosho.push((gosho.peek() * 2));
 
-                if(str == "+"){
-                    int temp1 =gosho.pop();
-                    int temp2=gosho.pop();
+                if (str == "+") {
+                    int temp1 = gosho.pop();
+                    int temp2 = gosho.pop();
                     gosho.push(temp2);
                     gosho.push(temp1);
-                    gosho.push((temp1+temp2));
+                    gosho.push((temp1 + temp2));
                 }
 
             }
@@ -70,15 +70,15 @@ public class Baseball {
 
         int result = 0;
 
-        while (!gosho.empty()){
-            result+=gosho.pop();
+        while (!gosho.empty()) {
+            result += gosho.pop();
         }
 
         return result;
     }
 
     public static void main(String[] args) {
-        String [] arr = {"5","2","C","D","+"};
-        System.out.println( calPoints(arr));
+        String[] arr = {"5", "2", "C", "D", "+"};
+        System.out.println(calPoints(arr));
     }
 }

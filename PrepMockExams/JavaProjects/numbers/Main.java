@@ -16,16 +16,16 @@ public class Numbers {
                     sb.append(commands[1]);
                     break;
                 case "front-add":
-                    if (sb.length()>0) {
+                    if (sb.length() > 0) {
                         String newString = String.format("%s%s", commands[1], sb.toString());
                         sb.setLength(0);
                         sb.append(newString);
-                    }else {
+                    } else {
                         sb.append(commands[1]);
                     }
                     break;
                 case "front-remove":
-                    if (sb.length()>0) {
+                    if (sb.length() > 0) {
                         sb.deleteCharAt(0);
                     }
                     break;
@@ -33,17 +33,17 @@ public class Numbers {
                     sb.append(commands[1]);
                     break;
                 case "back-remove":
-                    if(sb.length()>0) {
+                    if (sb.length() > 0) {
                         sb.setLength(sb.length() - 1);
                     }
                     break;
                 case "reverse":
-                    if (sb.length()>0) {
+                    if (sb.length() > 0) {
                         sb.reverse();
                     }
                     break;
                 case "print":
-                    result.append(String.format("%s\n",sb.toString()));
+                    result.append(String.format("%s\n", sb.toString()));
                     break;
             }
             commands = in.readLine().split(" ");

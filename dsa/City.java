@@ -26,10 +26,10 @@ public class City {
 
     @Override
     public boolean equals(Object obj) {
-        if (!(obj instanceof City)){
+        if (!(obj instanceof City)) {
             return false;
         }
-        return ((City)obj).name.equals(((City) obj).name);
+        return ((City) obj).name.equals(((City) obj).name);
     }
 }
 

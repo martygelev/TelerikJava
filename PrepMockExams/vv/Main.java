@@ -1,11 +1,10 @@
-package  com.company;
+package com.company;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main
-{
-    public static void main()
-    {
+public class Main {
+    public static void main() {
         Scanner in = new Scanner(System.in);
 
 
@@ -22,13 +21,11 @@ public class Main
         ArrayList<Integer> first = new ArrayList<>();
         ArrayList<Integer> second = new ArrayList<>();
 
-        for (String firstS : firstStrings)
-        {
+        for (String firstS : firstStrings) {
             first.add(Integer.parseInt(firstS));
         }
 
-        for (String secondS : secondStrings)
-        {
+        for (String secondS : secondStrings) {
             second.add(Integer.parseInt(secondS));
         }
 
@@ -38,46 +35,32 @@ public class Main
         int firstAdd;
         int secondAdd;
 
-        for (int i = 0; i < max; i++)
-        {
+        for (int i = 0; i < max; i++) {
 
 
-
-            if (i >= first.size())
-            {
+            if (i >= first.size()) {
                 firstAdd = 0;
-            }
-            else
-            {
+            } else {
                 firstAdd = first.get(i);
             }
-            if (i >= second.size())
-            {
+            if (i >= second.size()) {
                 secondAdd = 0;
-            }
-            else
-            {
+            } else {
                 secondAdd = second.get(i);
             }
 
 
             int digit = firstAdd + secondAdd + remainder;
-            if (digit >= 10)
-            {
+            if (digit >= 10) {
                 remainder = digit / 10;
                 digit = digit % 10;
-            }
-            else
-            {
+            } else {
                 remainder = 0;
             }
             result.add(i, digit);
-            if (i == max - 1)
-            {
+            if (i == max - 1) {
                 System.out.print(result.get(i));
-            }
-            else
-            {
+            } else {
                 System.out.print(result.get(i) + " ");
             }
         }

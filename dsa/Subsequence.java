@@ -12,21 +12,21 @@ public class Subsequence {
         int s = 0;
         int f = 0;
 
-        while(f<second.length()){
+        while (f < second.length()) {
             char c = first.charAt(s);
-            if(c==' '){
+            if (c == ' ') {
                 ++s;
                 continue;
             }
-            while(f<second.length()&&second.charAt(f)!=c)++f;
-            if(f!=second.length()){
+            while (f < second.length() && second.charAt(f) != c) ++f;
+            if (f != second.length()) {
                 ++s;
                 ++f;
-                if(s==first.length()) break;
+                if (s == first.length()) break;
             }
         }
 
-        if(s==first.length()) System.out.println("true");
+        if (s == first.length()) System.out.println("true");
         else System.out.println("false");
 
     }

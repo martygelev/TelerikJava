@@ -11,9 +11,9 @@ public class OddNumber {
 
         long numbersCount = Long.parseLong(in.readLine());
         Map<Long, Integer> oddNumbers = new HashMap<>();
-        for(int i = 0; i < numbersCount; i++) {
+        for (int i = 0; i < numbersCount; i++) {
             Long currentNumber = Long.parseLong(in.readLine());
-            if(!oddNumbers.containsKey(currentNumber)) {
+            if (!oddNumbers.containsKey(currentNumber)) {
                 oddNumbers.put(currentNumber, 1);
             } else {
                 int value = oddNumbers.get(currentNumber);
@@ -21,9 +21,9 @@ public class OddNumber {
                 oddNumbers.put(currentNumber, value);
             }
         }
-        for(long key : oddNumbers.keySet()) {
+        for (long key : oddNumbers.keySet()) {
             int value = oddNumbers.get(key);
-            if(value % 2 != 0) {
+            if (value % 2 != 0) {
                 System.out.println(key);
             }
         }

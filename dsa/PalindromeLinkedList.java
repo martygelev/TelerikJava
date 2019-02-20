@@ -1,4 +1,5 @@
 package ok;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,12 +8,12 @@ public class PalindromeLinkedList {
 
         ListNode n1 = new ListNode(1);
         ListNode n2 = new ListNode(2);
-       // ListNode n3 = new ListNode(2);
-       // ListNode n4 = new ListNode(1);
+        // ListNode n3 = new ListNode(2);
+        // ListNode n4 = new ListNode(1);
 
         n1.next = n2;
-       // n2.next = n3;
-       // n3.next = n4;
+        // n2.next = n3;
+        // n3.next = n4;
 
         System.out.println(isPalindrome(n1));
     }
@@ -35,12 +36,12 @@ public class PalindromeLinkedList {
         }
 
         for (int i = 0; i < counter / 2; i++) {
-                int firstValue = list.get(i);
-                int secondValue = list.get(counter - 1 - i);
-                if (firstValue != secondValue) {
-                    return false;
-                }
+            int firstValue = list.get(i);
+            int secondValue = list.get(counter - 1 - i);
+            if (firstValue != secondValue) {
+                return false;
             }
+        }
 
         return true;
     }

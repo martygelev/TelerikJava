@@ -1,26 +1,20 @@
 import java.math.BigDecimal;
 import java.util.Scanner;
 
- class SolveExpression
-{
-    static BigDecimal evaluate(String expression)
-    {
-        return new Object()
-        {
+class SolveExpression {
+    static BigDecimal evaluate(String expression) {
+        return new Object() {
             int pos = -1, ch;
 
-            void nextChar()
-            {
+            void nextChar() {
                 ch = (++pos < expression.length()) ? expression.charAt(pos) : -1;
             }
 
-            boolean eat(int charToEat)
-            {
+            boolean eat(int charToEat) {
                 while (ch == ' ')
                     nextChar();
 
-                if (ch == charToEat)
-                {
+                if (ch == charToEat) {
                     nextChar();
                     return true;
                 }
@@ -28,18 +22,15 @@ import java.util.Scanner;
                 return false;
             }
 
-            BigDecimal parse()
-            {
+            BigDecimal parse() {
                 nextChar();
                 return parseExpression();
             }
 
-            BigDecimal parseExpression()
-            {
+            BigDecimal parseExpression() {
                 BigDecimal x = parseTerm();
 
-                for (; ; )
-                {
+                for (; ; ) {
                     if (eat('+'))
                         x = x.add(parseTerm());
                     else if (eat('-'))
@@ -49,12 +40,10 @@ import java.util.Scanner;
                 }
             }
 
-            BigDecimal parseTerm()
-            {
+            BigDecimal parseTerm() {
                 BigDecimal x = parseFactor();
 
-                for (; ; )
-                {
+                for (; ; ) {
                     if (eat('*'))
                         x = x.multiply(parseFactor());
                     else
@@ -62,8 +51,7 @@ import java.util.Scanner;
                 }
             }
 
-            BigDecimal parseFactor()
-            {
+            BigDecimal parseFactor() {
                 if (eat('+'))
                     return parseFactor();
                 if (eat('-'))
@@ -72,12 +60,10 @@ import java.util.Scanner;
                 BigDecimal x = BigDecimal.ZERO;
                 int startPos = pos;
 
-                if (eat('('))
-                {
+                if (eat('(')) {
                     x = parseExpression();
                     eat(')');
-                } else if ((ch >= '0' && ch <= '9') || ch == '.')
-                {
+                } else if ((ch >= '0' && ch <= '9') || ch == '.') {
                     while ((ch >= '0' && ch <= '9') || ch == '.')
                         nextChar();
 
@@ -89,8 +75,7 @@ import java.util.Scanner;
         }.parse();
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println((evaluate(input.nextLine())).toBigInteger());

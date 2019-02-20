@@ -1,12 +1,12 @@
 package hms;
 
-public class Patient extends User{
-    private boolean insured ;
+public class Patient extends User {
+    private boolean insured;
     private HealthInsurancePlan insurancePlan;
 
     public HealthInsurancePlan getInsurancePlan() {
 
-            return insurancePlan;
+        return insurancePlan;
 
     }
 
@@ -22,7 +22,7 @@ public class Patient extends User{
         this.insured = insured;
     }
 
-    public Patient(long id, String firstName, String lastName, String gender, String email,boolean insured) {
+    public Patient(long id, String firstName, String lastName, String gender, String email, boolean insured) {
         super(id, firstName, lastName, gender, email);
         setInsured(insured);
 

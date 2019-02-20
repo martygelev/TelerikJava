@@ -3,15 +3,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 
- class NFactorial {
-    public static BigInteger nFactorial(int n){
+class NFactorial {
+    public static BigInteger nFactorial(int n) {
         BigInteger result;
 
-        if(n==1 || n==0){
+        if (n == 1 || n == 0) {
             result = BigInteger.ONE;
             return result;
         }
-        BigInteger factorial = nFactorial(n-1);
+        BigInteger factorial = nFactorial(n - 1);
         result = BigInteger.valueOf(n).multiply(factorial);
         return result;
     }

@@ -4,10 +4,8 @@ import javax.swing.tree.TreeNode;
 import java.util.Stack;
 import java.util.TreeMap;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main {
+    public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
 
         tree.insert(3);
@@ -25,8 +23,8 @@ public class Main
         System.out.print("Is it Binary Tree ? -> ");
         System.out.println(tree.isBinarySearchTree());
         //tree.delete(6);
-       // System.out.println(tree.search(6).value);
-     //treeMap.sea
+        // System.out.println(tree.search(6).value);
+        //treeMap.sea
         System.out.println("\nPost-order DFS - recursive: ");
         tree.dfsPostOrder();
 

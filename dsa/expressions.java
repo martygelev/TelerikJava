@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
- class Expressions {
+class Expressions {
     public static void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int[] num = Arrays.stream(in.readLine().split("")).mapToInt(Integer::parseInt).toArray();
@@ -12,11 +12,11 @@ import java.util.Arrays;
     }
 
     private static int expression(int[] digits, int expectedResult, int index, int currentNumber, int currentProduct, int currentSum, Boolean negative) {
-        if(index == digits.length) {
+        if (index == digits.length) {
             currentProduct *= currentNumber;
             currentSum += negative ? -currentProduct : currentProduct;
 
-            if(currentSum == expectedResult) {
+            if (currentSum == expectedResult) {
                 return 1;
             }
 
@@ -30,7 +30,7 @@ import java.util.Arrays;
         int nextProduct = currentProduct * currentNumber;
         result += expression(digits, expectedResult, index + 1, digits[index], nextProduct, currentSum, negative);
 
-        if(currentNumber != 0) {
+        if (currentNumber != 0) {
             int nextNumber = currentNumber * 10 + digits[index];
             result += expression(digits, expectedResult, index + 1, nextNumber, currentProduct, currentSum, negative);
         }

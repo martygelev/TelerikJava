@@ -2,10 +2,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
- class NextGreaterNumber {
+class NextGreaterNumber {
     public static void main(String[] args) {
-        int[] nums1 = {2,4};
-        int[] nums2 = {1,2,3,4};
+        int[] nums1 = {2, 4};
+        int[] nums2 = {1, 2, 3, 4};
 
         int result[] = Solution.nextGreaterElement(nums1, nums2);
         for (int i : result) {

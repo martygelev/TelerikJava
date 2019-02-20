@@ -55,19 +55,14 @@ public class ConferenceDevelopers {
         System.out.println(pairsCombinations);
     }
 
-    private static int DFS(int node, Map<Integer, HashSet<Integer>> graph, boolean[] visited)
-    {
+    private static int DFS(int node, Map<Integer, HashSet<Integer>> graph, boolean[] visited) {
         int result = 0;
-        if (!visited[node])
-        {
+        if (!visited[node]) {
             visited[node] = true;
             result++;
-            if (graph.containsKey(node))
-            {
-                for (int child : graph.get(node))
-                {
-                    if (!visited[child])
-                    {
+            if (graph.containsKey(node)) {
+                for (int child : graph.get(node)) {
+                    if (!visited[child]) {
                         result += DFS(child, graph, visited);
                     }
                 }

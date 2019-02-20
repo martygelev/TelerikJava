@@ -27,6 +27,6 @@ public class Car {
 
     @Override
     public String toString() {
-        return String.format("%d %s %s %s %f %s",id,brand,model,city,pricePerDay,date);
+        return String.format("%d %s %s %s %f %s", id, brand, model, city, pricePerDay, date);
     }
 }

@@ -29,7 +29,7 @@ public class SupermarketQueue {
                     int positionToInsert = Integer.parseInt(split[1]);
                     String nameToInsert = split[2];
 
-                    insertCom(positionToInsert,nameToInsert);
+                    insertCom(positionToInsert, nameToInsert);
                     break;
                 case "Find":
                     String name = split[1];
@@ -65,13 +65,13 @@ public class SupermarketQueue {
             StringBuilder sb = new StringBuilder();
 
             int i = 0;
-            while (i<people){
+            while (i < people) {
                 sb.append(String.format("%s ", queue.get(0)));
                 names.put(queue.get(0), names.get(queue.get(0)) - 1);
                 queue.remove(0);
                 i++;
             }
-            sb.setLength(sb.length()-1);
+            sb.setLength(sb.length() - 1);
             result.append(sb.toString());
             result.append(System.lineSeparator());
 
@@ -107,7 +107,7 @@ public class SupermarketQueue {
             names.put(name, 0);
         }
 
-        names.put(name,names.get(name) + 1);
+        names.put(name, names.get(name) + 1);
         result.append("OK");
         result.append(System.lineSeparator());
 

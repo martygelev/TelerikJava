@@ -1,10 +1,11 @@
 package com.telerikacademy.agency.models.vehiclesImpl;
+
 import com.telerikacademy.agency.models.enums.VehicleType;
 import com.telerikacademy.agency.models.vehicles.contracts.Bus;
 
 public class BusImpl extends VehicleImpl implements Bus {
-    private final static int MAX_PASSENGER_CAPACITY=50;
-    private final static int MIN_PASSENGER_CAPACITY =10;
+    private final static int MAX_PASSENGER_CAPACITY = 50;
+    private final static int MIN_PASSENGER_CAPACITY = 10;
     private final static String PASSENGER_CAPACITY_MESSAGE = "A bus cannot have less than 10 passengers or more than 50 passengers.";
     private final static String CURRENT_VEHICLE_NAME = "Bus ----";
     private VehicleType type = VehicleType.Land;
@@ -19,22 +20,22 @@ public class BusImpl extends VehicleImpl implements Bus {
     }
 
     @Override
-    public  int getMinPassengerCapacity() {
+    public int getMinPassengerCapacity() {
         return MIN_PASSENGER_CAPACITY;
     }
 
     @Override
-    public  int getMaxPassengerCapacity() {
+    public int getMaxPassengerCapacity() {
         return MAX_PASSENGER_CAPACITY;
     }
 
     @Override
-    public  String getPassengerCapacityMessage() {
+    public String getPassengerCapacityMessage() {
         return PASSENGER_CAPACITY_MESSAGE;
     }
 
     @Override
-    public  String getCurrentVehicleName() {
+    public String getCurrentVehicleName() {
         return CURRENT_VEHICLE_NAME;
     }
 
@@ -43,6 +44,6 @@ public class BusImpl extends VehicleImpl implements Bus {
         return String.format("%s\n" +
                 "Passenger capacity: %d\n" +
                 "Price per kilometer: %.1f\n" +
-                "Vehicle type: %s",getCurrentVehicleName(),getPassengerCapacity(),getPricePerKilometer(),getType());
+                "Vehicle type: %s", getCurrentVehicleName(), getPassengerCapacity(), getPricePerKilometer(), getType());
     }
 }

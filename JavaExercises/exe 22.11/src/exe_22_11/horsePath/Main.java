@@ -1,10 +1,12 @@
 package exe_22_11.horsePath;
+
 import java.util.Scanner;
 
 public class Main {
     static int index = 1;
 
     static int wtf = -10;
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
@@ -18,8 +20,7 @@ public class Main {
 
         if (isFilled(matrix)) {
             PrintMatrix(matrix);
-        }
-        else {
+        } else {
             if (isPassable(matrix, currentRow, currentCol)) {
                 Solve(matrix, currentRow - 2, currentCol - 1); // topLeft
                 Solve(matrix, currentRow - 2, currentCol + 1); // topRight
@@ -46,17 +47,17 @@ public class Main {
         }
         return false;
     }
-    private static boolean isValidCell(int[][] matrix,int currentRow, int currentCol) {
-       if (matrix[currentRow][currentCol]==0)
-       {
-           return  true;
-       }
-       return false;
+
+    private static boolean isValidCell(int[][] matrix, int currentRow, int currentCol) {
+        if (matrix[currentRow][currentCol] == 0) {
+            return true;
+        }
+        return false;
     }
 
     private static void PrintMatrix(int[][] matrix) {
-        for(int i = 0; i < matrix.length; i++) {
-            for(int j = 0; j < matrix.length; j++) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
@@ -64,17 +65,14 @@ public class Main {
     }
 
     private static boolean isFilled(int[][] matrix) {
-        if (wtf==index && matrix[0][0]==wtf)
-        {
+        if (wtf == index && matrix[0][0] == wtf) {
             return true;
         }
-      return false;
+        return false;
     }
 
-    private static boolean Outside(int[][] matrix,int currentRow, int currentCol)
-    {
-        if (currentRow<0 || currentRow>=matrix.length || currentCol<0 || currentCol>=matrix[currentRow].length)
-        {
+    private static boolean Outside(int[][] matrix, int currentRow, int currentCol) {
+        if (currentRow < 0 || currentRow >= matrix.length || currentCol < 0 || currentCol >= matrix[currentRow].length) {
             return true;
         }
         return false;

@@ -85,7 +85,7 @@ public class Actions {
 
     private static boolean existsBigger(int number) {
         for (Integer integer : numbers) {
-            if (integer == number){
+            if (integer == number) {
                 return true;
             }
         }
@@ -115,7 +115,6 @@ public class Actions {
                 .filter(x -> parent != x[0])
                 .collect(Collectors.toList());
     }
-
 
 
     static class InputReader {

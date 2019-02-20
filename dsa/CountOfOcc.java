@@ -27,7 +27,7 @@ public class CountOfOcc {
     private static Map<Integer, Integer> getOddCountOfNumbers(List<Integer> numbers) {
         Map<Integer, Integer> numbersWithCount = new HashMap<>();
         for (Integer num : numbers) {
-            if (! numbersWithCount.containsKey(num)) {
+            if (!numbersWithCount.containsKey(num)) {
                 numbersWithCount.put(num, 1);
             } else {
                 numbersWithCount.put(num, numbersWithCount.get(num) + 1);

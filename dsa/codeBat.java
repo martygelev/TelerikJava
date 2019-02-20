@@ -1,9 +1,9 @@
 public class codeBat {
     public static void main(String[] args) {
-      //  boolean a = strCopies("catcowcat", "cat", 2);
+        //  boolean a = strCopies("catcowcat", "cat", 2);
         //  System.out.println(a);
-      //  int seq = strDist("catcowcat","cat");
-     //   System.out.println(seq);
+        //  int seq = strDist("catcowcat","cat");
+        //   System.out.println(seq);
 
     }
 

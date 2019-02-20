@@ -2,6 +2,7 @@ package tu;
 
 import java.util.ArrayList;
 import java.util.List;
+
 public class Event {
     private int id;
     private String city;

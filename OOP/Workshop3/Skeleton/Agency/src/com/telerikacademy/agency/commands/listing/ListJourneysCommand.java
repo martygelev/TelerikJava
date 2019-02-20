@@ -20,7 +20,7 @@ public class ListJourneysCommand implements Command {
     }
 
     public String execute(List<String> parameters) {
-        List<Journey> journeys =  engine.getJourneys();
+        List<Journey> journeys = engine.getJourneys();
 
         if (journeys.size() == 0) {
             return "There are no registered journeys.";

@@ -11,25 +11,22 @@ public class JumpJump {
         int index = 0;
         String msg = "Fell of the dancefloor at %d!";
 
-        while(index>=0 && index<input.length()){
+        while (index >= 0 && index < input.length()) {
             char ch = input.toCharArray()[index];
-            int num = ch- '0';
+            int num = ch - '0';
 
-            if (ch=='^'){
+            if (ch == '^') {
                 msg = "Jump, Jump, DJ Tomekk kommt at %d!";
                 break;
-            }
-            else if (num ==0){
+            } else if (num == 0) {
                 msg = "Too drunk to go on after %d!";
                 break;
-            }
-            else if (num%2==0){
-                index+=num;
-            }
-            else if (num%2==1){
-                index-=num;
+            } else if (num % 2 == 0) {
+                index += num;
+            } else if (num % 2 == 1) {
+                index -= num;
             }
         }
-        System.out.println(String.format(msg,index));
+        System.out.println(String.format(msg, index));
     }
 }

@@ -7,7 +7,7 @@ public interface Vehicle {
 
     double getPricePerKilometer();
 
-    VehicleType  getType();
+    VehicleType getType();
 
     String toString();
 }

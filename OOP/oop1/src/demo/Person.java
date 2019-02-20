@@ -8,22 +8,20 @@ public class Person {
     private int age;
     private String country;
 
-    protected Person(String firstName, String lastName, String email, int age)
-    {
+    protected Person(String firstName, String lastName, String email, int age) {
         setFirstName(firstName);
         setLastName(lastName);
         setEmail(email);
         setAge(age);
     }
 
-    public Person (String firstName, String lastName, String email, int age, String phoneNumber)
-     {
-        this(firstName,lastName,email,age);
+    public Person(String firstName, String lastName, String email, int age, String phoneNumber) {
+        this(firstName, lastName, email, age);
         setPhoneNumber(phoneNumber);
     }
-    public Person(String firstName, String lastName, String email, int age, String phoneNumber, String country)
-    {
-        this(firstName,lastName, email, age,phoneNumber);
+
+    public Person(String firstName, String lastName, String email, int age, String phoneNumber, String country) {
+        this(firstName, lastName, email, age, phoneNumber);
         setCountry(country);
     }
 
@@ -32,8 +30,7 @@ public class Person {
     }
 
     private void setFirstName(String firstName) {
-        if (firstName.length()<3 || firstName.length()>11)
-        {
+        if (firstName.length() < 3 || firstName.length() > 11) {
             throw new IllegalArgumentException("First name length must be between 3 and 11 symbols! \n Please enter your name again: ");
         }
         this.firstName = firstName;
@@ -45,8 +42,7 @@ public class Person {
     }
 
     private void setLastName(String lastName) {
-        if (lastName.length()<3 || lastName.length()>11)
-        {
+        if (lastName.length() < 3 || lastName.length() > 11) {
             throw new IllegalArgumentException("Last name length must be between 3 and 11 symbols! \n Please enter your name again: ");
         }
         this.lastName = lastName;
@@ -57,8 +53,7 @@ public class Person {
     }
 
     private void setEmail(String email) {
-        if (!email.contains("@")|| !email.contains(".") || email.length()<10)
-        {
+        if (!email.contains("@") || !email.contains(".") || email.length() < 10) {
             throw new IllegalArgumentException("Invalid email!");
         }
         this.email = email;
@@ -69,8 +64,7 @@ public class Person {
     }
 
     private void setPhoneNumber(String phoneNumber) {
-        if (phoneNumber.length()!=10)
-        {
+        if (phoneNumber.length() != 10) {
             throw new IllegalArgumentException("Invalid phone number");
         }
         this.phoneNumber = phoneNumber;
@@ -81,8 +75,7 @@ public class Person {
     }
 
     private void setAge(int age) {
-        if (age<0 || age>110)
-        {
+        if (age < 0 || age > 110) {
             throw new IllegalArgumentException("Invalid age");
         }
         this.age = age;

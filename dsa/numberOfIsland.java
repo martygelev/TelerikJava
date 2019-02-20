@@ -1,18 +1,14 @@
 import java.util.HashSet;
 import java.util.Set;
 
- class NumberOfIslands
-{
-    public static int numIslands(char[][] grid)
-    {
+class NumberOfIslands {
+    public static int numIslands(char[][] grid) {
         Set<String> visited = new HashSet<>();
 
         int count = 0;
 
-        for (int row = 0; row < grid.length; row++)
-        {
-            for (int col = 0; col < grid[row].length; col++)
-            {
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[row].length; col++) {
                 if (grid[row][col] == '0' || visited.contains(row + ";" + col))
                     continue;
 
@@ -26,15 +22,13 @@ import java.util.Set;
         return count;
     }
 
-    private static void dfs(int row, int col, char[][] grid, Set<String> visited)
-    {
+    private static void dfs(int row, int col, char[][] grid, Set<String> visited) {
         int[] dRows = {0, -1, 0, +1};
         int[] dCols = {-1, 0, +1, 0};
 
         visited.add(row + ";" + col);
 
-        for (int dir = 0; dir < dRows.length; dir++)
-        {
+        for (int dir = 0; dir < dRows.length; dir++) {
             int nextRow = row + dRows[dir];
             int nextCol = col + dCols[dir];
 
@@ -52,8 +46,7 @@ import java.util.Set;
         }
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         char[][] grid =
                 {
                         {'1', '1', '1', '1', '0'},

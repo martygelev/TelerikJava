@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 
- class P03Medians_NW {
+class P03Medians_NW {
     private static Queue<Double> small = new ArrayDeque<>();
     private static Queue<Double> large = new ArrayDeque<>();
 
@@ -31,10 +31,10 @@ import java.util.Queue;
                     break;
                 default:
                     double output = findMedian();
-                    System.out.println("Peek L:"+large.peek());
-                    System.out.println("Peek S:"+small.peek());
+                    System.out.println("Peek L:" + large.peek());
+                    System.out.println("Peek S:" + small.peek());
 
-                    System.out.println("Find:"+output);
+                    System.out.println("Find:" + output);
                     System.out.println("----------");
                     break;
             }

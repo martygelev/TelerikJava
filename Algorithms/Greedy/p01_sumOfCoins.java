@@ -10,16 +10,16 @@ public class p01_sumOfCoins {
         for (int i = 0; i < coins.length; i++) {
             coins[i] = Integer.parseInt(elements[i]);
 
-        int targetSum = Integer.parseInt(in.nextLine().substring(5));
+            int targetSum = Integer.parseInt(in.nextLine().substring(5));
 
-        Map<Integer, Integer> usedCoins = chooseCoins(coins, targetSum);
-        System.out.println("Number of coins to take: "+ );
-    }
-
-    public static Map<Integer, Integer> chooseCoins(int[] coins, int targetSum) {
-        while (targetSum > 0) {
-
+            Map<Integer, Integer> usedCoins = chooseCoins(coins, targetSum);
+            System.out.println("Number of coins to take: " +);
         }
-        return null;
+
+        public static Map<Integer, Integer> chooseCoins ( int[] coins, int targetSum){
+            while (targetSum > 0) {
+
+            }
+            return null;
+        }
     }
-}
