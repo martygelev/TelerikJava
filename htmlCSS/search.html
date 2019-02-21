@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments::head">
+</head>
+<nav th:replace="fragments :: navigation"></nav>
+<body>
+<main class="container">
+    <form method="POST"  th:action="@{/search}" th:object="${params}" class="reg_form">
+        <h1>Search By</h1>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check form-check-inline" name="search" value="breed" th:field="*{searchType}"/>
+            <label class="form-check-label">Breed</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check form-check-inline" name="search" value="gender" th:field="*{searchType}"/>
+            <label class="form-check-label">Gender</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check form-check-inline" name="search" value="city" th:field="*{searchType}"/>
+            <label class="form-check-label">City</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check form-check-inline" name="search" value="name" th:field="*{searchType}"/>
+            <label class="form-check-label">Name</label>
+        </div>
+        <div class="form-check">
+            <div class="form-check form-check-inline">
+                <input type="text" class="form-control" style="width: 40%" name="search" id="search" th:field="*{searchInput}"/>
+                <input type="submit" class="btn btn-primary" style="margin-left: 50px;" value="Search"/>
+            </div>
+        </div>
+    </form>
+
+    <div th:each="dog : ${dogs}" class="doggy-thumbnail col-sm-3">
+        <div class="circular" th:unless="${dog.photos.isEmpty()}">
+            <img th:src="${dog.photos[0].path}"/>
+        </div>
+        <div class="circular mid-opacity" th:if="${dog.photos.isEmpty()}">
+            <img th:if="${dog.gender} == 'm'"
+                 th:src="@{/images/defaultdoggy.jpg}"/>
+            <img th:if="${dog.gender} == 'f'"
+                 th:src="@{/images/defaultdoggyfem.jpg}"/>
+        </div>
+        <p th:text="${dog.name}" class="font-weight-bold">Doggy name</p>
+        <p class="two-line-text" th:text="${dog.breed.name}"></p>
+        <div th:switch="${dog.gender}">
+            <p th:case="'m'">Male</p>
+            <p th:case="'f'">Female</p>
+        </div>
+        <p><span th:text="${dog.age}"></span>&nbsp;years old</p>
+        <a th:href="@{/dogs/dog_profile(dogId=${dog.id})}" class="a-link btn btn-info">
+            Go to full profile
+        </a>
+        <!--TODO Add confirmation for deletion-->
+        <form th:action="@{'delete/{id}'(id=${dog.id})}" th:method="delete" method="delete">
+            <button type="submit" id="deleteButton"
+                    class="btn btn-outline-danger btn-sm">Delete
+            </button>
+        </form>
+    </div>
+</main>
+</body>
+</html>

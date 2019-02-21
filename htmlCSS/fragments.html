@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:fragment="head">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+
+    <!--&lt;!&ndash; Optional theme &ndash;&gt;-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <title>Dogs with Benefits</title>
+</head>
+<body>
+<nav th:fragment="navigation" class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a href="/index"><img src="../images/logo_black.png" class="logo"></a>
+    <a href="/index">Home</a>&nbsp;|&nbsp;
+    <a href="/registration">Register User</a>&nbsp;|&nbsp;
+    <a href="/dogs/list">List Dogs</a>&nbsp;|&nbsp;
+    <a href="/search">Search Dog</a>&nbsp;|&nbsp;
+    <a href="/dogs/add">Add Dog</a>
+</nav>
+<section th:fragment="footer" class="jumbotron text-center">
+    <small>Team Ant-Man - Telerik Academy 2018</small>
+</section>
+
+<th:block th:fragment="assets">
+    <script src="../script/dogsScript.js"></script>
+</th:block>
+</body>
+</html>

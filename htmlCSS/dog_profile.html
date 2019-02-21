@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments::head"></head>
+<body>
+<nav th:replace="fragments :: navigation"></nav>
+<main class="container">
+    <h1 th:text="|${dog.name}&#39;s Profile|" class="header">Dog Profile</h1>
+    <section class="clarfix-after clearfix">
+        <section class="row dog-profile-info">
+            <div class="col-lg-3 inline-block">
+                <div th:unless="${dog.photos.isEmpty()}"
+                     class="profile-image-container inline-block">
+                    <img th:src="${dog.photos[0].path}"/>
+                </div>
+                <div class="profile-image-container inline-block" th:if="${dog.photos.isEmpty()}">
+                    <img th:if="${dog.gender} == 'm'"
+                         th:src="@{/images/defaultdoggy.jpg}"/>
+                    <img th:if="${dog.gender} == 'f'"
+                         th:src="@{/images/defaultdoggyfem.jpg}"/>
+                </div>
+            </div>
+            <div class="col-lg-4 inline-block">
+                <h4 th:text="|${dog.name}&#39;s Information|">Dog Information: </h4>
+                <div>
+                    <h5>Name</h5>
+                    <span th:text="${dog.name}"></span>
+                </div>
+                <div>
+                    <h5>Age</h5>
+                    <span th:text="${dog.age}"></span>
+                </div>
+                <div>
+                    <h5>Weight</h5>
+                    <span th:text="${dog.weight}"></span>
+                </div>
+                <div>
+                    <h5>Breed</h5>
+                    <span th:text="${dog.breed.name}"></span>
+                </div>
+                <div th:if="${dog.secondaryBreed != null}">
+                    <h5>Secondary Breed</h5>
+                    <span th:text="${dog.secondaryBreed.name}"></span>
+                </div>
+                <div>
+                    <h5>Description</h5>
+                    <span th:text="${dog.description}"></span>
+                </div>
+
+            </div>
+            <div class="col-lg-4 inline-block">
+                <div th:if="${dog.owner != null}">
+                    <h4>Owner Information: </h4>
+                    <div>
+                        <h5>Owner</h5>
+                        <span th:text="${dog.owner.firstName} + ' ' + ${dog.owner.lastName}"></span>
+                    </div>
+                    <div>
+                        <h5>Email</h5>
+                        <span th:text="${dog.owner.email}"></span>
+                    </div>
+                    <div>
+                        <h5>Phone</h5>
+                        <span th:text="${dog.owner.phoneNumber}"></span>
+                    </div>
+                    <div>
+                        <h5>City</h5>
+                        <span th:text="${dog.owner.address.city.name}"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="my-4">
+        <h2>All Photos</h2>
+        <div th:if="${#arrays.length(dog.photos)> 1}" th:each="photo : ${dog.photos}" class="inline-block">
+            <img class="additional-images inline-block" th:src="${photo.path}"/>
+        </div>
+        <div th:if="${#arrays.length(dog.photos)<2}" >
+            <span>There are no additional photos for this dog.</span>
+        </div>
+        <hr class="my-4">
+        <h3>Add Image</h3>
+        <form method="POST" th:action="@{/attach/(dogId=${dog.id})}" th:object="${newPhoto}"
+              enctype="multipart/form-data">
+            <label th:for="image-upload">Attach Dog Photos</label><br/>
+            <input type="text" th:name="*{path}" th:field="*{path}" name="path" class="form-control-md"
+                   size="50"/>
+            <small id="fileHelp" class="form-text text-muted">Please insert the URL of your doggy's image
+            </small>
+            <br/>
+            <input th:type="hidden" th:name="${dog.id}" th:value="${dog.id}">
+            <input type="submit" value="Attach" class="btn btn-primary" id="image-upload"/>
+        </form>
+
+        <div th:if="${message}">
+            <small th:text="${message}" class="success"></small>
+        </div>
+        <div th:if="${errormessage}">
+            <small th:text="${errormessage}" class="error"></small>
+        </div>
+    </section>
+</main>
+<section th:replace="fragments::footer"></section>
+<th:block th:include="fragments :: assets"></th:block>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head">
+</head>
+<body>
+<nav th:replace="fragments :: navigation"></nav>
+<div class="jumbotron text-center align-middle main-image">
+
+    <h1 th:text="${title}" class="header">Dogs with Benefits</h1>
+    <h2 class="lobster">The number one dog dating website!</h2>
+</div>
+
+
+<section class="highlights">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-4 highlights-box" style="background-color: #c6fce5">
+                <h3>Dogs</h3>
+                <p>Gain access to the profiles of hundreds of users and their dogs. Search by location or breed and find
+                    owners in your city or area.</p>
+            </div>
+            <div class="col-sm-4 highlights-box" style="background-color: #6ef3d6">
+                <h3>Vets</h3>
+                <p>Find veterinarians close to you and read about the experience other people had with them</p>
+                <p>Coming soon...</p>
+            </div>
+            <div class="col-sm-4 highlights-box" style="background-color: #0dceda">
+                <h3>Articles</h3>
+                <p>A collection of articles, written by some of the most esteem professionals in the field</p>
+                <p>Coming soon...</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section th:replace="fragments::footer">
+</section>
+</body>
+</html>

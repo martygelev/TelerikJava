@@ -25,7 +25,7 @@ public class StudentRepositoryImpl implements StudentRepository {
     public String create(Student student) {
         students.add(student);
 
-        return "add ->" + student.getName();
+        return "add -> " + student.getName();
     }
 
     @Override

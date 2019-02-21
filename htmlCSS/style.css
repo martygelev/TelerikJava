@@ -1,0 +1,182 @@
+body {
+    color: #243B55;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+a, .navbar {
+    color: #FFC300;
+}
+
+a:hover {
+    color: #FF5733;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.jumbotron{
+    margin: 0px;
+}
+
+.highlights {
+    background-color:#fec300;
+}
+
+.highlights-box{
+    padding: 40px 10px;
+}
+
+.main-image {
+    height: 53vh;
+    background: url(../images/back.jpg) no-repeat;
+    background-size: contain;
+    background-position-x: 100%;
+}
+
+.profile-image-container {
+    height: 100%;
+    max-width: 200px;
+    max-height: 250px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.profile-image-container img {
+    max-height: 100%;
+    width: 100%;
+}
+
+.additional-images{
+    margin: 0px 5px;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.dog-profile-info {
+    vertical-align: top;
+}
+
+.dog-grid {
+    color: #243B55;
+}
+
+.doggy-thumbnail {
+    margin: 15px;
+    width: 22%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.circular img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.doggy-thumbnail img {
+    width: 100%;
+}
+
+.doggy-thumbnail a {
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    background-color: #243B55;
+    border-color: #243B55;
+    color: ghostwhite;
+    margin: 10px 0px;
+}
+
+.two-line-text {
+    line-height: 1.5em;
+    min-height: 3em;
+    overflow: hidden;
+}
+
+.doggy-thumbnail a:hover {
+    background-color: #FF5733;
+}
+
+h5 {
+    font-size: 0.8em;
+    color: #7CB342;
+    margin: 10px 0 0 0;
+}
+
+article {
+    display: inline-block;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: forestgreen;
+}
+
+.display-none {
+    display: none;
+    visibility: hidden;
+}
+
+.display-block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clarfix-after::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mid-opacity {
+    opacity: 0.5;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+main{
+    padding-bottom: 40px;
+}

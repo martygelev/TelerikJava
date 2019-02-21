@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments::head"></head>
+<body>
+<nav th:replace="fragments :: navigation"></nav>
+<main class="container" th:fragment="adddog">
+    <h1 th:text="${title}" class="header">List of dogs</h1>
+    <form method="post" style="max-width:600px;" th:object="${dog}">
+        <div class="form-group">
+            <label th:for="name">Dog Name</label>
+            <input class="form-control" th:field="*{name}"/>
+            <small class="error" th:errors="*{name}"></small>
+        </div>
+        <input th:type="hidden"
+               th:field="*{owner.userId}"
+               placeholder="3" id="ownerid"/>
+        <div class="form-group">
+            <label th:for="age">Age</label>
+            <input class="form-control" th:field="*{age}" th:type="number"/>
+            <small class="error" th:errors="*{age}"></small>
+        </div>
+        <div class="form-group">
+            <label th:for="weight">Weight</label>
+            <input class="form-control" th:field="*{weight}" th:type="number"/>
+            <small class="error" th:errors="*{weight}"></small>
+        </div>
+        <div class="form-group">
+            <label th:for="gender">Gender</label>
+            <select class="form-control" th:field="*{gender}">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label th:for="breed">Breed</label>
+            <select class="form-control" th:field="*{breed.id}">
+                <option th:each="breed : ${breeds}"
+                        th:text="${breed.name}"
+                        th:value="${breed.id}"></option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label th:for="secondaryBreed">Secondary Breed</label>
+            <select class="form-control" th:field="*{secondaryBreed.id}">
+                <option value="0">No Secondary Breed</option>
+                <option th:each="breed : ${breeds}"
+                        th:text="${breed.name}"
+                        th:value="${breed.id}"></option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label th:for="description">Description</label>
+            <textarea class="form-control" th:field="*{description}"></textarea>
+        </div>
+        <input type="submit" value="Create Dog" class="btn btn-primary"/>
+    </form>
+    <th:block th:include="fragments :: assets"></th:block>
+</main>
+</body>
+</html>

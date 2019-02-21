@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.form_container{
+    background:url('http://clevertechie.com/img/bnet-bg.jpg') #0f2439 no-repeat center top;
+    width: 420px;
+    margin: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: #ccc1c1;
+}
+.form_container h3{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 28px;
+}
+.reg_form{
+    position: relative;
+    overflow: auto;
+}
+.reg_form div{
+    width: 80%;
+    margin: 25px;
+}
+.reg_form input{
+    float: right;
+    height: 23px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: Courier New, serif;
+    padding: 2px;
+    background-color: rgba(215, 219, 227, 0.93);
+}
+.reg_form label{
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+.reg_form input[type="submit"]{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #a4a5ad;
+}

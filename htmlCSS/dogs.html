@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments::head"></head>
+<body>
+<nav th:replace="fragments :: navigation"></nav>
+<main class="container">
+    <h1 th:text="${title}" class="header">List of dogs</h1>
+    <small th:if="deleteMessage" th:text="${deleteMessage}"></small>
+    <article class="dog-grid">
+        <div th:each="dog : ${dogs}" class="doggy-thumbnail col-sm-3">
+            <div class="circular" th:unless="${dog.photos.isEmpty()}">
+                <img th:src="${dog.photos[0].path}"/>
+            </div>
+            <div class="circular mid-opacity" th:if="${dog.photos.isEmpty()}">
+                <img th:if="${dog.gender} == 'm'"
+                     th:src="@{/images/defaultdoggy.jpg}"/>
+                <img th:if="${dog.gender} == 'f'"
+                     th:src="@{/images/defaultdoggyfem.jpg}"/>
+            </div>
+            <p th:text="${dog.name}" class="font-weight-bold">Doggy name</p>
+            <p class="two-line-text" th:text="${dog.breed.name}"></p>
+            <div th:switch="${dog.gender}">
+                <p th:case="'m'">Male</p>
+                <p th:case="'f'">Female</p>
+            </div>
+            <p><span th:text="${dog.age}"></span>&nbsp;years old</p>
+            <a th:href="@{/dogs/dog_profile(dogId=${dog.id})}" class="a-link btn btn-info">
+                Go to full profile
+            </a>
+            <!--TODO Add confirmation for deletion-->
+            <form th:action="@{'delete/{id}'(id=${dog.id})}" th:method="delete" method="delete">
+                <button type="submit" id="deleteButton"
+                        class="btn btn-outline-danger btn-sm">Delete
+                </button>
+            </form>
+        </div>
+
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li th:each="pageItem:${pages}" th:class="page-item"
+                    th:classappend="${pageItem == currentPage} ? active">
+                    <a class="page-link" th:href="@{'/dogs/list/' + ${pageItem}}"
+                       th:text="${pageItem}"></a>
+                </li>
+            </ul>
+        </nav>
+    </article>
+
+</main>
+<section th:replace="fragments::footer"></section>
+<th:block th:include="fragments :: assets"></th:block>
+</body>
+</html>
