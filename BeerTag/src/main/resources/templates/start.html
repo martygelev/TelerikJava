@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <title>BeerTag</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/start.css" media="screen" />
+
+    <script>
+        function test(){
+           alert($("#testBtn").val());
+        }
+    </script>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                <span class="sr-only">BeerTag</span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Beer Tag</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/start/allbeers">Beers</a></li>
+                <li><a href="">Top Rated</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/start/Registration">Registration <i class="Registration" aria-hidden="true"></i></a>
+                <li><a href="#">Log in <i class="login" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="content">
+                <h1>BeerTag</h1>
+                <script type="text/javascript" src="https://leaverou.github.io/prefixfree/prefixfree.min.js"></script>
+                <section>
+                    <div id="action">
+                        <div id="keg">
+                            <div id="pipe-handle"></div>
+                            <div id="pipe"></div>
+                            <div id="pipe-front"></div>
+                        </div>
+                        <div class="glass">
+                            <div class="beer"></div>
+                            <div class="handle">
+                                <div class="top-right"></div>
+                                <div class="bottom-right"></div>
+                            </div>
+                            <div class="front-glass"></div>
+                        </div>
+                    </div>
+                </section>
+                <h3>Manage your beers</h3>
+                <hr>
+                <figure class="snip1573">
+                    <img src="../images/homero.png" alt="sample89" height="250" width="2127" />
+                    <figcaption>
+                        <h3>Check all beers</h3>
+                    </figcaption>
+                    <a href="/start/allbeers"></a>
+                </figure>
+                <figure class="snip1573"><img src="../images/2019-PM-Homer-Simpson-Beer-REV.jpg" alt="sample89" width="1200" height="250"/>
+                    <figcaption>
+                        <h3>Join Us</h3>
+                    </figcaption>
+                    <a href="Registration.html"></a>
+                </figure>
+                <br>
+                <button id= "testBtn" class="btn btn-default btn-lg" type = "button" value="Sorry mate ..." onclick="test()" >Get Started!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="../static/script/jQuery.js"></script>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

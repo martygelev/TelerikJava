@@ -3,4 +3,5 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = 'beertag'
+rootProject.name = 'beertagweb'
+

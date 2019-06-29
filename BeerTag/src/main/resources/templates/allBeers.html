@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beers</title>
+
+    <link rel="stylesheet" href="../static/css/allBeers.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tabulator-tables@4.2.3/dist/css/tabulator.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.2.3/dist/js/tabulator.min.js"></script>
+
+
+</head>
+<div name="top" id="top"></div>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                    <span class="sr-only">BeerTag</span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/start">Beer Tag</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/start/allbeers">Beers</a></li>
+                    <li><a href="TopRated.html">Top Rated</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Registration.html">Registration <i class="Registration" aria-hidden="true"></i></a>
+                    <li><a href="Login.html">Log in <i class="login" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-md-12" id="main-controls">
+
+            <div class="card-body text-center">
+                <h1 align="center">Find your perfect beer</h1>
+                <br>
+            </div>
+
+            <div class="btn-group col-md-2">
+                <button type="button" class="btn btn-primary dropdown-toggle" id="sort-dropdown" data-toggle="dropdown">
+                    Sort Beers <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a id="sort-by-name">By Name</a></li>
+                    <li><a id="sort-by-abv">By ABV</a></li>
+                    <li><a id="sort-by-default">By Order of Insertion</a></li>
+
+                </ul>
+            </div>
+
+            <div class="btn-group col-md-2">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Filter by Style <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" id="style-dropdown" role="menu">
+                <li><a id="sort-by-style-amber">Amber</a></li>
+                <li><a id="sort-by-style-strong">Strong</a></li>
+                <li><a id="sort-by-style-brown">Brown</a></li>
+                <li><a id="sort-by-style-cream">Cream</a></li>
+                <li><a id="sort-by-style-golden">Golden</a></li>
+            </ul>
+        </div>
+
+            <div class="btn-group col-md-2">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Filter by Country <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" id="country-dropdown" role="menu">
+                    <li><a id="filter-by-country-bulgaria">Bulgaria</a></li>
+                    <li><a id="filter-by-country-germany">Germany</a></li>
+                    <li><a id="filter-by-country-netherlands">Netherlands</a></li>
+                    <li><a id="filter-by-country-denmark">Denmark</a></li>
+                    <li><a id="filter-by-country-usa">USA</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-group col-md-2">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Filter by Tag <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" id="tag-dropdown" role="menu">
+                    <li><a id="filter-by-tag-cool">Cool</a></li>
+                    <li><a id="filter-by-tag-nice">Nice</a></li>
+                    <li><a id="filter-by-tag-excellent">Excellent</a></li>
+                    <li><a id="filter-by-tag-good">Good</a></li>
+                    <li><a id="filter-by-tag-bad">Bad</a></li>
+                    <li><a id="filter-by-tag-horrible">Horrible</a></li>
+                    <li><a id="filter-by-tag-awful">Awful</a></li>
+                    <li><a id="filter-by-tag-worst">Worst</a></li>
+                    <li><a id="filter-by-tag-superb">Superb</a></li>
+                    <li><a id="filter-by-tag-great">Great</a></li>
+                    <li><a id="filter-by-tag-awesome">Awesome</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+            <button class="btn btn-primary" type="button" id="search-button" onclick="searchBeers()">Search</button>
+            </span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+<h1 align="center">All Beers</h1>
+
+<div id="beers-table"></div>
+
+<!--Components inserted via jQuery-->
+<div id="view-beer-modal-component"></div>
+
+<div id="add-beer-modal-component"></div>
+
+<div id="edit-beer-modal-component"></div>
+
+<div id="confirmation-modal-component"></div>
+
+<div id="info-modal-component"></div>
+
+<div id="rating-modal-component"></div>
+
+
+<script type="text/javascript" src="../static/script/jQuery.js"></script>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../static/js/allbeers.js"></script>
+
+
+</body>
+</html>

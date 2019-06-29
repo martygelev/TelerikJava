@@ -1,0 +1,59 @@
+<div class="modal fade" id="view-beer-modal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                <h4 class="modal-title" align="center">Beer #<span id="beer-header">ID</span></h4>
+
+            </div>
+
+            <div class="modal-body" align="center">
+                <img src="/images/default_image.jpg" id="beer-image">
+                <hr class="style-one">
+                    <h3 id="beer-name">Beer Name</h3>
+                    <hr class="style-one">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Brewery</h4>
+                        <p id="brewery-name">Brewery Name</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Country</h4>
+                        <p id="country-name">Country</p>
+                    </div>
+                    <hr class="style-one">
+                </div>
+
+                <div class="row">
+                <div id="description-div">
+                    <h3>Description</h3>
+                    <p id="description">Description</p>
+                    <hr class="style-one">
+                </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>I want to drink this beer</p>
+                        <i onclick="wantToDrink(this)" class="fa fa-thumbs-o-up"></i>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p>I have already drunk it</p>
+                        <i onclick="haveDrunk(this)" class="fa fa-thumbs-up"></i>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

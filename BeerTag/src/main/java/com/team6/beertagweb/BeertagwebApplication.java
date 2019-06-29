@@ -1,13 +1,13 @@
-package com.team6.beertag;
+package com.team6.beertagweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BeertagApplication {
+public class BeertagwebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BeertagApplication.class, args);
+        SpringApplication.run(BeertagwebApplication.class, args);
     }
 
 }

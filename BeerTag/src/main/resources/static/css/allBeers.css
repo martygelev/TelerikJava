@@ -1,0 +1,170 @@
+
+#beers-table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tabulator-footer {
+
+}
+
+.tabulator-row {
+
+}
+
+.tabulator-cell {
+
+}
+
+
+#beer-image {
+    max-width: 250px;
+    height: auto;
+}
+
+#beer-name {
+
+}
+
+#description-div{
+    width:300px;
+}
+
+#add-beer-span {
+    float: left
+}
+
+#add-beer-button {
+    font-size: 14px;
+    padding: 3px;
+}
+
+
+
+.modal-content {
+
+}
+
+.modal-header {
+
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    width: 50%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.jumbotron {
+    background-image: url('/images/JumbotronBG2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.jumbotron-label {
+    font-size: 12px;
+    display: inline-block;
+}
+
+#main-controls {
+    border-radius: 5px;
+    background-color: rgba(226, 227, 229, 0.9);
+    padding: 40px;
+}
+
+#description-input {
+    resize: vertical;
+}
+
+.input-group-addon
+{
+    width: 50%;
+}
+
+.error-outline{
+    outline: 2px solid red;
+}
+
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating label:last-child {
+    position: static;
+}
+
+.rating label:nth-child(1) {
+    z-index: 5;
+}
+
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating label .icon {
+    float: left;
+    color: transparent;
+}
+
+.rating label:last-child .icon {
+    color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+    color: #ffaa2d;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #ffaa2d;
+}
+
+.fa {
+    font-size: 3em !important;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+    color: darkblue;
+}

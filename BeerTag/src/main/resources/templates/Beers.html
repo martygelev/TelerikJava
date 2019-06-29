@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beers</title>
+    <link rel="stylesheet" href="../static/modal.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+    <script src="../static/script/jQuery.js" rel="script"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+</head>
+<body>
+<div name="top" id="top"></div>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                    <span class="sr-only">BeerTag</span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Beer Tag</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="Beers.html">Beers</a></li>
+                    <li><a href="TopRated.html">Top Rated</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Registration.html">Registration <i class="Registration" aria-hidden="true"></i></a>
+                    <li><a href="Registration.html">Log in <i class="login" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <span class="background-img">
+        <img src="../images/homer-simpson-beer-mug-wallpaper-1.jpg" alt="" width="1678" height="690">
+    </span>
+</header>
+<main>
+    <div class="modal-background">
+        <div class="modal-content">
+            <h1 class="beer-name"></h1>
+            <h2 class=".clarfix-after"></h2>
+
+            <span class="modal-image">
+                    <img src="" alt="" class="modal-img">
+                    <div class="beer-abv"> </div>
+                </span>
+            <h3><i class="fas fa-info"></i> Description</h3>
+            <p class="beer-description">
+            </p>
+
+
+        </div>
+    </div>
+    <h1 class="beer-headline center">All Beers</h1>
+    <section class="search-beer center">
+        <div class="search-option-picker">
+            <form>
+                <input type="radio" name="search-option" id="search-for-beer" class="search-option" checked="checked">
+                <label for="search-for-beer" class="option-label">Search beers by name</label>
+
+            </form>
+        </div>
+
+        <input type="search" name="search-input" id="search-input" class="inline-block" placeholder="Search for a beer">
+        <a href="" id="search" class="search-link inline-block">
+                <span class="search-button inline-block">
+                    <i class="fas fa-search"></i>
+                </span>
+        </a>
+    </section>
+    <div class="clearfix"></div>
+    <section class="dynamic-container center">
+        <section id="beers-container">
+          <article class="beer-box" id="192">
+                <div class="favourite-holder"> </div>
+                <img src="../images/p4556_column_grid_12.jpg">
+                <h1 class="beer-name">Test 1</h1>
+                <h2 class="center">brewery : </h2>
+                <div class="beer-abv">ABV: 6</div>
+                <a href="" class="more-info">More info</a>
+            </article>
+
+        </section>
+        <section class="pagination">
+            <a href="" id="previous" class="previous inline-block">
+                    <span class="previous-button inline-block" style="text-align: justify">
+                        <i class="fas fa-angle-double-left"  ></i> PREVIOUS
+                    </span>
+            </a>
+            <a href="" id="next" class="next inline-block">
+                    <span class="next-button inline-block" style="text-align: justify"  >
+                        NEXT
+                        <i class="fas fa-angle-double-right"></i>
+                    </span>
+            </a>
+        </section>
+    </section>
+    <section class="about-section">
+        <h1 class="center features-header">FEATURES</h1>
+        <div name="features-anchor" id = "features-anchor"></div>
+        <span class="about-text inline-block">
+
+                <ul class="features center ">
+                    <li>
+                        <i class="fas fa-search"></i>
+                        <br> Search beers by name/type/tag/country
+                    </li>
+                    <li>
+                        <i class="fas fa-heart"></i>
+                        <br>Add to your 'Drank' or 'Want To Drink' collection</li>
+                    <li>
+                        <i class="fas fa-info-circle"></i>
+                        <br> Get detailed descriptions</li>
+
+                </ul>
+            </span>
+    </section>
+</main>
+<div class="clearfix"></div>
+
+<footer class="clearfix">
+</footer>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.modal-background {
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    display: none;
+    margin: auto auto;
+    min-height: 400px;
+    width: 800px;
+    max-height: 60%;
+    max-width: 60%;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+    padding: 15px 30px;
+}
+
+.modal-content i{
+    margin-right: 5px;
+    color: #a8a8a8;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.modal-image {
+    min-width: 120px;
+    /* display: inline-block; */
+    text-align: center;
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+.modal-content img{
+    height: 300px;
+}
+
+.modal-content .beer-abv{
+    margin-top: 10px;
+}
+
+.modal-content ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside;
+    padding-left: 0px;
+}

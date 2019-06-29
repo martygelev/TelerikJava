@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href=" ../static/Registration.css">
+    <link rel="script" href="../static/js/Registration.js">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>
+            <a href="#">
+                <img src="../images/logo.png" alt="Authentic Collection">
+            </a>
+        </h1>
+    </header>
+    <h1 class="text-center">Register</h1>
+    <form class="registration-form">
+        <label class="col-one-half">
+            <span class="label-text">First Name</span>
+            <input type="text" name="firstName">
+        </label>
+        <label class="col-one-half">
+            <span class="label-text">Last Name</span>
+            <input type="text" name="lastName">
+        </label>
+        <label>
+            <span class="label-text">Email</span>
+            <input type="text" name="email">
+        </label>
+        <label class="password">
+            <span class="label-text">Password</span>
+            <button class="toggle-visibility" title="toggle password visibility" tabindex="-1">
+                <span class="glyphicon glyphicon-eye-close"></span>
+            </button>
+            <input type="password" name="password">
+        </label>
+        <div class="text-center">
+            <button class="submit" name="register">Sign Me Up</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
